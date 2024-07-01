@@ -1,7 +1,7 @@
 ![[Macroargomenti]]
 ![[Processi di gestione del SW]]
 	![[Processi di gestione del SW - Storia|Processi di gestione del SW - Storia]]
-	![[Terminologia]]
+	![[Ingegneria del software/Riassunti/Processi di gestione del SW/Terminologia]]
 	![[Debito tecnico]]
 	![[Processi di gestione del SW - Problemi principali]]
 	![[Qualità del processo]]

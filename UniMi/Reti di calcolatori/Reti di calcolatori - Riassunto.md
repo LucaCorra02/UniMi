@@ -1,5 +1,5 @@
 ![[Introduzione]]
-![[Rete]]
+![[Rete e Unità dati]]
 ![[Requisiti della rete]]
 	![[Affidabilita]]
 		![[Controllo di flusso - Introduzione]]
@@ -31,7 +31,7 @@ Livello 3:
 			![[Selective repeat]]
 			![[Go back-N]]
 	![[Sliding window]]
-	![[HDLC]]
+	![[Funzione affidabile HDLC]]
 
 ![[Rete di accesso]]
 ![[Rete broadcast]]
@@ -66,7 +66,7 @@ Livello 3:
 					![[CIDR]]
 					![[NAT]]
 					![[NAT - Esempio]]
-						![[ARP-RARP]]
+						![[ARP-RAR
 						![[ARP-RARP - Formato]]
 				![[Problema frammentazione]]
 					![[Esempio Frammentazione]]

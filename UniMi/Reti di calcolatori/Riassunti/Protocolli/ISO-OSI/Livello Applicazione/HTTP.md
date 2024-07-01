@@ -1,5 +1,6 @@
-`HTTP Hyper Text Transfer Protocol`
-E' utilizzato oggi non solo per gli hyper text ma oggi anche per la parte di API REST
+<span style=color:yellow>HTTP Hyper Text Transfer Protocol</span> = <b><u> è un protocollo applicativo</u></b>, si tratta di una forma diversa di file transfer, creato per far <b><u>comunicare tra di loro un client e un server</u></b>. Il browser(che gira sul client) per accedere al sito a bisogno dell'<span style=color:cyan>URL</span> del sito (nome logico che lo identifico), ma anche un protocollo che permette di trasferire l'url al server dal browser. 
+
+<b><u>HTTP è standard per internet, ne standardizza il messaggio e i formati per una comunicazione internet</u></b>. E' utilizzato oggi non solo per gli hyper text ma oggi anche per la parte di API REST
 Da HTTP/1 a HTTP/2 utilizzano TCP
 HTTP/3 invece usa CUIC-UDP
 

@@ -1,5 +1,5 @@
 - [[Processi di gestione del SW - Storia]]
-- [[Terminologia]] e [[Debito tecnico]]
+- [[Ingegneria del software/Riassunti/Processi di gestione del SW/Terminologia]] e [[Debito tecnico]]
 
 Dato il `Target`, riflettiamo su
 - [[Processi di gestione del SW - Problemi principali]]
