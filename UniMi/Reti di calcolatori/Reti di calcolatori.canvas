@@ -12,7 +12,7 @@
 		{"id":"1d10551542402635","type":"group","x":6280,"y":-1330,"width":2385,"height":2429,"label":"CSMA-CD"},
 		{"id":"a9494b0a066deb01","type":"group","x":-240,"y":-6074,"width":1835,"height":2909,"color":"1","label":"1 Rete: introduzione "},
 		{"id":"2d549ec7e33dcc73","type":"group","x":-2480,"y":-6780,"width":1353,"height":3440,"label":"Email"},
-		{"id":"e483025ff603ed05","type":"group","x":6133,"y":-3520,"width":3057,"height":1326,"label":"L2: Controllo dell'errore e di congestione"},
+		{"id":"e483025ff603ed05","type":"group","x":6133,"y":-3520,"width":3057,"height":1326,"label":"L2: Protocolli a finestra"},
 		{"id":"43e7044a621577a0","type":"group","x":-4480,"y":-6360,"width":1940,"height":1963,"label":"DNS"},
 		{"id":"ab3341d8b6257549","type":"group","x":-4803,"y":2480,"width":5120,"height":5082,"label":"Addressing"},
 		{"id":"99b89b2b7f3dd36e","type":"group","x":1277,"y":2480,"width":4400,"height":3531,"label":"Routing"},
