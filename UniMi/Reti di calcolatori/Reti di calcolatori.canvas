@@ -81,7 +81,6 @@
 		{"id":"9e8a01d3a57a94b0","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 1/Livello Fisico.md","x":201,"y":-720,"width":660,"height":444},
 		{"id":"2d8917a6b7f80ac0","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md","x":655,"y":-5830,"width":859,"height":636},
 		{"id":"6506a8addb6cd077","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Trasmissione in banda base.md","x":3904,"y":-5572,"width":895,"height":576},
-		{"id":"85ba8c9261df931c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 10Mbps - Ragionamento.md","x":7814,"y":-572,"width":765,"height":1080},
 		{"id":"4571929f3ea7eae5","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD.md","x":6300,"y":-452,"width":765,"height":960},
 		{"id":"d0e4e897d3e28c35","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete broadcast.md","x":4440,"y":-330,"width":580,"height":940},
 		{"id":"b57c19001e2ae034","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Efficienza della rete.md","x":6161,"y":-5718,"width":465,"height":250},
@@ -184,7 +183,8 @@
 		{"id":"0cdf3ca0b91a5df8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/MPLS.md","x":1977,"y":3260,"width":807,"height":700},
 		{"id":"cd21a644c03b4449","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md","x":3137,"y":3340,"width":760,"height":430},
 		{"id":"9c0747bad214f8cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/LS - Link State.md","x":3197,"y":3820,"width":760,"height":1160},
-		{"id":"9a3aefff1aff6a2c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT.md","x":-3683,"y":3762,"width":860,"height":878}
+		{"id":"9a3aefff1aff6a2c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT.md","x":-3683,"y":3762,"width":860,"height":878},
+		{"id":"85ba8c9261df931c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 10Mbps - Ragionamento.md","x":7860,"y":-520,"width":765,"height":1080}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
