@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "807e4646371c0d89",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fc9372f6f2cbfbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "015575028d412fd0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "UniMi/Reti di calcolatori/Reti di calcolatori.canvas",
+                "viewState": {
+                  "x": 628.8785110023354,
+                  "y": -1949.347951687017,
+                  "zoom": -0.6510201718844504
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72ccf0a6aa9ca798",
+    "type": "split",
+    "children": [
+      {
+        "id": "c55a123f4f791dfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaf22cd1f461a5f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fbd4005c4cff1e55",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d66184b1af0ee22",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "837c192f808b770f",
+    "type": "split",
+    "children": [
+      {
+        "id": "31a310fbe99ff6eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad0312721fab7c1b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UniMi/Reti di calcolatori/Reti di calcolatori.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e14464ddb30f6b22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UniMi/Reti di calcolatori/Reti di calcolatori.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ddc236d3214eddd6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6bbdbee7097f414b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UniMi/Reti di calcolatori/Reti di calcolatori.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "015575028d412fd0",
+  "lastOpenFiles": []
+}
