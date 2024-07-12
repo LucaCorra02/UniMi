@@ -1,5 +1,5 @@
-- `Sottodimensionamento`: mi porta a ritrasmettere pacchetti in realtà già ricevuti dal destinatario
-- `Sovradimensionamento`: perdo troppo tempo ad aspettare nel caso di ACK perso o di frame non arrivato 
+- `Sottodimensionamento`: <b><u>mi porta a ritrasmettere pacchetti in realtà già ricevuti dal destinatario</u></b>
+- `Sovradimensionamento`: <b><u>perdo troppo tempo ad aspettare nel caso di ACK perso o di frame non arrivato</u></b> 
 
 Anche l'ACK è un pacchetto, che viaggia nella direzione opposta quindi dobbiamo considerare anche $t_{xACK}$ e il $t_{pACK}$.
 OSS $t_p$ e $t_{pACK}$ sono uguali, perche è lo stesso canale e la stessa distanza 
