@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 1084.865768666006,
-                  "y": -3848.3234112085606,
-                  "zoom": -0.0693050654815313
+                  "x": 2201.6610252545697,
+                  "y": -6413.953503673785,
+                  "zoom": -0.35604160866008966
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Rete introduzione/Rete e Unità dati.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Rete introduzione/Rete e Unità dati.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Rete introduzione/Rete e Unità dati.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
