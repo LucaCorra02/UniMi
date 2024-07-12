@@ -11,17 +11,12 @@ Funzionamento :
 
 <b><u>Il segnale di clock si ottiene shiftando di mezzo bit cell dal centro</u></b>
 
-
 <b><u>Per estrarre il clock in ricezione il livello fisico aggiunge 7+1 byte</u></b>,  <span style=color:yellow>un preambolo</span>. il preambolo è costituito da 7byte +1. <b><u>Gli ultimi due bit a 11, servono per indicare l'inizio della frame effettiva</u></b>. 
 
 ``` c 
 Preambolo = 10 10 10 10 11
 ```
     
-Utilizzando la codifica di manchester, <b><u>il formato del preambolo è funzionale a sincronizzare il clock del ricevente sui fronti di salita e di discesa del clock del trasmettitore (disambigua lo stato di idle dal</u></b>. Abbiamo utilizzato la codifica per estrarre informazioni sulla cadenza del clock di trasmissione.  
+Utilizzando la codifica di manchester, <b><u>il formato del preambolo è funzionale a sincronizzare il clock del ricevente sui fronti di salita e di discesa del clock del trasmettitore (disambigua lo stato di idle dall'inizio della trasmissione)</u></b>.
 
-In particolare `10101010101010` e poi `011`
-
-Codificando manchester la sequenza di 10101010101010 ottengo la stessa ma shiftata di mezzo colpo di clock, dando cosi la possibilità al ricevente, in base ai fronti della sequenza, di sincronizzare il proprio clock
-
-Quando il bit rate supera i 10Mbps NON è piu possibile utilizzare la codifica di Manchester
+<span style=color:red>N:B</span> = Quando il bit rate supera i 10Mbps NON è piu possibile utilizzare la codifica di Manchester
