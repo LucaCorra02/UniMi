@@ -12,4 +12,4 @@ Quanti piu nodi di reti devo attraversare, tanto piu Jitter aggiungo e quindi ta
 <b><u>Il Jitter è definito dalla deviazione standard della somma dei delay degli store and forward</u></b>
 Risulta essere importante per alcuni applicativi che necessitano stabilità di comunicazione (es videogiochi)
 
-Per risolvere il problema del Jitter, si usa la tecnica di buffering che permette di mantenere un certo numero di pacchetti in una memoria bufferizzati alla destinazione 
+<span style=color:green>Soluzione</span> = Per risolvere il problema del Jitter, si usa la tecnica di buffering che permette di mantenere un certo numero di pacchetti in una memoria bufferizzati alla destinazione 
