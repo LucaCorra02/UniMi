@@ -8,7 +8,7 @@ In rete l'unità dati delle applicazioni che gli host utilizzano non viene spedi
 Le unità dati delle applicazioni degli host, viaggeranno in rete frammentate, <span style=color:yellow>segmenti dell'unità utente a dimensione massima fissata</span>, in modo da avere porzioni di memoria a dimensione fissa, <b><u>gestisco delle pagine di memoria a dimensione massima fissa</u></b>.
 <b><u>Ogni frammento dell'unità dati host viene spedito in maniera indipendente e singolarmente sulla rete</u></b>. Queste unità dati sulla rete prendono il nome di <span style=color:yellow>pacchetti</span>.
 
-Tutta via la pachettizazione delle strutture dati host, agevola la costruzione dei router che devono gestire i pachetti. Tuttavia abbiamo un <span style=color:red>possibile contro, ovverro aggiunge overhead</span> : 
+La pachettizazzione delle strutture dati host, agevola la costruzione dei router che devono gestire i pachetti, tuttavia abbiamo un <span style=color:red>possibile contro, ovverro aggiunge overhead</span> : 
 	Ogni pacchetto non può essere trasmesso così com'è. <b><u>Ma devo riuscire ad aggiungere al pachetto un intestazione</u></b> (<span style=color:yellow>header</span> ), in cui sono presenti informazioni aggiuntive : 
     - Da che host è stato spedito, <b><u>indirizzo dell' host di spedizione</u></b> 
 	- A che Host devo arrivare. <b><u>indirizzo dell'host di arrivo</u></b>.
