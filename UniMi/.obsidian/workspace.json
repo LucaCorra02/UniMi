@@ -37,8 +37,8 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 545.7062423739501,
-                  "y": -1259.747972987543,
+                  "x": 605.3063335599643,
+                  "y": -1155.4478134120168,
                   "zoom": -0.35808382174042314
                 }
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/ISO-OSI.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/ISO-OSI.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/ISO-OSI.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -212,7 +212,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ae339589084a132d",
+  "active": "a036a027379b1f76",
   "lastOpenFiles": [
     "Pasted image 20240712154602.png",
     "Pasted image 20240712152140.png",
