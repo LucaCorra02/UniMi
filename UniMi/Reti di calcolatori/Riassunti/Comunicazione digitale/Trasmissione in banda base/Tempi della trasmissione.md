@@ -1,9 +1,9 @@
 Consideriamo due nodi $A$ e $B$ collegati da un solo cavo
-- <span style=color:yellow>Tempo di trasmissione</span> $t_x = {datiDaTrasmettere \over capacitaCanale}$  
+- <span style=color:yellow>Tempo di trasmissione</span> $t_x = {datiDaTrasmettere \over velocitaTrasmissione}$  
 	- dipende dalla capacita del canale e dalla velocità di immissione del mittente.
 	- per tutto il tempo $t_x$ il driver sicuramente è occupato
 	
-- <span style=color:yellow>Tempo di propagazione</span> $t_p = {distanza \over velocita}$ 
+- <span style=color:yellow>Tempo di propagazione</span> $t_p = {distanza \over velocita_{mezzopropag}}$ 
 	- è il tempo che un pacchetto impiega ad arrivare da A a B
 	- <b><u>dipende unicamente dalle caratteristiche fisiche del canale su cui viaggiano i dati (lunghezza e materiale fisico)</u></b>
 	- In $T_p$ consideriamo il tempo del singolo bit perche la capienza del messaggio totale è utilizzata nel calcolo di $t_xP_1$
@@ -16,7 +16,7 @@ Consideriamo due nodi $A$ e $B$ collegati da un solo cavo
      <b><u>Tale velocità dipende dal tipo di canale di comunicazione utilizzato e dalla sua lunghezza</u></b>.
 	- <span style=color:cyan>Tpack</span> = <b><u>il tempo dovuto alla propragazione del segnale ack sul canale, non può essere trascurabile, in quanto dipende dalla lunghezza del canale</u></b> e non dalla lunghezza del pacchetto.  
 
-	Formula finale = $T = T_x + 2T_P$.
+	Formula finale = $RTT = T_x + 2T_P$.
 	Si tratta del tempo di ritardo della trasmissione di un pacchetto ( il tempo che intercorre tra la trasmissione di un pacchetto e la ricezione dell'ack relativo)
 
 <span style=color:red>N.B</span> = Anche se tutti i dati per il calcolo di T sono noti <b><u>è bene non rendere T uguale a quello calcolato, ma renderlo un pò più grande</u></b> (andrà quantificato il quanto )
@@ -30,7 +30,7 @@ Consideriamo due nodi $A$ e $B$ collegati da un solo cavo
 	
 	- Se invece arriva un ACK, il timer mittente viene resettato. 
 
-	i<b><u>l timer, inoltre deve essere dimensionato correttamente</u></b> :  $T_r >  T = T_x + 2T_p$  
+	i<b><u>l timer, inoltre deve essere dimensionato correttamente</u></b> :  $T_r >  RTT = T_x + 2T_p$  
 	 - Se setto Tr troppo grande sono inefficente. 
     - Se lo setto troppo piccolo sono sia inefficiente ( ritrasmetto pacchetti inutilmente) che ho il problema della copia. 
     
