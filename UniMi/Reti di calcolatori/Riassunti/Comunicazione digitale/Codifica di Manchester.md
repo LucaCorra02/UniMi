@@ -1,3 +1,9 @@
+<b><u>Si tratta delle codifica delle frame adottata in ethernet</u></b>..
+<span style=color:cyan>Obbiettivo delle codifica</span>  = <b><u>riuscire a trasmettere nella codifica, sia il contenuto informativo che informazioni riguardanti il clock, in modo da sincronizzare quello del ricevente e del destinatario</u></b>.
+
+
+
+
 La codifica di Manchester  attua l'estrazione e codifica del clock
 Ogni bit è codificato come basso-alto (1) o alto-basso (0), prevedendo quindi sempre una transazione, che avviene al centro di un ogni "cella" del bit
 Il segnale di clock si ottiene shiftando di mezzo bit cell dal centro
