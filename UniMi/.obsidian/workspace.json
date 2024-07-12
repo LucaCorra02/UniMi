@@ -38,8 +38,8 @@
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
                   "x": 5486.348271766261,
-                  "y": -4782.922637792733,
-                  "zoom": -0.14111537293387413
+                  "y": -4693.5044490275495,
+                  "zoom": -0.5928403599639035
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Codifica di Manchester.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Codifica di Manchester.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Codifica di Manchester.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "ae339589084a132d",
   "lastOpenFiles": [
+    "Pasted image 20240712152140.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Reti di calcolatori/Reti di calcolatori - Riassunto.md",
@@ -245,7 +246,6 @@
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/Modelli di ottimizzazione discreta.md",
     "Ricerca operativa/Riassunti/PLI - Branching n-ario.md",
-    "Ricerca operativa/Riassunti/PLI - Branching binario.md",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
     "Ricerca operativa/Img/Pasted image 20240328164131.png",
