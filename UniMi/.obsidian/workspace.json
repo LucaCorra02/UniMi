@@ -38,7 +38,7 @@
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
                   "x": 5556.4801845232705,
-                  "y": -4674.218173019369,
+                  "y": -4744.3500857763775,
                   "zoom": -0.5928403599639035
                 }
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Codifica di Manchester.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Codifica di Manchester.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Codifica di Manchester.md"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "ae339589084a132d",
   "lastOpenFiles": [
+    "Pasted image 20240712154602.png",
     "Pasted image 20240712152140.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
@@ -259,7 +260,6 @@
     "Ricerca operativa/Slide/10c - PNL vincolata.pdf",
     "Ricerca operativa/Slide/10b - PNL monodimensionale.pdf",
     "Ricerca operativa/Slide/09 - Modelli discreti.pdf",
-    "Ricerca operativa/Img/Pasted image 20240327152011.png",
     "Ricerca operativa/Slide/08 - Branch-and-bound.pdf",
     "Ricerca operativa/Slide/07 - PLI.pdf",
     "Materiale tesi/Esempi.canvas",

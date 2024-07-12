@@ -8,6 +8,9 @@ Funzionamento :
 	 - Trasmetto 1 producendo una transizione verso l'alto. (alto- basso)
 	 - Trasmetto uno 0 producendo una transizione verso il basso (basso - alto)
 
+      ![[Pasted image 20240712154602.png]]
+
+
 <b><u>Il segnale di clock si ottiene shiftando di mezzo bit cell dal centro</u></b>
 
 ![[Pasted image 20240712152140.png]]
