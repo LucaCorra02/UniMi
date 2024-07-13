@@ -10,7 +10,7 @@ La modalità best Effort del livello 2, funziona nel seguente modo. <b><u>Funzio
 <span style=color:red>Problema</span> = l'unità dati di livello 2 (frame) viene trasmessa come una sequenza di bit sul canele. <b><u>Come faccio a distinguere quando inizia e finisce la trasmissione di un pacchetto sul canale rispetto alla fase idle di quest'ultimo</u></b> (tutti bit a 1 o tutti bit a 0)?
 
 <b><u>Utilizzo una sequenza di bit ben definita (uguale per segnalare inizio e fine trasmissione )</u></b> che prende il nome di <span style=color:yellow>flag</span>. 
-Per quando riguarda il protocollo HDLC, la i <span style=color:yellow>flag</span> è lunga un byte, ed è costituita nel seguente modo : 
+Per quando riguarda il protocollo HDLC, la <span style=color:yellow>flag</span> è lunga un byte, ed è costituita nel seguente modo : 
 
 ``` c 
 Flag = 01111110
