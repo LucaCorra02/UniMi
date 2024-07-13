@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 Ci sono $k$ buffer in $T_x$ e $k$ buffer in $R_x$
 Avendo $k$ buffer, conservo i frame corretti anche se non in ordine chiedendo poi `selettivamente` al trasmettitore di inviarmi nuovamente il frame specifico
 

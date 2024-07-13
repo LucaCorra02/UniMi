@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 8341.3345825319,
-                  "y": -3145.706659109412,
-                  "zoom": 0.03657665854318273
+                  "x": 8507.66367988617,
+                  "y": -2252.253186360154,
+                  "zoom": -0.37980796857428234
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "ae339589084a132d",
   "lastOpenFiles": [
+    "Pasted image 20240713181748.png",
     "Pasted image 20240712191132.png",
     "Pasted image 20240712154602.png",
     "Pasted image 20240712152140.png",
@@ -255,7 +256,6 @@
     "Ricerca operativa/Slide/10a - PNL non vincolata.pdf",
     "Ricerca operativa/Img/Pasted image 20240328170725.png",
     "Ricerca operativa/Img/Pasted image 20240328165627.png",
-    "Ricerca operativa/Img/Pasted image 20240328164435.png",
     "Ricerca operativa/Slide/11 - Simplesso rivisto.pdf",
     "Ricerca operativa/Slide/10c - PNL vincolata.pdf",
     "Ricerca operativa/Slide/10b - PNL monodimensionale.pdf",
