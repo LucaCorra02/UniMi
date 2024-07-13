@@ -14,12 +14,12 @@
 		{"id":"8b9b1c7b1bf79ec6","type":"group","x":-7760,"y":-6760,"width":3200,"height":2631,"label":"HTTP"},
 		{"id":"d904378e8e75bbf5","type":"group","x":2820,"y":-5760,"width":5040,"height":1657,"label":"Comunicazione digitale"},
 		{"id":"c0c4c602d48bcc8d","type":"group","x":-240,"y":-2465,"width":2217,"height":3695,"color":"3","label":"Protocolli"},
+		{"id":"e483025ff603ed05","type":"group","x":5640,"y":-3720,"width":3550,"height":1813,"label":"L2: Protocolli a finestra"},
 		{"id":"1d10551542402635","type":"group","x":6280,"y":-1330,"width":2385,"height":2429,"label":"CSMA-CD"},
 		{"id":"a9494b0a066deb01","type":"group","x":-240,"y":-6074,"width":1835,"height":2909,"color":"1","label":"1 Rete: introduzione "},
 		{"id":"f4913b62d69d1e67","type":"group","x":-5123,"y":226,"width":2520,"height":1874,"label":"TCP - Controlli"},
 		{"id":"2d549ec7e33dcc73","type":"group","x":-2480,"y":-6780,"width":1353,"height":3440,"label":"Email"},
 		{"id":"49e5e7eb05635a3c","type":"group","x":-1314,"y":2880,"width":1588,"height":2640,"label":"IPv6"},
-		{"id":"e483025ff603ed05","type":"group","x":6133,"y":-3520,"width":3057,"height":1326,"label":"L2: Protocolli a finestra"},
 		{"id":"43e7044a621577a0","type":"group","x":-4480,"y":-6360,"width":1940,"height":1963,"label":"DNS"},
 		{"id":"213436e17a65f919","type":"group","x":-8563,"y":-786,"width":1502,"height":1918,"label":"TCP - Controllo dell'errore"},
 		{"id":"140509c921bbaa6b","type":"group","x":-5203,"y":-1880,"width":1990,"height":1440,"label":"TCP - Formato"},
@@ -36,11 +36,8 @@
 		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4177,"y":6740,"width":720,"height":744},
 		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3462,"y":7042,"width":580,"height":140},
 		{"id":"97ce0a8b8ed893d5","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione affidabile HDLC.md","x":3867,"y":-2861,"width":777,"height":954},
-		{"id":"ad6f6fa51c6f8e73","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md","x":4740,"y":-2821,"width":840,"height":914},
 		{"id":"609f3c697f46f887","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Bit Stuffing.md","x":4660,"y":-3806,"width":800,"height":598},
 		{"id":"f2211386c1f05ec2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 2/Data link.md","x":2880,"y":-3278,"width":696,"height":957},
-		{"id":"fa191df7ee8fe7a6","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Controllo dell'errore (L2).md","x":6155,"y":-3371,"width":752,"height":333},
-		{"id":"4da2698affb93a48","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Sliding window.md","x":6155,"y":-2912,"width":752,"height":718},
 		{"id":"6020d567e686450c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Jitter.md","x":6128,"y":-4857,"width":835,"height":593},
 		{"id":"6604531a7468e470","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md","x":5252,"y":-1363,"width":738,"height":988},
 		{"id":"4ea7d9cf9f49e5f0","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN - Formato.md","x":4480,"y":-1310,"width":680,"height":827},
@@ -184,7 +181,10 @@
 		{"id":"e1d4eb0f2c832de2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RIP.md","x":4197,"y":5520,"width":675,"height":385},
 		{"id":"2f04af967a2b3c0b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md","x":-3343,"y":5546,"width":820,"height":938},
 		{"id":"baf253f0a7c83b0f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Addressing.md","x":-843,"y":5671,"width":620,"height":320},
-		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2443,"y":5831,"width":800,"height":368}
+		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2443,"y":5831,"width":800,"height":368},
+		{"id":"4da2698affb93a48","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Sliding window.md","x":5840,"y":-3639,"width":752,"height":718},
+		{"id":"fa191df7ee8fe7a6","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Controllo dell'errore (L2).md","x":5840,"y":-2720,"width":752,"height":333},
+		{"id":"ad6f6fa51c6f8e73","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md","x":4720,"y":-2841,"width":840,"height":914}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -346,6 +346,7 @@
 		{"id":"8bf99f7d28316c79","fromNode":"f2211386c1f05ec2","fromSide":"right","toNode":"97ce0a8b8ed893d5","toSide":"left","label":"2"},
 		{"id":"56b96591a88fefa8","fromNode":"97ce0a8b8ed893d5","fromSide":"right","toNode":"ad6f6fa51c6f8e73","toSide":"left"},
 		{"id":"32fd7e1823309fb2","fromNode":"f2211386c1f05ec2","fromSide":"top","toNode":"0faa431941203b5e","toSide":"left","label":"3"},
-		{"id":"9ee96cabce6293d2","fromNode":"ad6f6fa51c6f8e73","fromSide":"right","toNode":"4da2698affb93a48","toSide":"left"}
+		{"id":"9ee96cabce6293d2","fromNode":"ad6f6fa51c6f8e73","fromSide":"right","toNode":"4da2698affb93a48","toSide":"left","label":"1"},
+		{"id":"1ac74420bf131297","fromNode":"4da2698affb93a48","fromSide":"bottom","toNode":"fa191df7ee8fe7a6","toSide":"top","label":"1"}
 	]
 }
