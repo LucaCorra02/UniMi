@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 4312.692568988654,
-                  "y": -2318.8208526127437,
-                  "zoom": -0.1339310565381494
+                  "x": 5091.644631671793,
+                  "y": -2707.3244021129917,
+                  "zoom": -0.18697492469344912
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md"
               }
             }
           },
