@@ -7,7 +7,8 @@ SE $k=1$, stiamo usando un idle RQ
 <span style=color:yellow>Finestra</span> = <b><u>insieme di K frame che in un certo istante di tempo T, sono abilitato a trasmettere (frame di cui posso aspettare un ACK)</u></b>.
 La finestra tuttavia non è facile da dimensionare 
 
-<b><u>Lato trasmettitore dovrò predisporre un buffer grande almeno K</u></b> (caso peggiore di ritrasmissione.)
+<b><u>Lato trasmettitore dovrò predisporre un buffer grande almeno K</u></b> (caso peggiore di ritrasmissione.).
+<b><u>Inoltre per la ritrasmissione ogni i-frame e ogni ACK dovrà contenere un numero di sequenza</u></b>. 
 
 <h4 style=color:red>Quanti numero di sequencing servono per un protocollo a finestra</h4>
 
