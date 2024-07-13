@@ -1,4 +1,4 @@
-Avremo un entità per ciascun link in entrata/uscita dal nostro nodo. 
+<b><u>Avremo un entità per ciascun link in entrata/uscita dal nostro nodo</u></b>. 
 <h5 style=color:cyan>Struttura Frame livello 2</h5>
 Il frame a livello 2 è strutturato nel seguente modo : 
 
