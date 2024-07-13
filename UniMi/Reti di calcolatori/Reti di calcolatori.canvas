@@ -183,8 +183,8 @@
 		{"id":"fa191df7ee8fe7a6","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Controllo dell'errore (L2).md","x":5840,"y":-2760,"width":752,"height":580},
 		{"id":"c7cd44fc1042d07a","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Idle RQ.md","x":6880,"y":-3576,"width":835,"height":592},
 		{"id":"c7c8f90250ab8c3b","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Continuous RQ.md","x":6880,"y":-2760,"width":835,"height":634},
-		{"id":"2cf4768985f6ed55","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md","x":8040,"y":-3458,"width":898,"height":474},
-		{"id":"3413b88815e25a40","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Go back-N.md","x":8040,"y":-2720,"width":1020,"height":683}
+		{"id":"2cf4768985f6ed55","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md","x":8040,"y":-3639,"width":1000,"height":826},
+		{"id":"3413b88815e25a40","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Go back-N.md","x":8040,"y":-2720,"width":1000,"height":760}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
