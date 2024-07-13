@@ -49,7 +49,6 @@
 		{"id":"de8290345c7e24ee","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Terminologia.md","x":1133,"y":-998,"width":455,"height":218},
 		{"id":"b98ebdff0e88170d","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Comunicazione digitale (L2).md","x":2864,"y":-5275,"width":854,"height":514},
 		{"id":"ce0e484b4bb40763","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/TCP-IP.md","x":828,"y":-2310,"width":610,"height":436},
-		{"id":"d0aeb722c4d9da53","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md","x":7200,"y":-1310,"width":766,"height":720},
 		{"id":"c7cd44fc1042d07a","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Idle RQ.md","x":7202,"y":-3501,"width":835,"height":592},
 		{"id":"c7c8f90250ab8c3b","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Continuous RQ.md","x":7202,"y":-2838,"width":835,"height":634},
 		{"id":"990cfc779d59d466","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Dimensionamento clock.md","x":6161,"y":-5352,"width":868,"height":462},
@@ -184,7 +183,8 @@
 		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2443,"y":5831,"width":800,"height":368},
 		{"id":"4da2698affb93a48","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Sliding window.md","x":5840,"y":-3639,"width":752,"height":718},
 		{"id":"fa191df7ee8fe7a6","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Controllo dell'errore (L2).md","x":5840,"y":-2720,"width":752,"height":333},
-		{"id":"ad6f6fa51c6f8e73","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md","x":4720,"y":-2841,"width":840,"height":914}
+		{"id":"ad6f6fa51c6f8e73","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md","x":4720,"y":-2841,"width":840,"height":914},
+		{"id":"d0aeb722c4d9da53","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md","x":7280,"y":-1290,"width":766,"height":720}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
