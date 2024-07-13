@@ -56,7 +56,6 @@
 		{"id":"97ce0a8b8ed893d5","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione affidabile HDLC.md","x":3867,"y":-2861,"width":777,"height":954},
 		{"id":"ad6f6fa51c6f8e73","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md","x":4740,"y":-2821,"width":840,"height":914},
 		{"id":"609f3c697f46f887","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Bit Stuffing.md","x":4660,"y":-3806,"width":800,"height":598},
-		{"id":"9346cca7283acb08","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione Best effort.md","x":3867,"y":-3860,"width":700,"height":840},
 		{"id":"f2211386c1f05ec2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 2/Data link.md","x":2880,"y":-3278,"width":696,"height":957},
 		{"id":"fa191df7ee8fe7a6","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Controllo dell'errore (L2).md","x":6155,"y":-3371,"width":752,"height":333},
 		{"id":"4da2698affb93a48","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Sliding window.md","x":6155,"y":-2932,"width":752,"height":718},
@@ -184,7 +183,8 @@
 		{"id":"cd21a644c03b4449","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md","x":3137,"y":3340,"width":760,"height":430},
 		{"id":"9c0747bad214f8cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/LS - Link State.md","x":3197,"y":3820,"width":760,"height":1160},
 		{"id":"9a3aefff1aff6a2c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT.md","x":-3683,"y":3762,"width":860,"height":878},
-		{"id":"85ba8c9261df931c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 10Mbps - Ragionamento.md","x":7814,"y":-550,"width":765,"height":1080}
+		{"id":"85ba8c9261df931c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 10Mbps - Ragionamento.md","x":7814,"y":-550,"width":765,"height":1080},
+		{"id":"9346cca7283acb08","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione Best effort.md","x":3867,"y":-3840,"width":700,"height":840}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
