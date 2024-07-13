@@ -1,6 +1,11 @@
-Esso prevede di impostare un numero massimo di frame di cui posso aspettare un ACK, questo limite è detta finestra $k$.
-SE $k=1$, stiamo usando un idle RQ
+<span style=color:green> Obbiettivo</span> = <b><u>Risolvono il problema dell'utilizzo del canale</u></b> (tempo di RTT dominato dal tempo di propragazione), <b><u>per ogni frame non devo più aspettare di ricevere l'ack relativo, ma posso trasmettere frame in serie</u></b>, i relativi ACK arriveranno in seguito. 
 
+$UtilizzoCanale = k* \dfrac{T_x}{T_x+2T_p}$ 
+introduciamo un parametro <span style=color:yellow>k </span>= <b><u>numero di frame che il trasmettitore è abilitato a trasferire al ricevitore senza aspettare l'ACK relativo</u></b>. Più basso è il rapporto, maggiore sarà il numero di frame che il trasmettitore piò spedire. 
+
+<span style=color:yellow>Finestra</span> = <b><u>insieme di K frame che in un certo istante di tempo T, sono abilitato a trasmettere (frame di cui posso aspettare un ACK)</u></b>.
+
+SE $k=1$, stiamo usando un idle RQ
 La finestra tuttavia non è facile da dimensionare 
 Idle RQ e go-back N necessitano solo di un buffer mentre per il selective repeat sono necessari $k$ frame. 
 

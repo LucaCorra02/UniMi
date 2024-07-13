@@ -1,16 +1,12 @@
 Dobbiamo andare ad introdurre il termine <span style=color:yellow>Utilizzo del canale</span> = <b><u>si tratta di una metrica che indica quanto il mio protocollo è efficiente nell'utilizzare la capacità del canale fisico</u></b>. *Se ho comprato un canale da 1mbps, mi aspetto che il protocollo sia in grado di occupare con dei frame successivi il 100% della capacità*
 
 L'utilizzo è dunque definito come il rapporto tra il tempo reale per trasmettere una frame (tempo di trasmissione) e il tempo di RTT (tempo con delay aggiuntivo) : 
-<span style=color:yellow>Utilizzo canale o U</span> = $U= \dfrac{T_x}{Tx+2Tp}$  
+<span style=color:yellow>Utilizzo canale o U</span> = $U= \dfrac{T_x}{Tx+2Tp}$  :
+ - U tende a 1 = Buon utilizzo del canale
+ - U tende a 0 = Pessimo utilizzo del canale
 <b><u>Più grande è</u></b> $T_p$ <b><u>più la percentuale di utilizzo del canale è bassa</u></b>
 
 <b><u>Mandando un frame e aspettando l'arrivo dell'ack per un tempo al più come</u></b> $T$, non invio frame in sequenza (una dietro l'altra come un servizio *Best effort*).  
-Abbiamo detto che $T$ è : $T > Tx + 2Tp$: 
-
-- <b><u>Tx</u></b> = tempo necessario alla porta di i/0 per mettere la sequenza di bit corrispondente a una frame sul cavo. <b><u>Non è un problema il tempo di trasmissione nei termini di utilizzo del canale</u></b>, <b><u>limite fisico del canale e della macchina, non ci posso fare nulla</u></b> (occupa sempre la massima capacità del canale).  
-
-- <b><u>Tp</u></b> = <b><u>Quanto è più lungo il tempo di propragazione, maggiore sarà T</u></b>. Posso tollerale dover aspettare, dopo l'invio del frame, un $2 Tp$ piccolo.  
-  Sarebbe bello che anzichè aspettare un tempo $2 tp$, il trasmettitore, andasse a trasmettere il frame successivo, avremo così un utilizzo del 100%. 
 
 il nostro protocollo si complica, in quanto per avere un utilizzo del canale del 100% (sempre occupato a trasmettere), non vorremo aspettare ogni volta il relativo ack. <b><u>Devo ammettere nel protocollo la trasmissione di più frame uno dietro l'altra e non vincolare la trasmissione della singola frame nell'attesa del ack per quella frame.</u></b> Voglio avere libertà di mandare frame una dietro l'altra alla capacità del mio trasmettitore, gli ack arriveranno poi di conseguenza. Vado dunque a realizzare un <span style=color:yellow>protocollo affidabile a finestra</span>.
 
