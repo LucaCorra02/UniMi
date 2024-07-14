@@ -18,28 +18,28 @@
             }
           },
           {
-            "id": "ed4baffb7e8d1651",
+            "id": "ae339589084a132d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ae339589084a132d",
+            "id": "cd2fb1356d2900eb",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 5298.43882856371,
-                  "y": -2754.9388025099106,
-                  "zoom": -1.5800171947072106
+                  "x": 4875.908004382076,
+                  "y": 44.27948428965069,
+                  "zoom": -0.021755685595235285
                 }
               }
             }
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98d901f23bf6ce7e",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md"
               }
             }
           },
@@ -212,15 +211,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ae339589084a132d",
+  "active": "cd2fb1356d2900eb",
   "lastOpenFiles": [
+    "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
+    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
+    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240713183123.png",
     "Pasted image 20240713181748.png",
     "Pasted image 20240712191132.png",
     "Pasted image 20240712154602.png",
     "Pasted image 20240712152140.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Reti di calcolatori/Reti di calcolatori - Riassunto.md",
     "Reti di calcolatori/Esami/2023-09-26.md",
     "Reti di calcolatori/Esami/DomandeRetiEx.pdf",
@@ -231,7 +232,6 @@
     "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Esami/2019-01-29.md",
     "Reti di calcolatori/Esami/2018-02-27.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Untitled.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Bit Stuffing.md",
     "Reti di calcolatori/Riassunti/Rete introduzione/Connessione Affidabile Elementi.md",
@@ -249,13 +249,11 @@
     "Ricerca operativa/Appunti.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/Modelli di ottimizzazione discreta.md",
-    "Ricerca operativa/Riassunti/PLI - Branching n-ario.md",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
     "Ricerca operativa/Img/Pasted image 20240328164131.png",
     "Pasted image 20240328132305.png",
     "Ricerca operativa/Slide/10a - PNL non vincolata.pdf",
-    "Ricerca operativa/Img/Pasted image 20240328170725.png",
     "Ricerca operativa/Slide/11 - Simplesso rivisto.pdf",
     "Ricerca operativa/Slide/10c - PNL vincolata.pdf",
     "Ricerca operativa/Slide/10b - PNL monodimensionale.pdf",
