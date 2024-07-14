@@ -99,7 +99,6 @@
 		{"id":"a146f89d8d22abc8","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Modalita di comunicazione.md","x":2864,"y":-5698,"width":854,"height":308},
 		{"id":"d0aeb722c4d9da53","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md","x":7280,"y":-1290,"width":766,"height":720},
 		{"id":"4571929f3ea7eae5","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD.md","x":6300,"y":-452,"width":765,"height":960},
-		{"id":"d0e4e897d3e28c35","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete broadcast.md","x":4440,"y":-330,"width":580,"height":940},
 		{"id":"0e7c80876fe775bc","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Protocollo Ethernet.md","x":5201,"y":-85,"width":840,"height":451},
 		{"id":"2d8917a6b7f80ac0","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md","x":655,"y":-5830,"width":859,"height":636},
 		{"id":"78d9f6a58aca31da","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Connessione Affidabile Elementi.md","x":-200,"y":-5031,"width":740,"height":677},
@@ -182,10 +181,11 @@
 		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4177,"y":6740,"width":720,"height":744},
 		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3462,"y":7042,"width":580,"height":140},
 		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3897,"y":7549,"width":720,"height":758},
-		{"id":"c4f4729a6a820379","x":3440,"y":-330,"width":720,"height":730,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md"},
 		{"id":"2cf4768985f6ed55","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md","x":8046,"y":-2760,"width":1000,"height":826},
 		{"id":"3413b88815e25a40","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Go back-N.md","x":8046,"y":-3639,"width":1000,"height":760},
-		{"id":"0faa431941203b5e","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete di accesso.md","x":2760,"y":-1089,"width":580,"height":220}
+		{"id":"0faa431941203b5e","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete di accesso.md","x":2760,"y":-1089,"width":580,"height":220},
+		{"id":"d0e4e897d3e28c35","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete broadcast.md","x":4440,"y":-85,"width":580,"height":650},
+		{"id":"c4f4729a6a820379","x":3480,"y":-165,"width":720,"height":730,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md"}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
