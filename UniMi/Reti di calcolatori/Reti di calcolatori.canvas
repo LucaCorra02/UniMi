@@ -50,7 +50,6 @@
 		{"id":"7f41888b2788c23e","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md","x":7814,"y":562,"width":765,"height":529},
 		{"id":"ebbddb94dda87753","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps.md","x":7280,"y":642,"width":440,"height":368},
 		{"id":"c7c8f90250ab8c3b","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Continuous RQ.md","x":6880,"y":-2760,"width":835,"height":634},
-		{"id":"2cf4768985f6ed55","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md","x":8040,"y":-3639,"width":1000,"height":826},
 		{"id":"c64242d45ddef266","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tunneling.md","x":2877,"y":2536,"width":600,"height":700},
 		{"id":"3e06ece662a7f580","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Router MPLS.md","x":2058,"y":2561,"width":646,"height":651},
 		{"id":"da2539c761320970","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - IPv6 Translators.md","x":-203,"y":2920,"width":457,"height":740},
@@ -58,7 +57,6 @@
 		{"id":"0b46d5dc582b1b5a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - IPv6 Dual stacks and tunneling.md","x":-739,"y":3160,"width":496,"height":502},
 		{"id":"fdd9a17cffc78c5f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Spanning tree broadcast.md","x":4957,"y":3117,"width":640,"height":687},
 		{"id":"cd21a644c03b4449","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md","x":3137,"y":3340,"width":760,"height":430},
-		{"id":"3413b88815e25a40","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Go back-N.md","x":8040,"y":-2720,"width":1000,"height":760},
 		{"id":"44b5c7afac945e51","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 1/Mezzi trasmissivi.md","x":1106,"y":-80,"width":630,"height":1222},
 		{"id":"076ae67961785301","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 1/Mezzi trasmissivi - Differenze.md","x":240,"y":0,"width":700,"height":645},
 		{"id":"f02badf7f3205969","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/QUIC.md","x":-2563,"y":226,"width":690,"height":634},
@@ -106,7 +104,7 @@
 		{"id":"2d8917a6b7f80ac0","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md","x":655,"y":-5830,"width":859,"height":636},
 		{"id":"78d9f6a58aca31da","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Connessione Affidabile Elementi.md","x":-200,"y":-5031,"width":740,"height":677},
 		{"id":"97ce0a8b8ed893d5","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione affidabile HDLC.md","x":3867,"y":-2861,"width":777,"height":954},
-		{"id":"f2211386c1f05ec2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 2/Data link.md","x":2880,"y":-3278,"width":696,"height":957},
+		{"id":"f2211386c1f05ec2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 2/Data link.md","x":2880,"y":-3320,"width":696,"height":999},
 		{"id":"9346cca7283acb08","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione Best effort.md","x":3867,"y":-3840,"width":700,"height":840},
 		{"id":"aaa3e989d9b17307","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Protocollo token-ring.md","x":5201,"y":471,"width":840,"height":599},
 		{"id":"cef87d0f41de24a2","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/ALOHA.md","x":6300,"y":545,"width":765,"height":525},
@@ -184,8 +182,10 @@
 		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4177,"y":6740,"width":720,"height":744},
 		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3462,"y":7042,"width":580,"height":140},
 		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3897,"y":7549,"width":720,"height":758},
-		{"id":"0faa431941203b5e","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete di accesso.md","x":2640,"y":-979,"width":580,"height":220},
-		{"id":"c4f4729a6a820379","x":3560,"y":-775,"width":680,"height":735,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md"}
+		{"id":"c4f4729a6a820379","x":3440,"y":-330,"width":720,"height":730,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md"},
+		{"id":"2cf4768985f6ed55","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Selective repeat.md","x":8046,"y":-2760,"width":1000,"height":826},
+		{"id":"3413b88815e25a40","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Error control/Go back-N.md","x":8046,"y":-3639,"width":1000,"height":760},
+		{"id":"0faa431941203b5e","type":"file","file":"Reti di calcolatori/Riassunti/Tipi di rete/Rete di accesso.md","x":2760,"y":-1089,"width":580,"height":220}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -207,8 +207,8 @@
 		{"id":"9244427e59e20429","fromNode":"3e85ff9a6c2d772e","fromSide":"right","toNode":"6020d567e686450c","toSide":"left","label":"3"},
 		{"id":"153d6ce32a68f986","fromNode":"fa191df7ee8fe7a6","fromSide":"right","toNode":"c7cd44fc1042d07a","toSide":"left","label":"1"},
 		{"id":"e617fa0610d6f123","fromNode":"fa191df7ee8fe7a6","fromSide":"right","toNode":"c7c8f90250ab8c3b","toSide":"left","label":"2"},
-		{"id":"6884f46938acbf5a","fromNode":"c7c8f90250ab8c3b","fromSide":"right","toNode":"2cf4768985f6ed55","toSide":"left","label":"1"},
-		{"id":"b94dbb455d598bcc","fromNode":"c7c8f90250ab8c3b","fromSide":"right","toNode":"3413b88815e25a40","toSide":"left","label":"2"},
+		{"id":"6884f46938acbf5a","fromNode":"c7c8f90250ab8c3b","fromSide":"right","toNode":"2cf4768985f6ed55","toSide":"left","label":"2"},
+		{"id":"b94dbb455d598bcc","fromNode":"c7c8f90250ab8c3b","fromSide":"right","toNode":"3413b88815e25a40","toSide":"left","label":"1"},
 		{"id":"5f39cffd6a4c2c1c","fromNode":"2d8917a6b7f80ac0","fromSide":"left","toNode":"051bf72667db7988","toSide":"right","label":"2"},
 		{"id":"351f26cb09b44275","fromNode":"2d8917a6b7f80ac0","fromSide":"left","toNode":"eb9c7629b2564220","toSide":"right","label":"3"},
 		{"id":"4b78fa7e0631daa6","fromNode":"2f8a5a425dbb61db","fromSide":"top","toNode":"2d8917a6b7f80ac0","toSide":"bottom"},
@@ -346,8 +346,9 @@
 		{"id":"148afab51292c298","fromNode":"9346cca7283acb08","fromSide":"right","toNode":"609f3c697f46f887","toSide":"left"},
 		{"id":"8bf99f7d28316c79","fromNode":"f2211386c1f05ec2","fromSide":"right","toNode":"97ce0a8b8ed893d5","toSide":"left","label":"2"},
 		{"id":"56b96591a88fefa8","fromNode":"97ce0a8b8ed893d5","fromSide":"right","toNode":"ad6f6fa51c6f8e73","toSide":"left"},
-		{"id":"32fd7e1823309fb2","fromNode":"f2211386c1f05ec2","fromSide":"top","toNode":"0faa431941203b5e","toSide":"left","label":"3"},
+		{"id":"32fd7e1823309fb2","fromNode":"f2211386c1f05ec2","fromSide":"bottom","toNode":"0faa431941203b5e","toSide":"top","label":"3"},
 		{"id":"9ee96cabce6293d2","fromNode":"ad6f6fa51c6f8e73","fromSide":"right","toNode":"4da2698affb93a48","toSide":"left","label":"1"},
-		{"id":"1ac74420bf131297","fromNode":"4da2698affb93a48","fromSide":"bottom","toNode":"fa191df7ee8fe7a6","toSide":"top","label":"1"}
+		{"id":"1ac74420bf131297","fromNode":"4da2698affb93a48","fromSide":"bottom","toNode":"fa191df7ee8fe7a6","toSide":"top","label":"1"},
+		{"id":"af9408b628fdedef","fromNode":"c4f4729a6a820379","fromSide":"right","toNode":"d0e4e897d3e28c35","toSide":"left","label":"1"}
 	]
 }
