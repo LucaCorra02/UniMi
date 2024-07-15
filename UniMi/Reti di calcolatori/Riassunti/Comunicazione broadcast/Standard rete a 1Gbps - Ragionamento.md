@@ -1,5 +1,6 @@
-MA tutto quello che abbiamo fatto finora è per una rete a 10Mbit, se ho una rete a 1Gbps?
-Cambia la dimensione minima del pacchetto perche cambia $T_x$, in particolare a 512 ns MA $T_p$ non è cambiato e quindi il protocollo non rileva le collisioni
+<b><u>MA tutto quello che abbiamo fatto finora è per una rete a 10Mbit, se ho una rete a 1Gbps</u></b>?
+
+<b><u>Cambia la dimensione minima del pacchetto perche cambia</u></b> $T_x$, in particolare a 512 ns MA $T_p$ non è cambiato e quindi il protocollo non rileva le collisioni
 Nello standard sarà necessario cambiare la dimensione minima del frame, in particolare sarebbero necessari 50k bit, diminuendo U moltissimo (es segnale di ACK). 
 
 Inizialmente la lunghezza massima del cavo era stata proposta a 15m ma poi era stata rigettata, optando per 200m.
