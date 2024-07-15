@@ -12,24 +12,16 @@ Per non diminuire troppo l'efficienza del canale, all'aumentare della banda (pas
 - <b><u>Aumentare la grandezza delle frame</u></b>. 
 
 A livello di Standard, con il Gigabit Ethernt, <b><u>le stazioni non possono distare più di 200 metri per tratta</u></b>. 
-Suppongo 3 Stazioni $A,B,C$ = $400m*2$= $$
+Suppongo 3 Stazioni $A,B,C$ = $400m*2$= $800m$ andata e ritorno.
 
+$2T_p$ =  $\dfrac{8*10^2}{2*10^8}$ = $4*10^{-6}$ = $4us$. 
 
+So che $T_x >= 2T_P$ , $T_x$ è almeno $4us$. Quanti bit riesco a trasmettere ? : 
+- $Tp$ = $\dfrac{4us}{2}$ = $2us$
+- $T_x= \dfrac{x}{10^9} >= 4us$ -> $x >= 4*10^{-6} * 10^9$ = $4*10^3$ = 4000 bit 
+- $\dfrac{4000bit}{8}$ = $500 byte$
 
+<b><u>La dimensione minima di una frame Gigabit ethernet è 512byte</u></b>.
 
-
-
-
-
-<b><u>Cambia la dimensione minima del pacchetto</u></b>  :
-- $T_x$ Cambia, in particolare a 512 ns 
-- $T_p$ non è cambiato e quindi il protocollo non rileva le collisioni
-
-Nello standard sarà necessario cambiare la dimensione minima del frame, in particolare sarebbero necessari 50k bit, diminuendo U moltissimo (es segnale di ACK). 
-
-Inizialmente la lunghezza massima del cavo era stata proposta a 15m ma poi era stata rigettata, optando per 200m.
-$$2*T_p = {10^2 \over {2*10^8}} = 0.5 \micro s$800m$ andata e ritorno 
-
-Standard
-- 200m di lunghezza del cavo massima massimo -> 2$t_p$ su 800m -> 2$t_p$ = 4 ms
-- taglie minime di frame a 512Byte (da 64bytes). Ho un padding duplice: uno che lo fa fino a 64byte ma poi quando un frame con meno di 512 bytes viene trasmesso, la MAC interface del mittente gli aggiungerà un padding per raggiungere la grandezza minima 
+<span style=color:cyan>Come lavora il Mac layer</span> = le frame non devono più avere una dimensione di 64byte, ma di 512 (non voglio andare a cambiare le schede). 
+<b><u>il MAC è indipendente dal livello fisico sotto-stante, produce frame di 64byte.</u></b> <b><u>Sarà la porta di I/0 che in base alla tecnologia si occuperà di aggiungere del padding per costuire una frame da 512 byte</u></b>. 
