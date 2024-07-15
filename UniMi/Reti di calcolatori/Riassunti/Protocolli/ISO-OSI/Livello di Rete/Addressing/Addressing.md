@@ -1,4 +1,4 @@
-Il protocollo IP in ogni host ha un indirizzo unico all'interno di Internet
+<b><u>Il protocollo IP in ogni host ha un indirizzo unico all'interno di Internet</u></b>
 
 [[IPv4 - Formato]] e [[IPv6]]
 [[Problema frammentazione]]

@@ -1,3 +1,6 @@
+<b><u>Ogni pacchetto IP presenta un Header costituito da 5 parole di 32 bit</u></b>.
+$5*32bit=160bit$ = 20byte.
+
 | Campo                          | Dimensione   | Descrizione                                                                                                                                                                                    |
 | ------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Version                        | 4 bit        | specifica se sia un IPv4 o IPv6                                                                                                                                                                |
@@ -7,7 +10,7 @@
 | Identification                 | 16 bit       | utilizzato nella frammentazione                                                                                                                                                                |
 | Flag bits                      | 3 bit di cui |                                                                                                                                                                                                |
 | D bit                          |              | indica se il pacchetto è stato frammentato o meno                                                                                                                                              |
-| M bit                          |              | `More fragment` indica SE se ci sono altri frammenti del pacchetto (sarà 0 sull'ultimo frammento)                                                                                                |
+| M bit                          |              | `More fragment` indica SE se ci sono altri frammenti del pacchetto (sarà 0 sull'ultimo frammento)                                                                                              |
 | Fragment Offset                | 13 bit       | indica l'offset, in multipli di 8 bytes, rispetto all inizio del pacchetto                                                                                                                     |
 | TTL Time To Live               | 8 bit        | definisce il tempo massimo per il pacchetto in transito, verra decrementato in ogni gateway/router. E' usato per rilevare eventuali loop                                                       |
 | Protocol                       | 8 bit        | usato per permettere alla destinazione IP di passare il all'interno di ogni pacchetto ricevuto allo stesso protocollo che ha mandato i dati (es ICMP or TCP or UDP)                            |

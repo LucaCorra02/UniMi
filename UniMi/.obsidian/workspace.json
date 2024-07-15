@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 1079.2188933654725,
-                  "y": 5702.0823356668225,
-                  "zoom": -0.004210619328587518
+                  "x": -1846.0109573451653,
+                  "y": 4305.550887224242,
+                  "zoom": -0.41162463632232166
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Livello di Rete.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Livello di Rete.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Livello di Rete.md"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md"
               }
             }
           },

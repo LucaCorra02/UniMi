@@ -1,4 +1,4 @@
-Si tratta del livello che permette di mettere in comunicazione LA
+Si tratta del livello che permette di mettere in comunicazione LAN tra di loro distribuite, <b><u>è a piena conoscenza della topologia della rete</u></b>. 
 
 Al livello 3 abbiamo 2 funzioni
 - [[Addressing]]: <b><u>viene definito un indirizzo per indentificarsi in rete in modo univoco</u></b>
