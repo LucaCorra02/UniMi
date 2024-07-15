@@ -104,8 +104,6 @@
 		{"id":"444e3a1d653ff73e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT - Esempio.md","x":-3713,"y":4760,"width":920,"height":620},
 		{"id":"9a3aefff1aff6a2c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT.md","x":-3683,"y":3762,"width":860,"height":878},
 		{"id":"4571929f3ea7eae5","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD.md","x":6300,"y":-452,"width":765,"height":960},
-		{"id":"6604531a7468e470","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md","x":5252,"y":-1363,"width":738,"height":988},
-		{"id":"4ea7d9cf9f49e5f0","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN - Formato.md","x":4480,"y":-1310,"width":680,"height":827},
 		{"id":"d296da2e34c96a71","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD - Formato.md","x":6300,"y":-1310,"width":765,"height":760},
 		{"id":"7f41888b2788c23e","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md","x":7814,"y":562,"width":765,"height":529},
 		{"id":"2eaa4dc8b76ccf9f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Head Of Line Blocking Problem.md","x":-3183,"y":-880,"width":560,"height":420},
@@ -185,7 +183,9 @@
 		{"id":"b9fbfaec305f195a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Frame Data.md","x":-7539,"y":-5860,"width":280,"height":268},
 		{"id":"d7154ee87d671f38","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/HTTP 1.X.md","x":-5260,"y":-6760,"width":680,"height":1404},
 		{"id":"5b283d6edfae3dbf","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Frame Header.md","x":-7689,"y":-6500,"width":580,"height":580},
-		{"id":"d0aeb722c4d9da53","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md","x":7280,"y":-1310,"width":766,"height":720}
+		{"id":"d0aeb722c4d9da53","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md","x":7280,"y":-1310,"width":766,"height":720},
+		{"id":"6604531a7468e470","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md","x":5360,"y":-1390,"width":738,"height":988},
+		{"id":"4ea7d9cf9f49e5f0","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN - Formato.md","x":4521,"y":-1343,"width":680,"height":827}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},

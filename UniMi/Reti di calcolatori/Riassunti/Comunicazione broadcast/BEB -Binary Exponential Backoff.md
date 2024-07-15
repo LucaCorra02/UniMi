@@ -10,7 +10,7 @@ Ogni stazione ha un contatore per generare il numero casuale, in particolare per
 <span style=color:green>Vantaggi</span>: 
  - è un `algoritmo adattivo al traffico percepito`, <b><u>in quanto dipende dal numero di collisioni</u></b> $i$
 
-Osservando $$U = {t_x \over t_x+2t_p * {1 \over A}}$$
+Osservando :$$U = {t_x \over t_x+2t_p * {1 \over A}}$$
 Con: 
 - $1 \over A$ = Numero medio di stazioni che deve aspettare prima di accedere
 - $A= k*p * (1-p)^{kp}$

@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 8118.249844403322,
-                  "y": 749.5884002273001,
-                  "zoom": -0.20087425368189996
+                  "x": 7672.916658398795,
+                  "y": -804.5208879425312,
+                  "zoom": 0.16007079217647358
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md"
+                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md"
               }
             }
           },
