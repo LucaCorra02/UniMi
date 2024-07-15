@@ -1,7 +1,13 @@
-Le `VLAN` permettono l'aggregazione delle stazioni in gruppi omogenei 
+Le `VLAN` <b><u>è un astrazione delle macchine collegate ad una LAN, consente di aggregare macchine omogenee dal punto di vista funzionale</u></b>. Introduco un nuovo livello di aggregazione, indipendentemente da dove sono fisicamente collegate le macchine. 
+
 Standard `IEEE 802.1Q`
-I frame nelle VLAN non vengono solo instradate secondo il loro MAC address, ma anche secondo il proprio `VLAN identifier` in quanto end system di due VLAN diverse non possono comunicare.
-E' uno strumento organizzativo molto utilizzato
+
+<b><u>I frame nelle VLAN non vengono solo instradate secondo il loro MAC address, ma anche secondo il proprio</u></b> <span style=color:yellow>VLAN identifier</span> in quanto end system di due VLAN diverse non possono comunicare. Le frame
+
+
+
+<span style=color:red>Svantaggi: </span>
+    Tutta via la <b><u>comunicazione tra VLAN diverse a volte può essere comoda, se mi limito al forwarding questo non sarà mai possibile</u></b>. Devo chiedere aiuto ad una macchina di livello superiore, <b><u>con il routing posso far comunicare macchine in VLAN differenti</u></b>. 
 
 [[VLAN - Formato]]
 
