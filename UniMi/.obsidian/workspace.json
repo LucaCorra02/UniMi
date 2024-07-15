@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 6713.2198282947975,
-                  "y": 156.64501638249382,
-                  "zoom": 0.38176225695137095
+                  "x": 8254.94445328254,
+                  "y": 138.44280156267175,
+                  "zoom": -0.22466635526124423
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/CSMA-CD.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
