@@ -18,18 +18,6 @@
             }
           },
           {
-            "id": "ae339589084a132d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd2fb1356d2900eb",
             "type": "leaf",
             "state": {
@@ -37,15 +25,15 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 5544.076530628664,
-                  "y": 717.5399840478001,
-                  "zoom": -0.25930107437395594
+                  "x": 5598.172200022454,
+                  "y": 162.73824491958996,
+                  "zoom": -0.045970928557753775
                 }
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,9 +202,9 @@
   },
   "active": "cd2fb1356d2900eb",
   "lastOpenFiles": [
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Pasted image 20240713183123.png",
     "Pasted image 20240713181748.png",
     "Pasted image 20240712191132.png",
