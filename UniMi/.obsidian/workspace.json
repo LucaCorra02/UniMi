@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 8006.642059449402,
-                  "y": 762.8192073779996,
-                  "zoom": -0.23689882176280208
+                  "x": 8118.249844403322,
+                  "y": 749.5884002273001,
+                  "zoom": -0.20087425368189996
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 1Gbps - Ragionamento.md"
               }
             }
           },
