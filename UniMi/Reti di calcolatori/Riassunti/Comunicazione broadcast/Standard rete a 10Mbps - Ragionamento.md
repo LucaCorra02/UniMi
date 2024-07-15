@@ -17,7 +17,7 @@
 
 
 <h5 style=color:cyan>Standard</h5> 
-il valore standard di $2 T_p$ è $51.2 us$ = <b><u>Tempo minimo di trasmissione in rete, almeno per 51.2 us la stazione deve trasmettere per rilevare uan collisione</u></b>, <span style=color:yellow>si tratta dell'unità base di ethernet</span>. 
+il valore standard di $2T_p$ è $51.2 us$ = <b><u>Tempo minimo di trasmissione in rete, almeno per 51.2 us la stazione deve trasmettere per rilevare uan collisione</u></b>, <span style=color:yellow>si tratta dell'unità base di ethernet</span>. 
 <span style=color:cyan>Ricavo la dimensione delle frame minima e l'unità di tempo</span> per il <span style=color:yellow>BEB Binary Explonential BackOff</span>. 
 
 - <b><u>Le frame trasmesse non possono essere più piccole del numero di bit</u></b> che serve per occupare un $T_x$ di $51.2 us$ : 
