@@ -2,21 +2,13 @@ Le `VLAN` <b><u>è un astrazione delle macchine collegate ad una LAN, consente d
 
 Standard `IEEE 802.1Q`
 
-<b><u>I frame nelle VLAN non vengono solo instradate secondo il loro MAC address, ma anche secondo il proprio</u></b> <span style=color:yellow>VLAN identifier</span> in quanto end system di due VLAN diverse non possono comunicare. Le frame
+<b><u>I frame nelle VLAN non vengono solo instradate secondo il loro MAC address, ma anche secondo il proprio</u></b> <span style=color:yellow>VLAN identifier</span> in quanto end system di due VLAN diverse non possono comunicare. 
+
+<span style=color:red>Svantaggi: </span> Tutta via la <b><u>comunicazione tra VLAN diverse a volte può essere comoda, se mi limito al forwarding questo non sarà mai possibile</u></b>. Devo chiedere aiuto ad una macchina di livello superiore, <b><u>con il routing posso far comunicare macchine in VLAN differenti</u></b>. 
 
 
+<b><u>La stazione non indica la VLAN di appartenenza, ma è lo switch a taggare le porte di i/0</u></b>. Il colore delle porte di I/0 dello switch vengono impostate dall'amministratore. Il dispositivo che si attacca alla porta di I/0 con tag rosso apparterrà alla VLAN rossa. 
 
-<span style=color:red>Svantaggi: </span>
-    Tutta via la <b><u>comunicazione tra VLAN diverse a volte può essere comoda, se mi limito al forwarding questo non sarà mai possibile</u></b>. Devo chiedere aiuto ad una macchina di livello superiore, <b><u>con il routing posso far comunicare macchine in VLAN differenti</u></b>. 
-
-[[VLAN - Formato]]
-
-Per poterla realizzare è necessario modificare il bridge/switch in modo tale che nel processo di learning, impari anche il colore/gruppo della stazione. 
-Inoltre è necessario cambiare le schede di rete delle stazioni in modo che includa anche il colore del gruppo a cui appartiene
-
-Opinione del Rossi: se cambia volendo una VLAN, dovro aprire il mio dispositivo, cambiare la scheda di rete per tutti i device, rischia di diventare oneroso
-
-Solitamente si prende uno switch non cambiando la scheda delle singole stazioni, lavorando solo sullo switch, taggando le porte a configuration time 
-Permetto alle stazioni di generare traffico untagged e appena arriva allo switch si ha il tag
+I dispositivi invieranno quindi traffico di tipo <span style=color:yellow>untagged</span>, sarà lo switch a taggarle,  prenderanno il nome di <span style=color:yellow>tagged</span> e viaggeranno nel formato `IEEE 802.1Q`. 
 
 ![[photo_5769355704325488874_y.jpg]]

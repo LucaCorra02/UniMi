@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 5789.9586924468485,
-                  "y": -1133.34199104368,
-                  "zoom": 0.17890694244787408
+                  "x": 7639.5965162113935,
+                  "y": -999.0306374833804,
+                  "zoom": -0.6327878191894287
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
