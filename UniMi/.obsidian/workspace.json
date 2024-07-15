@@ -18,16 +18,16 @@
             }
           },
           {
-            "id": "cd2fb1356d2900eb",
+            "id": "2e30710327877884",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 6736.774605924912,
-                  "y": 770.0154269078993,
-                  "zoom": 0.12371881152136659
+                  "x": 7308.057317723005,
+                  "y": 370.22891047233674,
+                  "zoom": -1.5130120613674427
                 }
               }
             }
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98d901f23bf6ce7e",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/ALOHA.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/ALOHA.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione broadcast/ALOHA.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -200,10 +199,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "cd2fb1356d2900eb",
+  "active": "2e30710327877884",
   "lastOpenFiles": [
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
+    "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Pasted image 20240713183123.png",
     "Pasted image 20240713181748.png",
