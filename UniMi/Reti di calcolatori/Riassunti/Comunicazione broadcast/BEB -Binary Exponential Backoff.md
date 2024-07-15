@@ -12,7 +12,7 @@ Ogni stazione ha un contatore per generare il numero casuale, in particolare per
 
 Osservando :$$U = {t_x \over t_x+2t_p * {1 \over A}}$$
 Con: 
-- $1 \over A$ = Numero medio di stazioni che deve aspettare prima di accedere
-- $A= k*p * (1-p)^{kp}$
+- $1 \over A$ = <b><u>Numero medio di stazioni che deve aspettare prima di accedere</u></b>
+- $A= k*p * (1-p)^{kp}$. $A$ è il <span style=color:yellow>numero di contecption</span>. <b><u>Mi aiuta a contare la probabilità di perdere tempo in contesa con altre stazioni</u></b>,
 - $k$ numero di stazioni
 - $p$ probabilità che quella stazione possa accedere al canale 
