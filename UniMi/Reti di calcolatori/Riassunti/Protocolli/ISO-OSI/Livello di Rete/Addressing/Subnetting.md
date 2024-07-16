@@ -1,4 +1,13 @@
-`Indirizzo IP = NETID | SubNetID | HostID`
+<b><u>Utilizzato per la suddivisione logica di reti grandi, riduce la dimensione delle tabelle di instradamento interne ad un organizzazione</u></b> ,Sfrutto al meglio lo spazio di indirizzamento che una rete ha già a disposizione. <span style=color:red>All'esterno non si avrà alcuna informazione sulal struttura della rete interna</span>.
+
+Un indirizzo IP, sarà così composto : `Indirizzo IP = NETID | SubNetID | HostID`. 
+
+
+
+<span style=color:green>Perchè si usa il subnetting</span> : 
+- <b><u>Organizzazione logica</u></b>
+- <b><u>Ragioni di sicurezza</u></b> = Può essere più semplice identificare e localizzare un apparato infetto che genera traffico anomalo in rete. 
+
 ![[Pasted image 20231219132636.png|300]]
 L'organizzazione in SubNet `non è definita da uno standard`, ma è demandata al livello IP che sceglie quanti bit degli host ID demandare al SubNetID
 Per discriminare SubNet e Host ID, aggiungo ad ogni entry nella tabella di routing la `SubNetMask` con `tanti 1 quanti bit sono usati dal SubNetID`. 
