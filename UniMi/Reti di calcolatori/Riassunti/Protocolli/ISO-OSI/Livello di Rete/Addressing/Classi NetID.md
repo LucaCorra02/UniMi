@@ -15,5 +15,8 @@
 | Indirizzo a tutti 1                | broadcast nella stessa rete del mittente |
 | HostID di soli 1                   | broadcast sulla rete destinazione        |
 | Un indirizzo di classe A di soli 1 | utilizzato per il test, loopback address |
+Il router quando riceve un pacchetto esegue <b><u>l'operazione di processing nel seguente modo</u></b> : 
+- <b><u>Prima processa i bit del net-id, capendo se il pacchetto è destinato alla sua sotto-rete</u></b>, altrimenti è solamente in transito. 
+- <b><u>Se il pacchetto è destinato alla sotto-rete del router vengono valutati i bit di host-id</u></b>. 
 
-A livello di indirizzamento, viene prima identificata la rete 
+<span style=color:red>Svantaggi</span> = <b><u>Frammentazione interna ad una classe</u></b>, una volta assegnata una classe è difficile che vengano utilizzati tutti gli indirizzi possibili per gli host. 
