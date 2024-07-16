@@ -1,10 +1,17 @@
 `CIDR - Classless Inter Domain Routing`
-A varie organizzazioni vengono dati una certa porzione di indirizzamento libera
+<b><u>Si tratta di una tecnica di routing utilizzata per aumentare la vita ad IPV4</u></b>. 
+<b><u>Lo spazio degli indirizzi è diviso in blocchi autonomi ed indipendenti e non in classi</u></b>, ad ogni continente è stato assegnato uno spazio di indirizzi omogeneo. 
+
+<b><u>A varie organizzazioni viene allocata una certa porzione di indirizzamento libera (dimensione arbitraria)</u></b>. 
 
 Le tabelle di routing contengono l'`indirizzo base`, `quanti bit utilizza la maschera` (che definisce la divisione tra NetID e HostID) e l`a maschera stessa `
 
-Vantaggi: uso piu efficiente dello spazio di indirizzamento
-Svantaggio: complicazione del routing dei pacchetti in quanto devo potenzialmente scorrere tutte le entry per trovare il SubNet giusto
+<span style=color:green>Vantaggi</span> : 
+- <b><u>Consentendo l'alocazione specifica ad ogni operatore di un numero di indirizzi a scelta nello spazio di indirizzi disponibili, riduce lo spreco </u></b> 
+
+<span style=color:red>Svantaggi</span> : 
+- <b><u>Possono esserci fenomeni di frammentazione esterna</u></b>. Alcuni slot di indirizzi Ip potrebbero rimanere non utilizzati.  
+
 
 es Tabella di instradamento
 
@@ -12,7 +19,7 @@ es Tabella di instradamento
 | -------- | ------------ | ------------ | ------------- | --------------------------------------- | -------- |
 | Milano   | 194.24.0.\_  | 194.24.7.\_  | 2048          | 1100 0010 0001 1000 0000 0000 0000 0000 | \\21     |
 | Roma     | 194.24.16.\_ | 194.24.31.\_ | 4096          |                                         |          |
-| Torino         | 194.24.8.0             | 194.24.11.\_             |   1024            |                                         |          |
+| Torino   | 194.24.8.0   | 194.24.11.\_ | 1024          |                                         |          |
 
 Maschera \\n = n bit a 1 e 31-n bit a 0
 
