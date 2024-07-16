@@ -32,7 +32,6 @@
 		{"id":"1a32e7dba15744b8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Codifica Base64.md","x":-2342,"y":-6680,"width":1113,"height":1160},
 		{"id":"b9fbfaec305f195a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Frame Data.md","x":-7539,"y":-5860,"width":280,"height":268},
 		{"id":"5b283d6edfae3dbf","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Frame Header.md","x":-7689,"y":-6500,"width":580,"height":580},
-		{"id":"4537f61dc4a3ffd6","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md","x":-2720,"y":4180,"width":1122,"height":1372},
 		{"id":"d8b5e11dab399e99","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv6.md","x":-1271,"y":4200,"width":780,"height":1241},
 		{"id":"444e3a1d653ff73e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT - Esempio.md","x":-3713,"y":4760,"width":920,"height":620},
 		{"id":"9a3aefff1aff6a2c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT.md","x":-3683,"y":3762,"width":860,"height":878},
@@ -49,7 +48,6 @@
 		{"id":"da2539c761320970","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - IPv6 Translators.md","x":-203,"y":2920,"width":457,"height":740},
 		{"id":"409fc0f46a0432d1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md","x":-1323,"y":6272,"width":780,"height":808},
 		{"id":"553931f1d0f00e95","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ICMP.md","x":-469,"y":6272,"width":666,"height":1028},
-		{"id":"efc41d3aa36d86a9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IP - Divisione dell'indirizzo.md","x":-2520,"y":3680,"width":773,"height":400},
 		{"id":"6109432a19335637","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Routing.md","x":1327,"y":4620,"width":760,"height":1300},
 		{"id":"a530ea0540bd1760","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Architettura delle rete - Ottimizzazioni.md","x":1377,"y":4020,"width":710,"height":529},
 		{"id":"0cdf3ca0b91a5df8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/MPLS.md","x":1977,"y":3260,"width":807,"height":700},
@@ -185,7 +183,9 @@
 		{"id":"966ca8382b48a6e7","type":"file","file":"Reti di calcolatori/Riassunti/Dispositivi di rete/Porte I-0 e Link.md","x":2366,"y":-7460,"width":859,"height":400},
 		{"id":"e699c44c1a2c841f","type":"file","file":"Reti di calcolatori/Riassunti/Dispositivi di rete/Bridge.md","x":5059,"y":-7663,"width":859,"height":1207},
 		{"id":"805a5b260a57f161","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Subnetting.md","x":-2720,"y":2592,"width":720,"height":994},
-		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2423,"y":5789,"width":825,"height":452}
+		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2423,"y":5789,"width":825,"height":452},
+		{"id":"4537f61dc4a3ffd6","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md","x":-2600,"y":4299,"width":1002,"height":1372},
+		{"id":"efc41d3aa36d86a9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IP - Divisione dell'indirizzo.md","x":-2485,"y":3800,"width":773,"height":400}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
