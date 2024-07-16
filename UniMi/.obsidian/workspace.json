@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -2057.2168712872253,
-                  "y": 6055.000728742399,
-                  "zoom": -0.4707061753458891
+                  "x": -2783.2191087461706,
+                  "y": 6314.716334231338,
+                  "zoom": -0.44121491300932314
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md"
               }
             }
           },
@@ -202,6 +202,7 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
+    "Pasted image 20240716111819.png",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
@@ -238,7 +239,6 @@
     "Reti di calcolatori/Reti di calcolatori.md",
     "Ricerca operativa/Appunti.md",
     "Ricerca operativa/Ricerca operativa.canvas",
-    "Ricerca operativa/Riassunti/Modelli di ottimizzazione discreta.md",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
     "Ricerca operativa/Img/Pasted image 20240328164131.png",

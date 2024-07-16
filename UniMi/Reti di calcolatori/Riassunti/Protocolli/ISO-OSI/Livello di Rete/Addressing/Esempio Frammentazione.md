@@ -1,29 +1,63 @@
-SE ho un host con TCP che produce dati da $7kB$ MA devo farceli stare su un token ring che li fa passare su $4kB$ e magari nella LAN destinazione ne fa passare al massimo 1kB
+![[Pasted image 20240716111819.png]]
 
-Deve frammentare i 7k in 4k e 3k
-Bisogna tener presente che al payload bisogna aggiungere gli IP delle due macchine e altre info che in totale pesano 20B.
-L'IP non gestisce una byte stream: si utilizza un fragment offset su 13bit MA la lenght è su 16bit. `L'offset non viene contato sui byte ma sugli ottetti`
-QUINDI `la dimensione deve essere un multiplo di 8`
-nel nostro caso è 3976 
+- T = livello trasporto, parla con il livello trasporto lato destinazione. Da informazioni al livello 3 sulle frame da trasmettere. L'unità generata da questo livello è di <b><u>7000b</u></b>. 
 
-$MID = 0$ SE il frammento è l ultimo del pacchetto
+- Struttura token ring interfacciata con internet. <b><u>La rete token ring gestisce frame da massimo 4000b</u></b>. 
 
-| Nome         | PKT ID | Fragment Offset | Tot length | Dati  | MID |
-| ------------ | ------ | --------------- | ---------- | ----- | --- |
-| 1° pacchetto | 20     | 0               | 7000B      | 3976B | 1   |
-| 2° pacchetto             |  20      |  497               |  7000B          | 3024B      |    0 |
+- Struttura di destinazione ethernet con un gateway da/verso la rete internet. <b><u>La rete ethernet, gestisce frame da massimo 1500b</u></b> .
 
-Frammentazione dei due pacchetti per la seconda rete nel router del destinatario
+<span style=color:cyan>Lato Sorgente</span> : 
+- Divido la struttura dati originale da 7000b in frammenti da 
+   - <b><u>Frame1</u></b> = 3976 byte  + 20byte header ip. <b><u>3976 + 20 è il primo multiplo di 8 minore di 4000</u></b>. 
+   
+   - <b><u>Frame 2</u></b> = $7000 - 3976$ = 3024 byte payload+ 20byte header ip. 
+	Campi frammento 2:
 
-| Nome         | PKT ID | Fragment Offset | Tot length | Dati  | MID |
-| ------------ | ------ | --------------- | ---------- | ----- | --- |
-| 1° PKT 1a PT | 20     | 0               | 7000B      | 1480B | 1   |
-| 1° PKT 2a PT | 20     | 185               | 7000B      | 1480B | 1   |
-| 1° PKT 3a PT | 20     | 370               | 7000B      | 1016B | 1   |
-| 2° PKT 1a PT | 20     | 497               | 7000B      | 1480B | 1   |
-| 2° PKT 2a PT | 20     | 682               | 7000B      | 1480B | 1   |
-| 2° PKT 2a PT | 20     | 807               | 7000B      | 64B | 0   |
+Campi frammento 1: 
 
-Note: 
-- Dati: 1480B (numero piu vicino a 1500-20 e divisibile per 8)
-- Fragment Offset: 185 (=1480/8)
+| Campo  | Valore |     |
+| ------ | ------ | --- |
+| ID     | 20     |     |
+| ToTLen | 7000   |     |
+| Offset | 0      |     |
+| M      | 1      |     |
+Campi Frammento 2: 
+
+| Campo  | Valore                                                     |
+| ------ | ---------------------------------------------------------- |
+| ID     | 20                                                         |
+| ToTLen | 7000                                                       |
+| Offset | 497 -> ho inviato fino ad ora i primi 487 gruppi di 8 byte |
+| M      | 0 -> ultimo frammento, bit disattivato                     |
+
+<span style=color:cyan>Lato Secondo gatway</span> :
+Il gateway dell'end system di destinazione, dato che la rete di destinazione accetta frame di dim massima 1500b, deve effettuare ulteriore frammentazione. 
+
+- Pacchetto 1, arriva il primo frammento di 3976 byte. 
+  <b><u>Dim Frame = 1480 + 20 byte = 1500. 1480 è il primo numero multiplo di 8 minore di 1500</u></b>. 
+
+  Il pacchetto viene diviso in 3 frammenti dal gateway : 
+   - $F_1$ = Payload 1480
+   - $F_2$= Payload 1480
+   - $F_3$ =Payload 1016
+
+| Campo  | Valore                      |     | Campo  | Valore       |     | Campo  | Valore                    |     |
+| ------ | --------------------------- | --- | ------ | ------------ | --- | ------ | ------------------------- | --- |
+| ID     | 20                          |     | ID     | 20           |     | ID     | 20                        |     |
+| ToTLen | 7000                        |     | ToLen  | 7000         |     | ToTLen | 7000                      |     |
+| Offset | 0 -> perchè primo frammento |     | Offset | 185 = 1480/8 |     | Offset | 370 = $\dfrac{1480*2}{8}$ |     |
+| M      | 1                           |     | M      | 1            |     | M      |                           |     |
+
+- Pacchetto 2 da 3024 byte 
+  Il pacchetto viene diviso in 3 frammenti dal gateway : 
+   - $F_1$ = Payload 1480 byte
+   - $F_2$= Payload 1480 byte
+   - $F_3$ =Payload 64 byte -> <b><u>dimensione minima delle frame ethernet, non ho bisogno di fare padding</u></b>. 
+
+| Campo  | Valore                  |     | Campo  | Valore                         |     | Campo  | Valore |
+| ------ | ----------------------- | --- | ------ | ------------------------------ | --- | ------ | ------ |
+| ID     | 20                      |     | ID     | 20                             |     | ID     | 20     |
+| ToTLen | 7000                    |     | ToLen  | 7000                           |     | ToTLen | 7000   |
+| Offset | 497 = $\dfrac{3976}{8}$ |     | Offset | 682 = $\dfrac{3976 + 1480}{8}$ |     | Offset | 867    |
+| M      | 1                       |     | M      | 1                              |     | M      | 0      |
+
