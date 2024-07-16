@@ -8,27 +8,25 @@
 
 <span style=color:cyan>Lato Sorgente</span> : 
 - Divido la struttura dati originale da 7000b in frammenti da 
-   - <b><u>Frame1</u></b> = 3976 byte  + 20byte header ip. <b><u>3976 + 20 è il primo multiplo di 8 minore di 4000</u></b>. 
+   - <b><u>Frame1</u></b> = $4000-24$ = $3976$ byte -> Più piccolo multiplo di 8 vicino a $4000$.
+   - <b><u>Frame2</u></b> = $7000-3976 = 3024$ payload + $20$ byte header = $3044$ byte. 
    
-   - <b><u>Frame 2</u></b> = $7000 - 3976$ = 3024 byte payload+ 20byte header ip. 
-	Campi frammento 2:
-
 Campi frammento 1: 
 
-| Campo  | Valore |     |
-| ------ | ------ | --- |
-| ID     | 20     |     |
-| ToTLen | 7000   |     |
-| Offset | 0      |     |
-| M      | 1      |     |
+| Campo  | Valore |                    |
+| ------ | ------ | ------------------ |
+| ID     | 20     |                    |
+| ToTLen | 7000   |                    |
+| Offset | 0      |                    |
+| M      | 1      | Più frammentazione |
 Campi Frammento 2: 
 
-| Campo  | Valore                                                     |
-| ------ | ---------------------------------------------------------- |
-| ID     | 20                                                         |
-| ToTLen | 7000                                                       |
-| Offset | 497 -> ho inviato fino ad ora i primi 487 gruppi di 8 byte |
-| M      | 0 -> ultimo frammento, bit disattivato                     |
+| Campo  | Valore         |
+| ------ | -------------- |
+| ID     | 20             |
+| ToTLen | 7000           |
+| Offset | $3976/8$ = 497 |
+| M      | 0              |
 
 <span style=color:cyan>Lato Secondo gatway</span> :
 Il gateway dell'end system di destinazione, dato che la rete di destinazione accetta frame di dim massima 1500b, deve effettuare ulteriore frammentazione. 
@@ -41,12 +39,12 @@ Il gateway dell'end system di destinazione, dato che la rete di destinazione acc
    - $F_2$= Payload 1480
    - $F_3$ =Payload 1016
 
-| Campo  | Valore                      |     | Campo  | Valore       |     | Campo  | Valore                    |     |
-| ------ | --------------------------- | --- | ------ | ------------ | --- | ------ | ------------------------- | --- |
-| ID     | 20                          |     | ID     | 20           |     | ID     | 20                        |     |
-| ToTLen | 7000                        |     | ToLen  | 7000         |     | ToTLen | 7000                      |     |
-| Offset | 0 -> perchè primo frammento |     | Offset | 185 = 1480/8 |     | Offset | 370 = $\dfrac{1480*2}{8}$ |     |
-| M      | 1                           |     | M      | 1            |     | M      |                           |     |
+| Campo  | Valore |     | Campo  | Valore       |     | Campo  | Valore |     |
+| ------ | ------ | --- | ------ | ------------ | --- | ------ | ------ | --- |
+| ID     | 20     |     | ID     | 20           |     | ID     | 20     |     |
+| ToTLen | 7000   |     | ToLen  | 7000         |     | ToTLen | 7000   |     |
+| Offset | 0      |     | Offset | $1480/8=185$ |     | Offset |        |     |
+| M      | 1      |     | M      | 1            |     | M      | 0      |     |
 
 - Pacchetto 2 da 3024 byte 
   Il pacchetto viene diviso in 3 frammenti dal gateway : 
