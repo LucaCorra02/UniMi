@@ -1,4 +1,4 @@
-- `ARP - Address Resolution Protocol`
+`ARP - Address Resolution Protocol`
 
 ARP è infatti utilizzato per `determinare l'indirizzo MAC di un host della rete LAN dato l'indirizzo IP`
 Ogni host ha infatti associato un indirizzo IP e un indirizzo MAC in una ARP cache
