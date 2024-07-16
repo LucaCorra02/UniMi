@@ -185,7 +185,7 @@
 		{"id":"2f04af967a2b3c0b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md","x":-3600,"y":5880,"width":944,"height":672},
 		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2423,"y":5990,"width":825,"height":452},
 		{"id":"444e3a1d653ff73e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT - Esempio.md","x":-3663,"y":5051,"width":920,"height":620},
-		{"id":"7f368edb09e1433a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ARP-RARP.md","x":-4723,"y":3828,"width":967,"height":747}
+		{"id":"7f368edb09e1433a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ARP-RARP.md","x":-4720,"y":3760,"width":964,"height":815}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
