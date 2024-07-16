@@ -166,7 +166,6 @@
 		{"id":"d0aeb722c4d9da53","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md","x":7280,"y":-1310,"width":766,"height":720},
 		{"id":"6604531a7468e470","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN.md","x":5360,"y":-1390,"width":738,"height":988},
 		{"id":"4ea7d9cf9f49e5f0","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/VLAN - Formato.md","x":4521,"y":-1343,"width":680,"height":827},
-		{"id":"efc41d3aa36d86a9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IP - Divisione dell'indirizzo.md","x":-2533,"y":3834,"width":657,"height":266},
 		{"id":"4537f61dc4a3ffd6","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md","x":-2443,"y":4180,"width":845,"height":1372},
 		{"id":"d8b5e11dab399e99","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv6.md","x":-1271,"y":4200,"width":780,"height":1241},
 		{"id":"444e3a1d653ff73e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT - Esempio.md","x":-3713,"y":4760,"width":920,"height":620},
@@ -185,7 +184,8 @@
 		{"id":"dd48ff6bb6df6212","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv6 - Extensions headers.md","x":-403,"y":4312,"width":600,"height":1017},
 		{"id":"da2539c761320970","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - IPv6 Translators.md","x":-203,"y":2920,"width":457,"height":740},
 		{"id":"409fc0f46a0432d1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md","x":-1323,"y":6272,"width":780,"height":808},
-		{"id":"553931f1d0f00e95","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ICMP.md","x":-469,"y":6272,"width":666,"height":1028}
+		{"id":"553931f1d0f00e95","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ICMP.md","x":-469,"y":6272,"width":666,"height":1028},
+		{"id":"efc41d3aa36d86a9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IP - Divisione dell'indirizzo.md","x":-2520,"y":3680,"width":773,"height":400}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
