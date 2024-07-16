@@ -4,7 +4,12 @@
 
 <b><u>A varie organizzazioni viene allocata una certa porzione di indirizzamento libera (dimensione arbitraria)</u></b>. 
 
-Le tabelle di routing contengono l'`indirizzo base`, `quanti bit utilizza la maschera` (che definisce la divisione tra NetID e HostID) e l`a maschera stessa `
+Ogni router dovrà contenere per gli indirizzi CIDR, la <span style=color:yellow>base e mask</span>. 
+- <span style=color:yellow>mask</span> = <b><u>La maschera separa lo spazio di indirizzamento inferiore fornito dalla base e lo spazio superiore fornito dall'ultimo indirizzo utile per sapere quale pagina stiamo enumerando</u></b>. 
+
+  Se la <b><u>maschera applicata è quella corretta, il risultato sarà uguale all'indirizzo base dello spazio di indirizzamento in cui cade tale indirizzo</u></b>. 
+
+- <span style=color:yellow>base</span> = indirizzo base da cui parte lo spazio di indirizzamento di una certa organizzazione. 
 
 <span style=color:green>Vantaggi</span> : 
 - <b><u>Consentendo l'alocazione specifica ad ogni operatore di un numero di indirizzi a scelta nello spazio di indirizzi disponibili, riduce lo spreco </u></b> 
@@ -13,13 +18,13 @@ Le tabelle di routing contengono l'`indirizzo base`, `quanti bit utilizza la mas
 - <b><u>Possono esserci fenomeni di frammentazione esterna</u></b>. Alcuni slot di indirizzi Ip potrebbero rimanere non utilizzati.  
 
 
-es Tabella di instradamento
+*es Tabella di instradamento*
 
-| Location | IP inizio    | IP fine      | Tot indirizzi | Base                                    | Maschera |
-| -------- | ------------ | ------------ | ------------- | --------------------------------------- | -------- |
-| Milano   | 194.24.0.\_  | 194.24.7.\_  | 2048          | 1100 0010 0001 1000 0000 0000 0000 0000 | \\21     |
-| Roma     | 194.24.16.\_ | 194.24.31.\_ | 4096          |                                         |          |
-| Torino   | 194.24.8.0   | 194.24.11.\_ | 1024          |                                         |          |
+| Location | Indirizzi che richiede | IP inizo     | ip fine      | tot indirizzi | base | mashera |
+| -------- | ---------------------- | ------------ | ------------ | ------------- | ---- | ------- |
+| Milano   | 248 indirizzi          | `194.24.0._` | `194.24.7._` | `8*256`       |      |         |
+| Roma     | 194.24.16.\_           | 194.24.31.\_ | 4096         |               |      |         |
+| Torino   | 194.24.8.0             | 194.24.11.\_ | 1024         |               |      |         |
 
 Maschera \\n = n bit a 1 e 31-n bit a 0
 
