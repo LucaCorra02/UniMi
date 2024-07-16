@@ -1,11 +1,11 @@
 
-| Classe | Bit NetID | Bit HostID |
-| ---- | ---- | ---- |
-| Unicast Classe A | 7 | 24 |
-| Unicast Classe B | 14 | 16 |
-| Unicast Classe C | 21 | 8 |
-| Multicast Classe F | 28 |  |
-| Reserved Classe E |  |  |
+| Classe             | Bit NetID | Bit HostID | Numero di reti          | Host per reti               |
+| ------------------ | --------- | ---------- | ----------------------- | --------------------------- |
+| Unicast Classe A   | 7         | 24         | $2^7$ reti possibili    | Ogni rete ha $2^{24}$ host  |
+| Unicast Classe B   | 14        | 16         | $2^{14}$ reti possibili | Ogni rete ha $2^{16}$ host. |
+| Unicast Classe C   | 21        | 8          |                         |                             |
+| Multicast Classe F | 28        |            |                         |                             |
+| Reserved Classe E  |           |            |                         |                             |
 
 ---
 
