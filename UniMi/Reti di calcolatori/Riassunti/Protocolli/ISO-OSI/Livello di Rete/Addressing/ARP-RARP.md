@@ -1,7 +1,13 @@
 `ARP - Address Resolution Protocol`
 
-ARP è infatti utilizzato per `determinare l'indirizzo MAC di un host della rete LAN dato l'indirizzo IP`
-Ogni host ha infatti associato un indirizzo IP e un indirizzo MAC in una ARP cache
+ARP è infatti <b><u>utilizzato per determinare l'indirizzo MAC di un host della rete LAN dato l'indirizzo IP</u></b>
+Ogni host ha infatti associato un indirizzo IP e un indirizzo MAC in una ARP cache.
+<span style=color:yellow>ARP</span> = <b><u>è un modulo che lavora a livello</u></b> <b><u>3</u></b>, si interfaccia direttamente con il modulo IP e con il livello sotto-stante. 
+
+<h5 style=color:cyan>Funzionamento</h5>
+
+
+
 
 Fasi:
 1. Alla ricezione di un pacchetto IP, l'ARP legge l'IP destinazione e determina se l'indirizzo MAC sia gia presente o meno nella sua cache 
