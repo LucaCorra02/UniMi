@@ -20,11 +20,11 @@ Ogni router dovrà contenere per gli indirizzi CIDR, la <span style=color:yellow
 
 *es Tabella di instradamento*
 
-| Location | Indirizzi che richiede | IP inizo     | ip fine      | tot indirizzi | base | mashera |
-| -------- | ---------------------- | ------------ | ------------ | ------------- | ---- | ------- |
-| Milano   | 248 indirizzi          | `194.24.0._` | `194.24.7._` | `8*256`       |      |         |
-| Roma     | 194.24.16.\_           | 194.24.31.\_ | 4096         |               |      |         |
-| Torino   | 194.24.8.0             | 194.24.11.\_ | 1024         |               |      |         |
+| Location | Indirizzi che richiede                           | IP inizo      | ip fine       | tot indirizzi        | base             | mashera              |
+| -------- | ------------------------------------------------ | ------------- | ------------- | -------------------- | ---------------- | -------------------- |
+| Milano   | 248 indirizzi                                    | `194.24.0._`  | `194.24.7._`  | `8*256 = 2048 host`  | `194.24.0.0 /21` | $2^{11}$ $=32-11=21$ |
+| Roma     | $(31-16)+1=15$. blocchi.<br>$16*256$ = 4096 host | `194.24.16._` | `194.24.31._` | `16*256 = 4096 host` | `194.24.16.0/20` | $2^{12}=32-12=20$    |
+| Torino   | (11-8) +1 =                                      | `194.24.8._`  | `194.24.11._` |                      |                  |                      |
 
 Maschera \\n = n bit a 1 e 31-n bit a 0
 
