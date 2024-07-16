@@ -17,6 +17,14 @@ Ogni router dovrà contenere per gli indirizzi CIDR, la <span style=color:yellow
 <span style=color:red>Svantaggi</span> : 
 - <b><u>Possono esserci fenomeni di frammentazione esterna</u></b>. Alcuni slot di indirizzi Ip potrebbero rimanere non utilizzati.  
 
+<h5 style=color:cyan>Lavoro del router con CIDR</h5>
+<b><u>Il router applica le maschere delle organizzazioni conosciute al campo destinazione dei pacchetti che intercetta e ne osserva il risultato</u></b> : 
+
+- Se la <b><u>maschera applicata è quella corretta, il risultato sarà uguale all'indirizzo base dello spazio di indirizzamento in cui cade tale indirizzo</u></b>. 
+
+ - il router applica tutte le maschere che conosce all'indirizzo di destinazione e <b><u>se non matcha con nessun indirizzo base di sua conoscenza lo manda ad un altro gatawey</u></b>. 
+
+Il router esegue più lavoro dal punto di vista computazionale, ad ogni pacchetto devono essere applicate tutte le maschere del router fino ad un match. 
 
 *es Tabella di instradamento*
 
@@ -24,18 +32,13 @@ Ogni router dovrà contenere per gli indirizzi CIDR, la <span style=color:yellow
 | -------- | ------------------------------------------------ | ------------- | ------------- | -------------------- | ---------------- | -------------------- |
 | Milano   | 248 indirizzi                                    | `194.24.0._`  | `194.24.7._`  | `8*256 = 2048 host`  | `194.24.0.0 /21` | $2^{11}$ $=32-11=21$ |
 | Roma     | $(31-16)+1=15$. blocchi.<br>$16*256$ = 4096 host | `194.24.16._` | `194.24.31._` | `16*256 = 4096 host` | `194.24.16.0/20` | $2^{12}=32-12=20$    |
-| Torino   | (11-8) +1 =                                      | `194.24.8._`  | `194.24.11._` |                      |                  |                      |
+| Torino   | (11-8) +1 = 4 blocchi                            | `194.24.8._`  | `194.24.11._` | `4*256 = 1024 host`  | `194.24.8.0/22`  | $2^{10}=32-10=22$    |
+*Esempio* : 
+- Supponiamo di avere un router che conosce le basi e maschere delle 3 organizzazioni precedenti. 
 
-Maschera \\n = n bit a 1 e 31-n bit a 0
+ - Supponiamo che i router riceva un pacchetto con campo address = `194.24.17.4`. il router applica tutte le maschere, fino a quando non matcha con un indirizzo di sua conoscenza. 
 
-Arriva pacchetto con indirizzo 194.24.17.4
-SE applicando la maschera all'address ottengo l'indirizzo base della location, l'indirizzo appartiene a tale rete
-Prova a mappare l indirizzo su Milano
-1100 0010 0001 1000 0001 0001 0000 0100 base
-1111 1111 1111 1111 1111 1000 0000 0000 maschera
-1100 0010 0001 1000 0001 0000 0000 0000 base AND maschera
+- Nell'esempio l'indirizzo appartiene allo spazio di indirizzamento di ROMA : 
+  $\dfrac{11000010 . 00011000.00010001.00000100}{11111111.11111111.11110000.00000000} = 11000010.00011000.00010000.000000000$ 
 
-Non ottengo la base di Milano
-Facendo la stessa cosa con Roma, ottengo l'indirizzo base di Roma
-Il pacchetto viene quindi instradato verso il SubNet di Roma
 
