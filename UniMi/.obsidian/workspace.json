@@ -26,8 +26,8 @@
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
                   "x": -891.1960776172621,
-                  "y": 6736.9294280752765,
-                  "zoom": 0.27475908185570813
+                  "y": 6686.076509081701,
+                  "zoom": -0.7199163119659666
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
