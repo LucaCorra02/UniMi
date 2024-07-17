@@ -48,7 +48,7 @@ Il NAT effettua le seguenti sostituzione per ogni pacchetto IP :
 <b><u>Per gestire le response, bisogna andare ad aggiungere anche un informazione aggiuntiva</u></b> per permettere al NAT di inoltrare la risposta al dispositivo corretto nell'area privata. Utilizzo il <span style=color:yellow>numero di porta</span>. 
 
 <span style=color:yellow>numero di porta</span> = il numero di porta è un informazione di livello superiore, <b><u>TCP identifica i processi applicativi con un numero di porta</u></b>. <b><u>Permette di associare univocamente all'interno della macchina un processo collegato al TCP</u></b>. 
-<b><u>Il numero di porta è contenuto nel payload, in particolare il payload conterrà il segmento TCP</u></b> a 
+<b><u>Il numero di porta è contenuto nel payload, in particolare il payload conterrà il segmento TCP</u></b>.
 
 <span style=color:red>Problema</span> = <b><u>Dato che le porte hanno validità solo sul singolo host, potrebbe capitare che due host nell'area privata generano entrambe lo stesso identificativo</u></b>. 
 
