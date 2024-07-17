@@ -24,32 +24,18 @@ DHCP funziona a <span style=color:yellow>4 vie (Discover-Offer-Request-ACK)</spa
    - <span style=color:cyan>IP sorgente</span> =Ip del server 
    - <span style=color:cyan>IP Destinazione</span> = brodcast
    - <span style=color:cyan>IP assegnatoli</span> = <b><u>Indirizzo ip assegnato al client associato al Transaction id del client (univocamente associato al MAC address del client)</u></b> 
+   - <span style=color:cyan>Durata IP</span>
+   - <span style=color:cyan>Maschera</span>
 
+- Il client potrebbe ricevere più offert (<b><u>viaggia in broadcast</u></b>), <b><u>tuttavia dovrà decidere quale delle k offerte scegliere</u></b>. Viene aggiunta una fase di <span style=color:yellow>commit</span>. 
+  Fase di <span style=color:yellow>commit</span>. Il client esegue una <span style=color:yellow>DHCP request</span> . i campi della request sono formati nel seguente modo : 
+   - <span style=color:cyan>Ip Sorgente</span> = vuoto `IP sorgente = 0.0.0.0`.
+   - <span style=color:cyan>ip Destinazione</span> = broadcast
+   - <span style=color:cyan>Scelta</span> = <b><u>Il client specifica l'ip del server DHCP di cui  vuole accettare l'offerta</u></b>. 
 
+- <b><u>Nel momento in cui i server S1,...,SK riceveranno la request, solo il server selezionato, risponderà con una</u></b> <span style=color:yellow>DHCP ACK</span>, che interrompe la fase di comitment (mandata in broadcast).   Gli altri server marcheranno l'offerta come non asserita. 
 
+- l client nel momento in cui riceve una <span style=color:yellow>DHCP ACK</span> <b><u>esegue un altro check</u></b>. <b><u>Per scoprire se l'ip è già attivo in rete viene utilizzato un altro strumento rispetto ICMP</u></b>  (usato dal server), viene utilizzato <span style=color:yellow>ARP</span>. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. Il client fa una richiesta, `DHCP Discover`, a tutti gli host in broadcast (IPDestinazione = 255.255.255.255) e l'indirizzo mittente di 0.0.0.0. Il messaggi contiene un `TID TransactionID` cosicche il client riconosca la sua richiesta una volta che riceve una risposta dal server
-2. Il server associa MAC address - TID, mandando una `DHCP Offer` che manda al client contenente ID della transazione, una proposta di un IP, la maschera per l'IP e la durata della validità dell'indirizzo. Per verificare che l'IP address non sia gia in utilizzo dagli altri, `il server fa un ping con l'IP address che sta offrendo`
-3. Il client prende atto dell'offerta, potenzialmente piu di una (se ci sono piu server), producendo una `DHCP Request`. Campi: IP Sorgente (0.0.0.0), IP Destinazione (IP Server sempre in broadcast), TID
-4. Da quel momento in poi al client è assegnato quell'IP, il server manda quindi un `DHCP ACK`. Da quando il client ricevo ACK, diventa indirizzabile MA prima `il client fa check attraverso un ARP request` (non dovrebbe rispondermi nessuno)
-
-Vengono inseriti controlli per la discover e la request, ripetendo nel caso la ritrasmissione per al massimo k tentativi
+<b><u>Per tutta la durata abbiamo un timer lato client</u></b>, esso scade se non ricevo una offert dopo un certo lasso di tempo. In quel coso trasmetterò una nuova richiesta con un nuovo transaction id. 
+<b><u>il numero di retry  per la fase di commitment è al massimo K (numero di Server DHCP)</u></b>, Se ho un numero di try > K ritorno alla fase di <span style=color:yellow>discover </span>, ri-iniziando da capo.
