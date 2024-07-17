@@ -21,19 +21,31 @@
             "id": "2e30710327877884",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72eae84ea84e2dd0",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 3825.6477903667246,
-                  "y": 5459.2051107464495,
-                  "zoom": -0.408882350294616
+                  "x": 4620.365731702234,
+                  "y": 5001.265511176959,
+                  "zoom": -0.3385360523065047
                 }
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md"
               }
             }
           },
@@ -200,11 +212,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e30710327877884",
+  "active": "72eae84ea84e2dd0",
   "lastOpenFiles": [
+    "Pasted image 20240717173030.png",
+    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
+    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240716111819.png",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Pasted image 20240713183123.png",
@@ -237,12 +251,10 @@
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Bridge.md",
     "Reti di calcolatori/Riassunti/Rete introduzione/Rete - Principi di realizzazione.md",
     "Reti di calcolatori/Reti di calcolatori.md",
-    "Ricerca operativa/Appunti.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
     "Ricerca operativa/Img/Pasted image 20240328164131.png",
-    "Pasted image 20240328132305.png",
     "Ricerca operativa/Slide/10a - PNL non vincolata.pdf",
     "Ricerca operativa/Slide/11 - Simplesso rivisto.pdf",
     "Ricerca operativa/Slide/10c - PNL vincolata.pdf",
