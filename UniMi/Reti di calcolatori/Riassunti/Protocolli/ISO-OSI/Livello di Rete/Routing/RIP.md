@@ -4,8 +4,18 @@ Per accelelare i tempi in fase di conoscenza (soprattutto in fase di boot), RIP 
 
 <b><u>In fase di boot i router scambiano subito gli istance vector</u></b>. 
 
-
-
 `Come metrica RIP utilizza SOLO hop count`
-L'infinito è considerato $n>16$: <b><u>non si utilizza quindi RIP per reti con diametro maggiore di 16</u></b>
-Usa un random per il trigger, tutte le volte che rilevo un costo infinito non faccio un update instantaneo ma aspetto un tempo casuale per evitare storm.
+<span style=color:green>Soluzione Tabella</span> :
+<b><u>Per ogni entry in tabella andiamo a inserire un timer</u></b>, 30 secondi di default. 
+Ogni 30 secondi le tabelle di RIP vengono resettate e bisogna riempirle, questo per cercare di <b><u>risolvere eventuali situazioni di bouncing effect</u></b>. 
+
+<span style=color:green>Soluzione implementativa</span> :
+Quando il costo raggiunge 16, considero il costo infinito. 
+
+<span style=color:green>Soluzione storm di update</span> :
+Soluzione implementativa riguardo all'esistenza del triggering update. <b><u>Su reti molto grosse con il triggering update, non appena si rileva un errore, è probabile che molti nodi mandino il proprio update, generando una congestione di segnali di controllo</u></b>.
+Dobbiamo dunque evitare momenti in cui la rete si sovraccarica di segnali di controllo. 
+
+<b><u>La soluzione consiste nel generare un random fra uno e 5 secondi per spalmare la produzione di update in un intervallo di tempo più lungo</u></b> -> $r = [1/5]s$. 
+
+<span style=color:red>Side effect</span> := <b><u>Aumento la possibilità di bouncing effect</u></b>, in quanto ritardo la comunicazione dei guasti. 

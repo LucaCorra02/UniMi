@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 4999.443190646621,
-                  "y": 4835.089099755938,
-                  "zoom": -0.858319127444055
+                  "x": 2342.634316518186,
+                  "y": 3229.812340483742,
+                  "zoom": -0.2513972116502969
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "72eae84ea84e2dd0",
   "lastOpenFiles": [
+    "Pasted image 20240717175603.png",
     "Pasted image 20240717175006.png",
     "Pasted image 20240717173030.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
@@ -248,7 +249,6 @@
     "Reti di calcolatori/img/Pasted image 20240329211009.png",
     "Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md",
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Porte I-0 e Link.md",
-    "Ingegneria del software/Pasted image 20240329165417.png",
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Bridge.md",
     "Reti di calcolatori/Riassunti/Rete introduzione/Rete - Principi di realizzazione.md",
     "Reti di calcolatori/Reti di calcolatori.md",
