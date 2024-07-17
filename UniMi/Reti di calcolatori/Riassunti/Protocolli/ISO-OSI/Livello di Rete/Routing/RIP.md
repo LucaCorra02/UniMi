@@ -8,4 +8,4 @@ Per accelelare i tempi in fase di conoscenza (soprattutto in fase di boot), RIP 
 
 `Come metrica RIP utilizza SOLO hop count`
 L'infinito è considerato $n>16$: <b><u>non si utilizza quindi RIP per reti con diametro maggiore di 16</u></b>
-Usa un random per il trigger, tutte le volte che rilevo un costo infinito non faccio un update instantaneo ma aspetto un tempo casuale per evitare storm the ...
+Usa un random per il trigger, tutte le volte che rilevo un costo infinito non faccio un update instantaneo ma aspetto un tempo casuale per evitare storm.
