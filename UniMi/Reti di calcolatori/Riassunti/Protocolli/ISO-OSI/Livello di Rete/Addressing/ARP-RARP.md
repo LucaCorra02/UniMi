@@ -30,6 +30,6 @@ ARP tiene traccia delle replay, in modo da non inoltrare una richiesta broadcast
 `RARP - Reverse Address Resolution Protocol`
 
 <b><u>E' utilizzato dagli host non appena entrano in servizio in modo che inviino in broadcast il proprio MAC cosicche lo riceva il server ARP</u></b>.
-Il server, riconoscendo che è un messaggio RARP, crea una RARP reply contenente la coppia MAC/IP
+I<b><u>l server, riconoscendo che è un messaggio RARP, crea una RARP reply contenente la coppia MAC/IP</u></b>
 
 [[ARP-RARP - Formato]]

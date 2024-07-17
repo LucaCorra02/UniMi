@@ -19,6 +19,7 @@ Ogni organizzazione introduce un <span style=color:yellow>dispositivo NAT</span>
 <span style=color:red>Svantaggi</span> : 
 - <b><u>Il NAT esegue una notevole elaborazione</u></b>, dal punto di vista computazionale, su ogni pacchetto che riceve IN/OUT. 
 - <b><u>Gerarchia infranta, modifica payload di livello superiore</u></b>. 
+
 <h5 style=color:cyan>Funzionamento NAT</h5>
 <span style=color:green>Operazioni del NAT</span> : 
 - <b><u>Un qualsiasi dispositivo con indirizzo privato nella area privata deve poter accedere ad un qualsiasi dispositivo con indirizzo ip pubblico</u></b> (ad esempio un server web). 
