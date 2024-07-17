@@ -15,24 +15,21 @@ Ogni host ha infatti associato un indirizzo IP e un indirizzo MAC in una ARP cac
     Solamente il diretto interessato risponderà (confronto IP dispositivo con IP nella Arp Requets). B generà una <span style=color:yellow> ARP response</span> e la <b><u>inoltrerà solo a chi ha generato la requets (punto a punto)</u></b>. 
 
 ARP tiene traccia delle replay, in modo da non inoltrare una richiesta broadcast ogni volta, in una chache chiamata <span style=color:yellow>ARP chache</span> := <b><u>Mappa l'ip sul corrispondente MAC</u></b>. 
-
 <b><u>Viene popolata anche in base alla requests</u></b>, tutti quelli che ricevono il messaggio possono associare l'ip address della sorgente con il MAC address della sorgente. 
 
+<span style=color:cyan>Dispositivi in due LAN diverse </span> : 
+   A vule Parlare con un Dispositivo K in una rete diversa da A. 
+   - K non è presente nella ARP-Cache di A 
+   
+   - A esegue una ARP requests-in broadcast. <b><u>La request viaggia per tutta la rete LAN di A, ma nessuno risponde, interviene dunque L'access gatewey</u></b> (che riceve anch'esso la requests essendo in broadcast).
 
+   - <b><u>il modulo ARP dell'acces gateway capisce che il dispositivo K non è nella rete di A, dai bit del NET ID dell'indirizzo ip</u></b>. 
+	 il Gateway risponde ad A con un <span style=color:yellow>ARP replay</span> <b><u>contente il suo indirizzo MAC (indirizzo MAC del gateway)</u></b> Questa politica prende il nome di <span style=color:yellow>proxy-arp</span>. 
+	 <b><u>Tutto il traffico verso K verrà indirizzato verso l'access gateway, sarà poi il router a preoccuparsi di come instradarlo</u></b>. 
 
+`RARP - Reverse Address Resolution Protocol`
 
-Fasi:
-1. Alla ricezione di un pacchetto IP, l'ARP legge l'IP destinazione e determina se l'indirizzo MAC sia gia presente o meno nella sua cache 
-2. SE non è presente, fa un broadcast con una `ARP request` nella LAN, che contiene sia l'IP/MAC dell'host ARP che l'IP destinazione di cui si sta richiedendo l'indirizzo MAC
-3. L'host di cui si sta richiedendo l'indirizzo MAC, riconoscendo il proprio IP nella ARP request, manderà un `ARP reply` contenente il proprio indirizzo MAC 
-4. L'host riceve l'`ARP reply` e aggiunge una entry nella propria cache con un TTL
-
-L'ARP nel gateway della rete è conosciuto come `proxy ARP`
-SE ho piu LAN interconnesse, vi è il proxy ARP nella macchina (per forza un router perche serve che lavori a livello 3) che collega le due LAN cosicche quando riceve l'ARP request propaga la richiesta (se il SubNet ID è il suo) e risponde specificando pero il MAC address del proxy
-
-- `RARP - Reverse Address Resolution Protocol`
-
-E' utilizzato dagli host non appena entrano in servizio in modo che inviino in broadcast il proprio MAC cosicche lo riceva il server ARP.
+<b><u>E' utilizzato dagli host non appena entrano in servizio in modo che inviino in broadcast il proprio MAC cosicche lo riceva il server ARP</u></b>.
 Il server, riconoscendo che è un messaggio RARP, crea una RARP reply contenente la coppia MAC/IP
 
 [[ARP-RARP - Formato]]
