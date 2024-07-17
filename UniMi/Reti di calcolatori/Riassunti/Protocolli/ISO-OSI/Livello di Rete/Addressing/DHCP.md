@@ -1,10 +1,13 @@
 `DHCP - Dynamic Host Configuration Protocol` 
-<b><u>Si tratta di un protocollo che permette di assegnare dinamicamente IP ad host situati in una VLAN</u></b> . La struttura del protocollo è <span style=color:cyan>Client-server</span>. Questo viene fatto tramite il <span style=color:yellow>DHCP SERVER</span> : 
+<b><u>Si tratta di un protocollo che permette di assegnare dinamicamente IP ad host situati in una LAN</u></b> . La struttura del protocollo è <span style=color:cyan>Client-server</span>. 
+
+Questo viene fatto tramite il <span style=color:yellow>DHCP SERVER</span> : 
 - <b><u>Possiede un pool di indirizzi ip privati e li assegna ai dispositivi all'interno della LAN che ne fanno richiesta</u></b>. 
 - Solitamente può essere montato all'interno del gateway NAT. 
 - Sulle reti grosse possono essere presenti più DHCP server. 
 
-
+<b><u>Gli indirizzi ip prodotti da una richiesta DHCP sono temporanei, hanno un TTL (time to leave)</u></b>
+<h5 style=color:cyan>Funzionamento DHCP</h5>
 
 
 
