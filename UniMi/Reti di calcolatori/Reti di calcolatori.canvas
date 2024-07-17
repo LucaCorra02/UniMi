@@ -153,7 +153,6 @@
 		{"id":"cbda9079ddf47b10","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/HTTP 1.1.md","x":-6080,"y":-5940,"width":720,"height":584},
 		{"id":"7f368edb09e1433a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ARP-RARP.md","x":-4720,"y":3760,"width":964,"height":815},
 		{"id":"e1d4eb0f2c832de2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RIP.md","x":4197,"y":5486,"width":703,"height":480},
-		{"id":"a43293ddf68f7348","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md","x":5000,"y":4154,"width":675,"height":1332},
 		{"id":"a868504253a83943","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/NFV - Network Function Virtualization.md","x":-3840,"y":-2780,"width":584,"height":280},
 		{"id":"afc066e6f377c50b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/CDN - Content Delivery Network.md","x":-5340,"y":-3800,"width":840,"height":1060},
 		{"id":"57b73b57d150b633","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/DASH - Dynamic Adaptive Streaming over HTTP.md","x":-2329,"y":-3240,"width":889,"height":640},
@@ -186,7 +185,8 @@
 		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3897,"y":7549,"width":720,"height":758},
 		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":3462,"y":7872,"width":335,"height":112},
 		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2730,"y":7984,"width":655,"height":296},
-		{"id":"625d0deae1df8b9b","x":4197,"y":4440,"width":703,"height":960,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md"}
+		{"id":"625d0deae1df8b9b","x":4197,"y":4440,"width":703,"height":960,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md"},
+		{"id":"a43293ddf68f7348","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md","x":5000,"y":4154,"width":675,"height":1332}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -351,6 +351,7 @@
 		{"id":"1ac74420bf131297","fromNode":"4da2698affb93a48","fromSide":"bottom","toNode":"fa191df7ee8fe7a6","toSide":"top","label":"1"},
 		{"id":"af9408b628fdedef","fromNode":"c4f4729a6a820379","fromSide":"right","toNode":"d0e4e897d3e28c35","toSide":"left","label":"1"},
 		{"id":"016c002d80da1f39","fromNode":"4537f61dc4a3ffd6","fromSide":"bottom","toNode":"bdcc7de13b44fb39","toSide":"top"},
-		{"id":"eaa43e28ebbbd35b","fromNode":"c461c6e95624386f","fromSide":"right","toNode":"625d0deae1df8b9b","toSide":"left","label":"1"}
+		{"id":"eaa43e28ebbbd35b","fromNode":"c461c6e95624386f","fromSide":"right","toNode":"625d0deae1df8b9b","toSide":"left","label":"1"},
+		{"id":"293d10ec72f0c6f3","fromNode":"625d0deae1df8b9b","fromSide":"right","toNode":"a43293ddf68f7348","toSide":"left"}
 	]
 }

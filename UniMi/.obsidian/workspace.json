@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 4783.89652198655,
-                  "y": 4612.305399763498,
-                  "zoom": 0.010753567218750896
+                  "x": 4999.443190646621,
+                  "y": 4835.089099755938,
+                  "zoom": -0.858319127444055
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "72eae84ea84e2dd0",
   "lastOpenFiles": [
+    "Pasted image 20240717175006.png",
     "Pasted image 20240717173030.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
@@ -254,7 +255,6 @@
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
-    "Ricerca operativa/Img/Pasted image 20240328164131.png",
     "Ricerca operativa/Slide/10a - PNL non vincolata.pdf",
     "Ricerca operativa/Slide/11 - Simplesso rivisto.pdf",
     "Ricerca operativa/Slide/10c - PNL vincolata.pdf",
