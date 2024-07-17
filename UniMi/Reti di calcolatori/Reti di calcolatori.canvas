@@ -185,8 +185,8 @@
 		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3897,"y":7549,"width":720,"height":758},
 		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":3462,"y":7872,"width":335,"height":112},
 		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2730,"y":7984,"width":655,"height":296},
-		{"id":"a43293ddf68f7348","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md","x":5000,"y":4154,"width":675,"height":1332},
-		{"id":"625d0deae1df8b9b","x":4197,"y":4620,"width":703,"height":680,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md"}
+		{"id":"625d0deae1df8b9b","x":4197,"y":4620,"width":703,"height":680,"type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md"},
+		{"id":"a43293ddf68f7348","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md","x":4960,"y":4620,"width":677,"height":1106}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
