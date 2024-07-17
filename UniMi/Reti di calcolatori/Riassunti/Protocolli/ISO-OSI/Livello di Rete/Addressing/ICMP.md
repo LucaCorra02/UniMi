@@ -4,7 +4,7 @@ SE un pacchetto è scartato per qualsiasi motivo tranne la corruzione di informa
 SE un'amministratore di rete riceve come messaggio che una destinazione non risponde, la causa puo essere determinata utilizzando la funzione di `reachability testing` implementata con il `ping`. 
 Ping: viene inviata una `echo request` che una volta ricevuta dall'ICMP, ritorna una `echo reply`
 
-Si occupa della rilevazione degli errori, verifica la raggiungibilità, controllo di congestione (trasmette check packet che segnalano verso i nodi vicini, la situazione congestionata del nodo in modo che venga evitato quel nodo), misura prestazioni...
+<b><u>Si occupa della rilevazione degli errori, verifica la raggiungibilità, controllo di congestione</u></b> (trasmette check packet che segnalano verso i nodi vicini, la situazione congestionata del nodo in modo che venga evitato quel nodo), misura prestazioni...
 
 | Message type            | descrizione |
 | ----------------------- | ----------- |
