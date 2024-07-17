@@ -1,4 +1,19 @@
-`DHCP - Dynamic Host Configuration Protocol` permette di ottenere un indirizzo IP a nome dell'host
+`DHCP - Dynamic Host Configuration Protocol` 
+<b><u>Si tratta di un protocollo che permette di assegnare dinamicamente IP ad host situati in una VLAN</u></b> . La struttura del protocollo è <span style=color:cyan>Client-server</span>. Questo viene fatto tramite il <span style=color:yellow>DHCP SERVER</span> : 
+- <b><u>Possiede un pool di indirizzi ip privati e li assegna ai dispositivi all'interno della LAN che ne fanno richiesta</u></b>. 
+- Solitamente può essere montato all'interno del gateway NAT. 
+- Sulle reti grosse possono essere presenti più DHCP server. 
+
+
+
+
+
+
+
+
+
+
+permette di ottenere un indirizzo IP a nome dell'host
 Devo ovviamente garantire che l'IP che assegno dinamicamente, rimanga unico per il periodo di utilizzo
 Le macchine si rivolgono automaticamente al server DHCP della rete, solitamente il gateway della rete
 Nelle organizzazioni piu complesse, ci possono essere diversi DHCP server 
