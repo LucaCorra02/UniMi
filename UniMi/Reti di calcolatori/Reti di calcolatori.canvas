@@ -179,17 +179,17 @@
 		{"id":"2f04af967a2b3c0b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md","x":-3600,"y":5880,"width":944,"height":672},
 		{"id":"409fc0f46a0432d1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md","x":-1323,"y":6272,"width":780,"height":808},
 		{"id":"553931f1d0f00e95","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ICMP.md","x":-469,"y":6272,"width":666,"height":1028},
-		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3385,"y":6360,"width":720,"height":758},
 		{"id":"328667310ad33cc8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS.md","x":1000,"y":6500,"width":700,"height":816},
-		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":2960,"y":6683,"width":335,"height":112},
 		{"id":"b62ee3c62cca984e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md","x":1901,"y":6795,"width":920,"height":725},
-		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4295,"y":7240,"width":720,"height":744},
-		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3512,"y":7285,"width":580,"height":140},
 		{"id":"dfae84bff04febb4","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Congestione.md","x":1000,"y":7563,"width":720,"height":730},
-		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3462,"y":7520,"width":680,"height":200},
-		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":1960,"y":7858,"width":655,"height":296},
-		{"id":"c8bdc98ae2d6b1cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md","x":4280,"y":6423,"width":735,"height":520},
-		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":5160,"y":6523,"width":580,"height":420}
+		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2280,"y":7810,"width":655,"height":296},
+		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3128,"y":7858,"width":680,"height":200},
+		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3178,"y":7612,"width":580,"height":140},
+		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4000,"y":7612,"width":720,"height":708},
+		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":2920,"y":6965,"width":335,"height":112},
+		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3320,"y":6319,"width":720,"height":758},
+		{"id":"c8bdc98ae2d6b1cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md","x":4280,"y":6319,"width":760,"height":418},
+		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":4280,"y":6880,"width":760,"height":598}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -242,7 +242,7 @@
 		{"id":"1992bb649edb6f4d","fromNode":"d372dc72bfe2f9f7","fromSide":"bottom","toNode":"5f95eee3e3a847f8","toSide":"top","label":"1"},
 		{"id":"3b00241a517fad43","fromNode":"d8b5e11dab399e99","fromSide":"right","toNode":"dd48ff6bb6df6212","toSide":"left","label":"1"},
 		{"id":"edfcf398088493f6","fromNode":"d8b5e11dab399e99","fromSide":"top","toNode":"aa42c6808f96d12d","toSide":"left","label":"2"},
-		{"id":"d1fa168ce01f9937","fromNode":"3420e7260cfd662c","fromSide":"right","toNode":"836d245f8bfe292c","toSide":"left"},
+		{"id":"d1fa168ce01f9937","fromNode":"3420e7260cfd662c","fromSide":"top","toNode":"836d245f8bfe292c","toSide":"left"},
 		{"id":"efcee6bf660b8603","fromNode":"d372dc72bfe2f9f7","fromSide":"right","toNode":"8a016eaa3637fb72","toSide":"left","label":"2"},
 		{"id":"c7736a921fd3427e","fromNode":"6109432a19335637","fromSide":"bottom","toNode":"328667310ad33cc8","toSide":"top","label":"2"},
 		{"id":"daa48a263d14eccb","fromNode":"9f73a8853fb0a8f9","fromSide":"bottom","toNode":"f02badf7f3205969","toSide":"top","label":"approfondimento"},
@@ -356,6 +356,8 @@
 		{"id":"76295cfe596f27d5","fromNode":"dfae84bff04febb4","fromSide":"right","toNode":"b62ee3c62cca984e","toSide":"left","label":"1"},
 		{"id":"2125d094bf508628","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"3420e7260cfd662c","toSide":"bottom","label":"1"},
 		{"id":"e5981bf5e99e6724","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"d372dc72bfe2f9f7","toSide":"left","label":"2"},
-		{"id":"f7b67b3574011353","fromNode":"836d245f8bfe292c","fromSide":"right","toNode":"c8bdc98ae2d6b1cb","toSide":"left"}
+		{"id":"f7b67b3574011353","fromNode":"836d245f8bfe292c","fromSide":"right","toNode":"c8bdc98ae2d6b1cb","toSide":"left","label":"1"},
+		{"id":"eab6a928f81a406e","fromNode":"b62ee3c62cca984e","fromSide":"bottom","toNode":"716b7fe04d5d1d88","toSide":"top","label":"3"},
+		{"id":"c541c6e53c1b4a99","fromNode":"c8bdc98ae2d6b1cb","fromSide":"bottom","toNode":"34829e9a4de01263","toSide":"top","label":"1"}
 	]
 }

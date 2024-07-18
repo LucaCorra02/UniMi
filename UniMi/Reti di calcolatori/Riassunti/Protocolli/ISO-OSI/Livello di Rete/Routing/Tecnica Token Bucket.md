@@ -8,6 +8,11 @@ Ogni Token Bucket,  <b><u>Generà un Token con Rate R</u></b>.
 - In entrata al Bucket abbiamo una coda di ingresso. <b><u>I pacchetti aspettano che ci sia un token disponibile da consumare, per poter spedire un pacchetto</u></b>.
 - il pachetto viene messo in rete e raggiungerà un classificatore.
 
+<b><u>Ogni unità di tempo (specificata da R), viene generato un token.</u></b>
+<b><u>Un Bucket può contenere al massimo B token (Dove B è la grandezza massima della coda )</u></b> : 
+
+- SE ci sono sufficienti token, il pacchetto è messo in coda e il corrispondente numero di token viene prelevato mentre 
+- SE non ci sono abbastanza token, il pacchetto viene scartato (perché sto andando ad un Rate superiore)
 
 
 
@@ -15,7 +20,5 @@ Ogni Token Bucket,  <b><u>Generà un Token con Rate R</u></b>.
 
 
 
-La dimensione del bucket è la stessa del massimo spazio della coda
-In questo modo SE ci sono sufficienti token, il pacchetto è messo in coda e il corrispondente numero di token viene prelevato mentre SE non ci sono abbastanza token, il pacchetto viene scartato (perché sto andando ad un Rate superiore)
 
-La coda che va in overflow eventualmente sarà quella di input
+<b><u>Vado a garantire che in ingresso non ci siano più pacchetti di quanti stabiliti nel contratto</u></b>.

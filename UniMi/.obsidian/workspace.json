@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 5087.659246229349,
-                  "y": 6780.541791459811,
-                  "zoom": -0.3580234188606228
+                  "x": 4325.474310493778,
+                  "y": 8086.719939395982,
+                  "zoom": 0.2954965137111511
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md"
               }
             }
           },
@@ -214,6 +214,7 @@
   },
   "active": "61fadde97cfede5a",
   "lastOpenFiles": [
+    "Pasted image 20240718214312.png",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Appunti.md",
@@ -251,7 +252,6 @@
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Comunicazione digitale (L2).md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione Best effort.md",
     "Reti di calcolatori/Riassunti/Protocolli/Terminologia.md",
-    "Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
