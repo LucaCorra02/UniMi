@@ -18,27 +18,6 @@
 Jitter: tempo da quando il messaggio parte a quando arriva al destinatario
 NON tutti i pacchetti hanno lo stesso ritardo
 
-[[Audio streaming]]
-
-La coda di output dei router è gestita con due blocchi
-- <b><u>Servizio affidabile</u></b>: solitamente pacchetti generati dal [[QoS (L3) da TCP]]
-- <b><u>Servizio sensibile al delay</u></b>, [[QoS (L3) da UDP]]
-
-[[Differentiated services]]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Una `congestione` avviene quando la domanda per una risorsa della rete eccede il livello che concede.
-SE un burst di pacchetti arriva al router su un numero differenziato di linee di input, l'output si congestionerà SE il rate d'arrivo è maggiore di quello di uscita
-Soluzione: [[Tecnica Token Bucket]]

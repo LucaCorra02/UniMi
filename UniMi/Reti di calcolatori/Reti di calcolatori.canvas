@@ -175,21 +175,21 @@
 		{"id":"d7154ee87d671f38","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/HTTP 1.X.md","x":-5260,"y":-6760,"width":680,"height":1404},
 		{"id":"569fbcbb9e0bd1ac","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/DNS - Formato.md","x":-3886,"y":-6300,"width":690,"height":1024},
 		{"id":"5b283d6edfae3dbf","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Frame Header.md","x":-7689,"y":-6500,"width":580,"height":580},
-		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4177,"y":6740,"width":720,"height":744},
 		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2423,"y":5990,"width":825,"height":452},
 		{"id":"2f04af967a2b3c0b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Esempio Frammentazione.md","x":-3600,"y":5880,"width":944,"height":672},
 		{"id":"409fc0f46a0432d1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md","x":-1323,"y":6272,"width":780,"height":808},
-		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":2400,"y":6320,"width":580,"height":420},
-		{"id":"c8bdc98ae2d6b1cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Audio streaming.md","x":3385,"y":6420,"width":735,"height":520},
 		{"id":"553931f1d0f00e95","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ICMP.md","x":-469,"y":6272,"width":666,"height":1028},
-		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2730,"y":7984,"width":655,"height":296},
-		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":4197,"y":7549,"width":720,"height":758},
-		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3462,"y":7042,"width":580,"height":140},
-		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3412,"y":7280,"width":680,"height":200},
-		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":3752,"y":7872,"width":335,"height":112},
-		{"id":"328667310ad33cc8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS.md","x":1000,"y":6500,"width":691,"height":980},
+		{"id":"328667310ad33cc8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS.md","x":1000,"y":6500,"width":700,"height":816},
 		{"id":"dfae84bff04febb4","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Congestione.md","x":1000,"y":7563,"width":720,"height":730},
-		{"id":"b62ee3c62cca984e","x":1920,"y":6990,"width":920,"height":730,"type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md"}
+		{"id":"b62ee3c62cca984e","x":1900,"y":6990,"width":920,"height":730,"type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md"},
+		{"id":"c8bdc98ae2d6b1cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Audio streaming.md","x":4280,"y":6414,"width":735,"height":520},
+		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4295,"y":7240,"width":720,"height":744},
+		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3385,"y":6360,"width":720,"height":758},
+		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":2960,"y":6683,"width":335,"height":112},
+		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":1573,"y":7982,"width":655,"height":296},
+		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3512,"y":7285,"width":580,"height":140},
+		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3462,"y":7520,"width":680,"height":200},
+		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":3165,"y":7858,"width":580,"height":420}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -353,6 +353,9 @@
 		{"id":"293d10ec72f0c6f3","fromNode":"625d0deae1df8b9b","fromSide":"right","toNode":"a43293ddf68f7348","toSide":"left"},
 		{"id":"ad9158b4123f9677","fromNode":"8fe2d1e3b0479c71","fromSide":"right","toNode":"e39059d64289e73e","toSide":"left","label":"1"},
 		{"id":"8b15549a17063423","fromNode":"328667310ad33cc8","fromSide":"bottom","toNode":"dfae84bff04febb4","toSide":"top","label":"1"},
-		{"id":"76295cfe596f27d5","fromNode":"dfae84bff04febb4","fromSide":"right","toNode":"b62ee3c62cca984e","toSide":"left","label":"1"}
+		{"id":"76295cfe596f27d5","fromNode":"dfae84bff04febb4","fromSide":"right","toNode":"b62ee3c62cca984e","toSide":"left","label":"1"},
+		{"id":"2125d094bf508628","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"3420e7260cfd662c","toSide":"bottom","label":"1"},
+		{"id":"e5981bf5e99e6724","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"d372dc72bfe2f9f7","toSide":"left","label":"2"},
+		{"id":"1cbbd57e0edb28cb","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"34829e9a4de01263","toSide":"left"}
 	]
 }
