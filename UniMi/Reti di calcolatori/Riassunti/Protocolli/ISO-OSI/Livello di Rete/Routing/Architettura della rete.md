@@ -1,25 +1,9 @@
 La struttura di Internet è una `rete di reti`: 
-- Al centro della struttura troviamo <span style=color:yellow>L'internet backbone</span>  
-
-
-
-
-
-
-collezione di `AS Atonomous System` i quali hanno una topologia che prevede un `area0 / backbone` (OSPF, MPLS) collegate ad altre `sottoaree` (RIP / OSPF). 
-`NON ci sono collegamenti tra sottoaree`
-
-Le varie aree0 sono collegate a Internet Backbone 
-- Tier 1: Internet Backbone -> [[BGP]]
-- Tier 2: AS gateway della rete regionale -> router backbone [[MPLS]]
-- Tier 3: reti di accesso / reti periferiche -> [[DV - Distance Vector|DV]] o [[LS - Link State|LS]]
-
+- Al centro della struttura troviamo <span style=color:yellow>L'internet backbone</span> = <b><u>Qui i pacchetti vengono con</u></b>  `BGP`. 
+- Al `internet backbone` sono collegati le varie `aree 0 /backbone` degli <span style=color:yellow>Autonomous system </span> = <b><u>Qui i pacchetti vengono ruotati con </u></b> `MPLS o OSPF`. <b><u>Nell'area 0, passa tutto il traffico intra e extra AS</u></b>.
+- All' `area 0 di un AS` sono collegati altri AS = Qui i pacchetti vengono ruotati con `RIP o OSPF`.
 
 ![[Pasted image 20240718124633.png]]
-
-
-
-![[Pasted image 20231219133313.png|600]]
 
 ![[Pasted image 20231219132229.png|600]]
 
