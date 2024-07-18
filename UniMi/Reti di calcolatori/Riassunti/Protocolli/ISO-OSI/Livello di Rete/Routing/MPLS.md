@@ -11,13 +11,20 @@ l'header di Ip con il suo payload continuano a viaggiare ma in un <span style=co
 MPLS non ha funzionalità di routing particolari, ma è solo funzionale ad aumentare la velocità nello switching, <b><u>Trasformo il router in un apparato che fa forwarding SENZA curarsi del routing</u></b>
 
 <h5 style=color:cyan>Funzionamento</h5>
-<b><u>Il router di gateway dell'area0 si chiamano</u></b> <span style=color:yellow>Area Border Router</span> = <b><u>qui si compie la trasformazione da LS a MPLS</u></b>. Viene costruito un <span style=color:yellow>Header MPLS</span>, nel quale il pacchetto viene incapsulato. 
+<b><u>Il router di gateway dell'area0 si chiamano</u></b> <span style=color:yellow>Area Border Router</span> = <b><u>qui si compie la trasformazione da LS a MPLS</u></b>. Viene costruito un <span style=color:yellow>Header MPLS</span>, nel quale il pacchetto viene incapsulato : 
+
+<span style=color:yellow>L'header MPLS</span> è formato da 32 bit : 
+- `Label 20 bit` 
+- `TTL 8 bit` 
+- `S 1 bit` 
+- `Class of service 3 bit` = equivalente del type of service. In questo caso class <b><u>in quanto voglio costruire flussi di traffico omogenei tra una sorgente e una destinazione</u></b>. L'omogeneità è data dalla classe di servizio a cui appartengono i pacchetti. 
 
 Il Router al suo interno ha una tabella chiamata <span style=color:yellow>label switching table</span>, contenente le seguenti entrate : 
-    - `Output Port` 
-    - `Label` 
-    - `Quality of Service` = <b><u>Posso etichettare con la stessa etichetta un flusso di pacchetti</u></b> (non solo il singolo pacchetto) con la stessa origine e destinazione. Tutta via <b><u>i pacchetti contenuti nel flusso devono essere omogenei dal punto di vista della qualità che il sevizio deve avere</u></b>.
-    
+- `Output Port` 
+- `Label` 
+ - `Quality of Service` = <b><u>Posso etichettare con la stessa etichetta un flusso di pacchetti</u></b> (non solo il singolo pacchetto) con la stessa origine e destinazione. Tutta via <b><u>i pacchetti contenuti nel flusso devono essere omogenei dal punto di vista della qualità che il sevizio deve avere</u></b>.
+
+
  <b><u>La validità dell'etichetta è locale al router</u></b>, <b><u>ogni singolo router gestisce la propria numerazione ed ha validità locale</u></b>. Dobbiamo solamente costruire le label switching table correttamente.  
   <span style=color:green>I nostri router diventano velocissimi, in quanto effettuano solamente una operazione di switching</span> (non devono fare la maschera, ecc..). 
 
@@ -26,3 +33,11 @@ Il Router al suo interno ha una tabella chiamata <span style=color:yellow>label 
  Il <span style=color:yellow>designeted router</span>, <b><u>si occupa di calcolare i cammini minimi e propagare all'interno dell'area 0 le tabelle di switching</u></b>. 
  Viene utilizzato un approccio CR `Constraint Routed` LSP in modo che ci sia un Network Management che riempie le tabelle utilizzate per fare label switching
 [[Router MPLS]]
+
+*Esempio* : 
+
+![[Pasted image 20240718161117.png]]
+
+ - Abbiamo un Pacchetto prodotto da un area 1 destinato per un host situata nell'area 2. 
+ -   Nell'esempio, <b><u>ogni volta che arriva sulla porta di i/0 1 un pacchetto con etichetta 1, esso verrà mandato sulla porta di i/0 2, con etichetta 27</u></b>.  Il pacchetto viene switchato senza pensarci in base all'etichetta. 
+
