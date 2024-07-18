@@ -1,15 +1,16 @@
 `OSPF - Open Shortest Path First`
-
 Si tratta di un algoritmo di routing che implementa la tecnica Link State. 
+<b><u>Algoritmo che ogni nodo della rete esegue tutte le volte che riceve un update di un LS, in particolare usa l'algoritmo di Dijkstra</u></b>.
 
+<span style=color:green>Vantaggi</span> : 
+- <b><u>OSPF lavorando sull'intera topologia di rete, scopre anche</u></b> i <span style=color:yellow>multipath</span> il traffico può essere bilanciato su cammini equivalenti (non possibile con distance vector).
 
-Algoritmo che ogni nodo della rete esegue tutte le volte che riceve un update di un LS, in particolare usa l'algoritmo di Dijkstra
+- Con OSPF è <b><u>possibile effettuare</u></b> <span style=color:yellow>source routing</span> = Avendo la conoscenza di tutta la tipologia della rete <b><u>posso obbligare un pacchetto a seguire un certo itinerario</u></b> (anche se non è il cammino migliore). Questa <b><u>informazione viene contenuta nell'header del pacchetto</u></b>. 
 
-Vantaggi:
-- Maggiore flessibilità
-- Convergenza sicura
+- <b><u>Convergenza verso il cammino minimo assicurata</u></b>
 
-Svantaggi: rallento traffico e ho un costo computazionale
+<span style=color:red>Svantaggi</span>: 
+ - <b><u>allento traffico e ho un costo computazionale</u></b>
 
 Come ragiona un nodo
 Livelli di tabelle
