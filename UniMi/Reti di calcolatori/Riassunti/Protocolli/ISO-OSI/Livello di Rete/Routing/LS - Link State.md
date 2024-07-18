@@ -20,22 +20,30 @@ Ogni nodo appena riceve un LS da un nodo adiacente, `manda un segnale di ACK`. Q
 <b><u>Ogni nodo manda a tutti gli altri nodi la propria visione della rete.</u></b> Supponendo di avere N nodi, avremo una complessità dell'ordine di $O(n^2)$. 
 
 <h5 style=color:cyan>Struttura Link State: </h5>
+
 Un link state è costituito dai seguenti campi : 
 - `indirizzo ip sorgente nodo`
 - `Sequence number` = numero di sequenza associato univocamente al nodo sorgente. 
 - `TTL` = Numero di Hop massimi che il link state può fare nella rete prima di essere cancellato. 
-- `(ridondanza temporale` =Nel formato indirizzo nodo -> costo. 
-
-
-
-
-LS composto da: Sorgente, Sequence, TimeToLive, NumeroHop, 
-Il Sequence è assegnato dalla sorgente in modo da evitare le coppie di LS gia ricevuti
-
-Inondando la rete di traffico di controllo TUTTI conoscono esattamente la topologia della rete
-Questo ci permette di superare il problema dei DV, `count to infinity`
+- `indormazioni di costo` = Nel formato indirizzo nodo -> costo. 
 
 Per ogni link ho un costo bidirezionale
 
 ![[photo_5769355704325488905_y.jpg|500]]
+
+<span style=color:green>Vantaggi</span> : 
+- <b><u>Conoscenza della topologia di rete</u></b>. 
+
+-  <b><u>Il cammino minimo, avendo tutta la topologia, può essere trovato con dijikstra</u></b>. 
+
+- <b><u>OSPF lavorando sull'intera topologia di rete, scopre anche</u></b> i <span style=color:yellow>multipath</span> il traffico può essere bilanciato su cammini equivalenti (non possibile con distance vector)
+
+<span style=color:red>Svantaggi</span>: 
+- <b><u>Ogni nodo della topologia esegue dijkstra per ogni destinazione, il costo del processo di routing non è banale</u></b>.  
+
+- <B><u>Congestione della rete dovuta al traffico di controllo</u></B>. 
+
+- <b><u>Per ogni Link-State esiste un ACK</u></b> (non succede nel distance vector). Aumenta il volume del traffico di controllo per gestire la dinamica delle tabelle di instradamento. 
+
+
 Implementazione: [[OSPF]]
