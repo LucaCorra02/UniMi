@@ -33,14 +33,11 @@
             "id": "61fadde97cfede5a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
-                "viewState": {
-                  "x": 3556.236422760159,
-                  "y": 6686.579599101016,
-                  "zoom": 0.08473233459701092
-                }
+                "file": "Reti di calcolatori/Esami/2023-02-21.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -95,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98d901f23bf6ce7e",
@@ -112,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/2023-02-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/2023-02-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Esami/2023-02-21.md"
               }
             }
           },
@@ -214,9 +210,12 @@
   },
   "active": "61fadde97cfede5a",
   "lastOpenFiles": [
+    "Reti di calcolatori/Esami/2022-06-21.md",
+    "Reti di calcolatori/Esami/2019-01-29.md",
+    "Reti di calcolatori/Esami/2018-02-27.md",
+    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240718214312.png",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
     "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
@@ -231,7 +230,6 @@
     "Pasted image 20240717180604.png",
     "Pasted image 20240717175603.png",
     "Pasted image 20240717175006.png",
-    "Pasted image 20240717173030.png",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
@@ -243,9 +241,6 @@
     "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Esami/2023-06-20.md",
     "Reti di calcolatori/Esami/2023-02-21.md",
-    "Reti di calcolatori/Esami/2022-06-21.md",
-    "Reti di calcolatori/Esami/2019-01-29.md",
-    "Reti di calcolatori/Esami/2018-02-27.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Untitled.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Bit Stuffing.md",
     "Reti di calcolatori/Riassunti/Rete introduzione/Connessione Affidabile Elementi.md",

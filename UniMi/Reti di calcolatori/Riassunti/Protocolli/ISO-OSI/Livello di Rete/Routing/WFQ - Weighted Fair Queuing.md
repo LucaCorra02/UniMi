@@ -13,7 +13,7 @@ Per ogni coda $i$ abbiamo un tempo di servizio che è = $\dfrac{W_i}{Somma_ {pes
 - $w_1 = 4/10 = 2/5 * R$
 - $w_{2,3,4} = 2/10 = 1/5 * R$
 
-Supponiamo di avere un classifier smistera i pacchetti con un jitter più alto nella cosa v1.
+Supponiamo di avere un classifier smistera i pacchetti con un jitter più alto nella coda v1.
 Considerando un canale da 1Mbps, a $w_1$ assegno 500kb e a ognuno degli altri 125kb
 w1 si svuoterà prima delle altre code.
 

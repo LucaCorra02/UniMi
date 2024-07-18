@@ -53,8 +53,6 @@
 		{"id":"9c0747bad214f8cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/LS - Link State.md","x":3197,"y":3820,"width":760,"height":1140},
 		{"id":"625d0deae1df8b9b","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md","x":4197,"y":4620,"width":703,"height":680},
 		{"id":"8fe2d1e3b0479c71","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md","x":4200,"y":2880,"width":675,"height":1160},
-		{"id":"3e06ece662a7f580","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Router MPLS.md","x":2000,"y":2521,"width":646,"height":651},
-		{"id":"c64242d45ddef266","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tunneling.md","x":2840,"y":2521,"width":520,"height":651},
 		{"id":"6109432a19335637","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Routing.md","x":1327,"y":4620,"width":760,"height":1300},
 		{"id":"a43293ddf68f7348","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Split Horizon.md","x":4960,"y":4620,"width":677,"height":1106},
 		{"id":"e1d4eb0f2c832de2","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RIP.md","x":4197,"y":5340,"width":703,"height":626},
@@ -189,7 +187,9 @@
 		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3390,"y":7408,"width":580,"height":140},
 		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3340,"y":7710,"width":680,"height":200},
 		{"id":"c8bdc98ae2d6b1cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md","x":4280,"y":6319,"width":760,"height":418},
-		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":4280,"y":6859,"width":760,"height":598}
+		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":4280,"y":6859,"width":760,"height":598},
+		{"id":"3e06ece662a7f580","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Router MPLS.md","x":2040,"y":2521,"width":646,"height":651},
+		{"id":"c64242d45ddef266","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tunneling.md","x":2784,"y":2521,"width":520,"height":651}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
