@@ -93,7 +93,7 @@ Livello 3:
 				![[Architettura delle rete - Ottimizzazioni]]
 			![[QoS]]
 				![[Tecnica Token Bucket]]
-				![[Audio streaming]]
+				![[Call Admision]]
 				![[QoS (L3) da TCP]]
 					![[QoS - FIFO]]
 					![[RED - Random Early Detection]]

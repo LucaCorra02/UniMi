@@ -18,3 +18,13 @@ Considerando un canale da 1Mbps, a $w_1$ assegno 500kb e a ognuno degli altri 12
 w1 si svuoterà prima delle altre code.
 
 
+<span style=color:red>Problema</span> = Come facciamo a <b><u>garantire una qualità di servizio</u></b> su una dichiarazione del flusso di ingresso se poi chi <b><u>generà traffico non rispetta tale dichiarazione mandando più traffico del previsto</u></b>.
+
+<span style=color:green>Soluzione</span>:
+<b><u>Devo effettuare un controllo in ingresso, il flusso di ingresso effettivo deve corrispondere con quello dichiarato</u></b>. Questa politica di sicurezza prende il nome di <span style=color:yellow>Traffic Sharig</span> e fa parte delle <span style=color:yellow>Call Admision</span>.
+
+<span style=color:yellow>Traffic Sharig</span> = <b><u>L'eccesso di traffico viene eliminato se supera quanto dichiarato da chi generà traffico</u></b>. 
+<b><u>Si tratta di una politica preventiva, il traffico viene limato alla sorgente in modo da evitare di intervenire con politiche di dropping nelle code durante la trasmissione</u></b>.
+
+
+
