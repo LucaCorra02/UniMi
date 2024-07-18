@@ -1,3 +1,12 @@
+<span style=color:cyan>Idea</span> = <b><u>La tabella di routing viene riempita in modo asincrono rispetto alle funzionalità del forwording dal router</u></b>. <b><u>La divisione tra dati e controllo rende la funzione di instradamento indipendente dalla singola macchina</u></b>.
+
+
+
+
+
+
+
+
 Nella realizzazione delle aree0 si richiede l'efficienza dei router
 Tecnica `MPLS Multi Protocol Label Switching` utilizzata nelle aree0 degli AS
 Si ragiona attraverso le `etichette`, sovrapponendosi all'indirizzo IP, MA *le etichette valgono solo all'interno del singolo router*
