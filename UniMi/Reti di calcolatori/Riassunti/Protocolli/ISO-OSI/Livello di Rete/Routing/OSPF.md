@@ -13,8 +13,9 @@ Si tratta di un algoritmo di routing che implementa la tecnica Link State.
  - <b><u>allento traffico e ho un costo computazionale</u></b>
 
 
-Come ragiona un nodo, Livelli di tabelle
-- Tabella di `adiacenze` che popolo attraverso le ICMP: <b><u>dato il nodo della rete destinazione, indica la porta del router associata</u></b>>
+<h5 style=color:cyan>Come ragiona un nodo: </h5>
+
+- Tabella di `adiacenze` che popolo attraverso le ICMP: <b><u>dato il nodo della rete destinazione, indica la porta del router associata</u></b>.
 - Tabella di `routing`: <b><u>dato il nodo della rete destinazione, indica l'hop da eseguire e il costo totale del cammino</u></b>
 - Tabella `NetID`: <b><u>dato il NetID della destinazione, indica il nodo a cui mandare il pacchetto</u></b>
 
@@ -41,8 +42,13 @@ Uso combinazione routing (guardo le 3 tabelle) e forwarding (faccio un hop). Fas
 |     | R2           | 2            |     |
 |     | R4           | 3            |     |
  
+<span style=color:yellow>Net id table</span>
 
-
+| NetId   | Router |
+| ------- | ------ |
+| NetdId1 | Local  |
+| NetdId3 | R3     |
+|         |        |
 
 
 [[Spanning tree broadcast]]
