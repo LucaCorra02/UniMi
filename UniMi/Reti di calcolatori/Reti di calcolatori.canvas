@@ -46,7 +46,6 @@
 		{"id":"0b46d5dc582b1b5a","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - IPv6 Dual stacks and tunneling.md","x":-739,"y":3160,"width":496,"height":502},
 		{"id":"da2539c761320970","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - IPv6 Translators.md","x":-203,"y":2920,"width":457,"height":740},
 		{"id":"c461c6e95624386f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/DV - Distance Vector.md","x":3197,"y":5025,"width":760,"height":941},
-		{"id":"9161b11f959e2b26","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Architettura della rete.md","x":2200,"y":4620,"width":837,"height":1240},
 		{"id":"b9885780de18d2d5","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Classi NetID.md","x":-2240,"y":2640,"width":739,"height":926},
 		{"id":"baf253f0a7c83b0f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Addressing.md","x":-843,"y":5671,"width":620,"height":320},
 		{"id":"4537f61dc4a3ffd6","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv4 - Formato.md","x":-2600,"y":4299,"width":1002,"height":1372},
@@ -187,7 +186,8 @@
 		{"id":"409fc0f46a0432d1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md","x":-1323,"y":6272,"width":780,"height":808},
 		{"id":"553931f1d0f00e95","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/ICMP.md","x":-469,"y":6272,"width":666,"height":1028},
 		{"id":"e39059d64289e73e","x":5000,"y":3420,"width":640,"height":620,"type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md"},
-		{"id":"fdd9a17cffc78c5f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Spanning tree broadcast.md","x":5000,"y":2640,"width":640,"height":687}
+		{"id":"fdd9a17cffc78c5f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Spanning tree broadcast.md","x":5000,"y":2640,"width":640,"height":687},
+		{"id":"9161b11f959e2b26","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Architettura della rete.md","x":2180,"y":4620,"width":837,"height":1240}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
