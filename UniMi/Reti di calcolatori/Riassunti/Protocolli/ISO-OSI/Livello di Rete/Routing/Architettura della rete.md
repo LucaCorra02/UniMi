@@ -6,6 +6,11 @@ Le varie aree0 sono collegate a Internet Backbone
 - Tier 2: AS gateway della rete regionale -> router backbone [[MPLS]]
 - Tier 3: reti di accesso / reti periferiche -> [[DV - Distance Vector|DV]] o [[LS - Link State|LS]]
 
+
+![[Pasted image 20240718124633.png]]
+
+
+
 ![[Pasted image 20231219133313.png|600]]
 
 ![[Pasted image 20231219132229.png|600]]
