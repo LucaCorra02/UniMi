@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 4325.474310493778,
-                  "y": 8086.719939395982,
-                  "zoom": 0.2954965137111511
+                  "x": 3832.0575681304376,
+                  "y": 6898.598092602225,
+                  "zoom": -0.7938952311854819
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },

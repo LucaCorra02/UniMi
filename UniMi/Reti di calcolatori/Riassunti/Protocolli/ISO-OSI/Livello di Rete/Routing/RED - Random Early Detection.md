@@ -14,6 +14,6 @@ $L_{AVG} = \alpha^{L_{OLD}} + (1-\alpha)*L_{CURRENT}$
 con $0.5 < \alpha < 0.8$
 
 Casi:
-- SE : il nuovo pacchetto entra nella coda
-- SE AvrLEN < MaxTH: il nuovo pacchetto è scartato
-- SE MaxTH < AvrLEN < MinTH: un pacchetto nella coda viene randomicamente selezione, scartato e il nuovo pacchetto entra nella coda
+- SE `AvrLen < MinTh`: <b><u>il nuovo pacchetto entra nella coda</u></b>
+- SE `AvrLEN > MaxTh`: <b><u>il nuovo pacchetto è scartato</u></b>
+- SE `MaxTh` < `AvrLEN` < `MinTh`: <b><u>un pacchetto nella coda viene randomicamente selezione, scartato e il nuovo pacchetto entra nella coda</u></b>

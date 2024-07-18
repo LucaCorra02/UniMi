@@ -182,14 +182,14 @@
 		{"id":"328667310ad33cc8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS.md","x":1000,"y":6500,"width":700,"height":816},
 		{"id":"b62ee3c62cca984e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md","x":1901,"y":6795,"width":920,"height":725},
 		{"id":"dfae84bff04febb4","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Congestione.md","x":1000,"y":7563,"width":720,"height":730},
-		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2280,"y":7810,"width":655,"height":296},
-		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3128,"y":7858,"width":680,"height":200},
-		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3178,"y":7612,"width":580,"height":140},
-		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4000,"y":7612,"width":720,"height":708},
 		{"id":"3420e7260cfd662c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da UDP.md","x":2920,"y":6965,"width":335,"height":112},
 		{"id":"836d245f8bfe292c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/WFQ - Weighted Fair Queuing.md","x":3320,"y":6319,"width":720,"height":758},
+		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4200,"y":7604,"width":720,"height":708},
+		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2593,"y":7810,"width":655,"height":296},
+		{"id":"d372dc72bfe2f9f7","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS (L3) da TCP.md","x":3390,"y":7408,"width":580,"height":140},
+		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3340,"y":7710,"width":680,"height":200},
 		{"id":"c8bdc98ae2d6b1cb","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md","x":4280,"y":6319,"width":760,"height":418},
-		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":4280,"y":6880,"width":760,"height":598}
+		{"id":"34829e9a4de01263","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tecnica Token Bucket.md","x":4280,"y":6859,"width":760,"height":598}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -357,7 +357,7 @@
 		{"id":"2125d094bf508628","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"3420e7260cfd662c","toSide":"bottom","label":"1"},
 		{"id":"e5981bf5e99e6724","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"d372dc72bfe2f9f7","toSide":"left","label":"2"},
 		{"id":"f7b67b3574011353","fromNode":"836d245f8bfe292c","fromSide":"right","toNode":"c8bdc98ae2d6b1cb","toSide":"left","label":"1"},
-		{"id":"eab6a928f81a406e","fromNode":"b62ee3c62cca984e","fromSide":"bottom","toNode":"716b7fe04d5d1d88","toSide":"top","label":"3"},
+		{"id":"eab6a928f81a406e","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"716b7fe04d5d1d88","toSide":"top","label":"3"},
 		{"id":"c541c6e53c1b4a99","fromNode":"c8bdc98ae2d6b1cb","fromSide":"bottom","toNode":"34829e9a4de01263","toSide":"top","label":"1"}
 	]
 }
