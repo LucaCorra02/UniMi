@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 3629.2459773432424,
-                  "y": 3457.110213769212,
-                  "zoom": -0.6837904189745062
+                  "x": 3589.3670978403256,
+                  "y": 3534.985504511571,
+                  "zoom": -0.19963806318436758
                 }
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md"
               }
             }
           },
@@ -202,6 +202,7 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
+    "Pasted image 20240718130300.png",
     "Pasted image 20240718124633.png",
     "Pasted image 20240718114221.png",
     "Pasted image 20240718113700.png",
@@ -218,7 +219,6 @@
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Pasted image 20240713183123.png",
-    "Pasted image 20240713181748.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
     "Reti di calcolatori/Reti di calcolatori - Riassunto.md",
     "Reti di calcolatori/Esami/2023-09-26.md",
