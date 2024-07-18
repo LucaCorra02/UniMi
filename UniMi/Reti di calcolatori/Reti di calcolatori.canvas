@@ -62,7 +62,6 @@
 		{"id":"1875cdd354f1d938","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Rete e Unità dati.md","x":650,"y":-4174,"width":859,"height":546},
 		{"id":"a088fa9a4f01c8e8","type":"file","file":"Reti di calcolatori/Riassunti/Rete introduzione/Introduzione.md","x":-200,"y":-4273,"width":740,"height":549},
 		{"id":"625d0deae1df8b9b","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md","x":4197,"y":4620,"width":703,"height":680},
-		{"id":"8fe2d1e3b0479c71","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md","x":4197,"y":2880,"width":675,"height":1160},
 		{"id":"b1f959e507bf3a3d","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md","x":-3903,"y":1412,"width":600,"height":657},
 		{"id":"bb0d562677db6dbf","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md","x":-4503,"y":1014,"width":560,"height":566},
 		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-3160,"y":1300,"width":515,"height":305},
@@ -187,7 +186,8 @@
 		{"id":"cd21a644c03b4449","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/BGP.md","x":3197,"y":3212,"width":760,"height":548},
 		{"id":"3e06ece662a7f580","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Router MPLS.md","x":2000,"y":2521,"width":646,"height":651},
 		{"id":"0cdf3ca0b91a5df8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/MPLS.md","x":1977,"y":3240,"width":807,"height":700},
-		{"id":"c64242d45ddef266","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tunneling.md","x":2840,"y":2521,"width":520,"height":651}
+		{"id":"c64242d45ddef266","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Tunneling.md","x":2840,"y":2521,"width":520,"height":651},
+		{"id":"8fe2d1e3b0479c71","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md","x":4200,"y":2880,"width":675,"height":1160}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},

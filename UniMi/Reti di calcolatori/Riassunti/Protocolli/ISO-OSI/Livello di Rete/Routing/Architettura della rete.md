@@ -1,4 +1,12 @@
-La struttura di Internet è una `rete di reti`: collezione di `AS Atonomous System` i quali hanno una topologia che prevede un `area0 / backbone` (OSPF, MPLS) collegate ad altre `sottoaree` (RIP / OSPF). 
+La struttura di Internet è una `rete di reti`: 
+- Al centro della struttura troviamo <span style=color:yellow>L'internet backbone</span>  
+
+
+
+
+
+
+collezione di `AS Atonomous System` i quali hanno una topologia che prevede un `area0 / backbone` (OSPF, MPLS) collegate ad altre `sottoaree` (RIP / OSPF). 
 `NON ci sono collegamenti tra sottoaree`
 
 Le varie aree0 sono collegate a Internet Backbone 
