@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 2898.8164680948826,
-                  "y": 7289.719721337046,
-                  "zoom": -0.5574768022973525
+                  "x": 2015.8891616676513,
+                  "y": 6884.266626825411,
+                  "zoom": -1.1323064303398134
                 }
               }
             }
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98d901f23bf6ce7e",
@@ -202,6 +201,7 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
+    "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240718161117.png",
     "Pasted image 20240718130300.png",
@@ -238,7 +238,6 @@
     "Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md",
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Porte I-0 e Link.md",
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Bridge.md",
-    "Reti di calcolatori/Riassunti/Rete introduzione/Rete - Principi di realizzazione.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
