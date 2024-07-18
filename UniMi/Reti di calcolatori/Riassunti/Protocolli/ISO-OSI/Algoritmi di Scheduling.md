@@ -7,11 +7,9 @@ Misurazione di U rispetto alla soglia e al valore ottimo :
   <b><u>Il dropping di un pacchetto non può essere casuale, ma vado a droppare pacchetti in base alla priorità del tipo di qualità di servizio associata</u></b>. 
   Le tecnica utilizzata è <span style=color:yellow>RED Random Early Detection</span>  
     
-
   <b><u>Il dropping dei pacchetti è ammessa ed è funzionale per non far andare i router in congestione</u></b>. 
 
 <b><u>TCP è un esempio di algoritmo che quando riceve dei pacchetti di tipo cock packet, esegue una riduzione e apertura del traffico smooth</u></b>, in base alla situazione percepita del traffico in rete. 
-
 
 La coda di output dei router è gestita con due blocchi
 - <b><u>Servizio affidabile</u></b>: solitamente pacchetti generati dal [[QoS (L3) da TCP]]
