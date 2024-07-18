@@ -21,31 +21,19 @@
             "id": "2e30710327877884",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72eae84ea84e2dd0",
-            "type": "leaf",
-            "state": {
               "type": "canvas",
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": 4459.91198585456,
-                  "y": 3273.4382496337294,
-                  "zoom": -0.12068689122800444
+                  "x": 4464.2019056520885,
+                  "y": 3907.6595299559544,
+                  "zoom": 0.0719578209767623
                 }
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md"
               }
             }
           },
@@ -212,14 +200,18 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "72eae84ea84e2dd0",
+  "active": "2e30710327877884",
   "lastOpenFiles": [
+    "Pasted image 20240718114221.png",
+    "Pasted image 20240718113700.png",
+    "Pasted image 20240718113642.png",
+    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
+    "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
+    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240717180604.png",
     "Pasted image 20240717175603.png",
     "Pasted image 20240717175006.png",
     "Pasted image 20240717173030.png",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240716111819.png",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
@@ -227,8 +219,6 @@
     "Pasted image 20240713183123.png",
     "Pasted image 20240713181748.png",
     "Pasted image 20240712191132.png",
-    "Pasted image 20240712154602.png",
-    "Pasted image 20240712152140.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
     "Reti di calcolatori/Reti di calcolatori - Riassunto.md",
     "Reti di calcolatori/Esami/2023-09-26.md",
@@ -246,12 +236,10 @@
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Comunicazione digitale (L2).md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Funzione Best effort.md",
     "Reti di calcolatori/Riassunti/Protocolli/Terminologia.md",
-    "Pasted image 20240329211222.png",
     "Reti di calcolatori/Riassunti/Rete introduzione/Affidabilita.md",
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Porte I-0 e Link.md",
     "Reti di calcolatori/Riassunti/Dispositivi di rete/Bridge.md",
     "Reti di calcolatori/Riassunti/Rete introduzione/Rete - Principi di realizzazione.md",
-    "Reti di calcolatori/Reti di calcolatori.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",

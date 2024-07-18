@@ -12,17 +12,37 @@ Si tratta di un algoritmo di routing che implementa la tecnica Link State.
 <span style=color:red>Svantaggi</span>: 
  - <b><u>allento traffico e ho un costo computazionale</u></b>
 
-Come ragiona un nodo
-Livelli di tabelle
-- Tabella di `adiacenze` che popolo attraverso le ICMP: dato il nodo della rete destinazione, indica la porta del router associata
-- Tabella di `routing`: dato il nodo della rete destinazione, indica l'hop da eseguire e il costo totale del cammino
-- Tabella `NetID`: dato il NetID della destinazione, indica il nodo a cui mandare il pacchetto
+
+Come ragiona un nodo, Livelli di tabelle
+- Tabella di `adiacenze` che popolo attraverso le ICMP: <b><u>dato il nodo della rete destinazione, indica la porta del router associata</u></b>>
+- Tabella di `routing`: <b><u>dato il nodo della rete destinazione, indica l'hop da eseguire e il costo totale del cammino</u></b>
+- Tabella `NetID`: <b><u>dato il NetID della destinazione, indica il nodo a cui mandare il pacchetto</u></b>
 
 Uso combinazione routing (guardo le 3 tabelle) e forwarding (faccio un hop). Fasi:
-1. Ispeziono la NetID table per ricavare, dato il NetID destinazione, il nodo a cui inviare il pacchetto
-2. Ispezione la routing table per capire come raggiungere il nodo destinazione
-3. Ispezione la tabella di adiacenza per ricavare la porta del router a cui inviare il pacchetto per raggiungere il nodo destinazione
+1. Ispeziono la NetID table per ricavare, <b><u>dato il NetID destinazione, il nodo a cui inviare il pacchetto</u></b>
+2. <b><u>Ispezione la routing table</u></b> per capire come raggiungere il nodo destinazione
+3. <b><u>Ispezione la tabella di adiacenza per ricavare la porta del router a cui inviare il pacchetto</u></b> per raggiungere il nodo destinazione
 
-![[photo_5769355704325488902_y.jpg|400]]
+![[Pasted image 20240718114221.png]]
+
+<span style=color:yellow>Routing table</span> : 
+
+| Destinazione | Router | Costo |
+| ------------ | ------ | ----- |
+| R1           | -      | 0     |
+| R2           | R2     | 2     |
+| R3           | R2     | 3     |
+| R4           | R4     | 2     |
+<span style=color:yellow>Tabelle adiacenze</span> (caso di R1):
+
+|     | Destinazione | Numero porta |     |
+| --- | ------------ | ------------ | --- |
+|     | G            | 1            |     |
+|     | R2           | 2            |     |
+|     | R4           | 3            |     |
+ 
+
+
+
 
 [[Spanning tree broadcast]]
