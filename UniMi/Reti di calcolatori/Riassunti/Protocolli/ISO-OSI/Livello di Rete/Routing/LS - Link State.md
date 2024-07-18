@@ -15,7 +15,7 @@ La tecnica che si usa per propagare il <span style=color:cyan>link state</span> 
 
  <span style=color:green>Soluzione</span> = Si utilizza un <span style=color:yellow>Sequence Number</span>, <b><u>un numero di sequenza associato univocamente al nodo sorgente</u></b>. <b><u>Ogni nodo tiene in memoria l'indirizzo di sorgente e il sequence number dei link state che ha ricevuto</u></b>. 
 
-Ogni nodo appena riceve un LS da un nodo adiacente, `manda un segnale di ACK`. Questo cerca di garantire la consistenza. SE non ricevo l'ACK, viene ritrasmesso il LS (`ridondanza locale`) ma non viene rinviato all infinito in quanto sappiamo che nelle altre direzioni verrà ripropagato `(ridondanza temporale`). 
+Ogni nodo appena riceve un LS da un nodo adiacente, `manda un segnale di ACK`. Questo <span style=color:cyan>cerca di garantire la consistenza</span>. SE non ricevo l'ACK, viene ritrasmesso il LS (`ridondanza locale`) ma non viene rinviato all infinito in quanto sappiamo che nelle altre direzioni verrà ripropagato `(ridondanza temporale`). 
 
 <b><u>Ogni nodo manda a tutti gli altri nodi la propria visione della rete.</u></b> Supponendo di avere N nodi, avremo una complessità dell'ordine di $O(n^2)$. 
 
@@ -43,7 +43,7 @@ Per ogni link ho un costo bidirezionale
 
 - <B><u>Congestione della rete dovuta al traffico di controllo</u></B>. 
 
-- <b><u>Per ogni Link-State esiste un ACK</u></b> (non succede nel distance vector). Aumenta il volume del traffico di controllo per gestire la dinamica delle tabelle di instradamento. 
+- <b><u>Per ogni Link-State esiste un ACK</u></b> (non succede nel distance vector). <b><u>Aumenta il volume del traffico di controllo</u></b> per gestire la dinamica delle tabelle di instradamento. 
 
 
 Implementazione: [[OSPF]]

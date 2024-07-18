@@ -1,4 +1,8 @@
 `OSPF - Open Shortest Path First`
+
+Si tratta di un algoritmo di routing che implementa la tecnica Link State. 
+
+
 Algoritmo che ogni nodo della rete esegue tutte le volte che riceve un update di un LS, in particolare usa l'algoritmo di Dijkstra
 
 Vantaggi:
