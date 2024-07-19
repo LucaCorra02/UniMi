@@ -1,2 +1,3 @@
-Simile al Selective Repeat nel L2 ma il segmento contiene una `lista dei segmenti mancanti` in modo che tutti i segmenti siano trasmessi in un unico RTT
-La sorgente, una volta rilevato di aver ricevuto i segmenti non in ordine, puo utilizzare un SACK (SelectiveACK) per specificare il segmento che ho ricevuto insieme al ACK che rappresenta invece quello che mi aspettavo
+Simile al Selective Repeat nel L2 ma il segmento contiene una `lista dei segmenti mancanti` <b><u>in modo che tutti i segmenti siano trasmessi in un unico RTT</u></b>
+
+<b><u>La sorgente, una volta rilevato di aver ricevuto i segmenti non in ordine, puo utilizzare un SACK</u></b> (SelectiveACK) per specificare il segmento che ho ricevuto <b><u>insieme al ACK</u></b> che rappresenta invece quello che mi aspettavo.
