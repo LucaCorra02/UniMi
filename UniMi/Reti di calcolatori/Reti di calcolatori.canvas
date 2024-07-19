@@ -53,7 +53,6 @@
 		{"id":"f323c516f30ad234","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Chiusura connessione.md","x":-5973,"y":461,"width":670,"height":439},
 		{"id":"32bd7769e8811f4e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/SACK permitted option.md","x":-5183,"y":-1230,"width":500,"height":310},
 		{"id":"b42a6a444cb4f957","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Option.md","x":-4583,"y":-1459,"width":480,"height":266},
-		{"id":"2076335d8f8be51f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Formato.md","x":-4003,"y":-1519,"width":770,"height":1029},
 		{"id":"78a4047981135ce5","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/DNS - Schema.md","x":-4440,"y":-5880,"width":500,"height":604},
 		{"id":"60792b679d9811f6","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/HTTP 2.md","x":-6020,"y":-5120,"width":600,"height":458},
 		{"id":"11bee1c647ff4893","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/SDN - SW Defined Networking.md","x":-4440,"y":-3160,"width":560,"height":280},
@@ -189,7 +188,8 @@
 		{"id":"e7dcc5b746ab8ff8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/UDP.md","x":-2523,"y":-1499,"width":610,"height":599},
 		{"id":"2eaa4dc8b76ccf9f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Head Of Line Blocking Problem.md","x":-3160,"y":-1403,"width":560,"height":420},
 		{"id":"9f73a8853fb0a8f9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Livello di Trasporto.md","x":-2800,"y":-720,"width":927,"height":777},
-		{"id":"7df2b5a1ee7b6634","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP.md","x":-3723,"y":-300,"width":680,"height":406}
+		{"id":"7df2b5a1ee7b6634","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP.md","x":-3723,"y":-300,"width":680,"height":406},
+		{"id":"2076335d8f8be51f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Formato.md","x":-4040,"y":-1679,"width":807,"height":1190}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
