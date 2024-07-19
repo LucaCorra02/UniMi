@@ -48,14 +48,19 @@
             "id": "1ab4421d978c6bde",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "Reti di calcolatori/Esami/DomandeRetiEx.pdf"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "viewState": {
+                  "x": -7251.799077380828,
+                  "y": 514.6100943484222,
+                  "zoom": -1.441171923577834
+                }
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Esami/Esercizi vari.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Esami/Esercizi vari.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Esami/Esercizi vari.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -221,11 +226,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "aab01d892d2b4775",
+  "active": "1ab4421d978c6bde",
   "lastOpenFiles": [
     "Reti di calcolatori/Esami/DomandeRetiEx.pdf",
-    "Reti di calcolatori/Esami/Esercizi vari.md",
+    "Ingegneria del software/Ingegneria del software (SWENG).canvas",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/Esercizi vari.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
     "Reti di calcolatori/Esami/Esami indice.md",
     "Reti di calcolatori/Esami/2023-09-26.md",
@@ -273,7 +279,6 @@
     "Materiale tesi/Esempi.canvas",
     "Materiale tesi/Dataset Patients.canvas",
     "Sistemi biometrici/Sistemi biometrici.canvas",
-    "Ingegneria del software/Ingegneria del software (SWENG).canvas",
     "Linguaggi di programmazione/Linguaggi di programmazione.canvas",
     "Linguaggi di programmazione/Riassunti/Erlang/Erlang in action/ES.canvas",
     "Sistemi embedded/Sistemi embedded.canvas"
