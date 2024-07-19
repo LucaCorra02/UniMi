@@ -1,6 +1,7 @@
 
 <b><u>Grandezza header</u></b>:= `20 byte`. Stessa dimensione dell'header di IPV4. 
 
+<b><u>Lato ricezione come faccio a distinguere un segmento di un associazione da un altra</u></b>, dato che ho solo il numero di porta? Nell'header non è possibile farlo, nasce lo <span style=color:yellow>pseudo header</span>. 
 
 | Campo                 | Dimensione | Descrizione                                                                                                                                                                                                                      |
 | --------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -19,5 +20,14 @@
 | Checksum              |            | per verificare se il segmento è corretto                                                                                                                                                                                         |
 | Urgent pointer        | 16 bit     | usato un tempo per mandare CTRL C prima del comando che voglio annullare, è l offset dei dati dove iniziano i dati urgent                                                                                                        |
 | N [[TCP - Option]]    | $N*32bit$  |                                                                                                                                                                                                                                  |
-Il checksum non viene calcolato solo sul TCP ma sullo pseudo header: sul source IP, sul destination IP (dal DNS), protocol selector (6 per il TCP), la lunghezza del segmento + TCP header, opzioni dati ed eventualmente un padding
+<h5 style=color:cyan>Pseudo Header</h5>
+<b><u>Lato ricezione come faccio a distinguere un segmento di un associazione da un altra</u></b>, dato che ho solo il numero di porta? Nell'header non è possibile farlo, nasce lo <span style=color:yellow>pseudo header</span>, contenente :
 
+ - <span style=color:cyan>Ip sorgente</span>
+- <span style=color:cyan>ip destinazione</span>
+- <span style=color:cyan>protocol selector</span> 
+- <span style=color:cyan>segment lenght</span>
+
+<b><u>Il checksum non viene calcolato solo sul TCP ma anche sullo pseudo header</u></b>:
+- <b><u>header vero</u></b> 
+- <b><u>header virtuale</u></b> 

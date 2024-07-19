@@ -5,17 +5,13 @@ La dimensione del <span style=color:yellow>Buffer di ricezione </span> è import
 
 - <b><u>Deve essere aggiornata dinamicamente</u></b> = il buffer è situato sull'interfaccia tra il livello 4 e il livello 7
 
+il campo <span style=color:cyan>Windows Size</span> <b><u>è il campo che permette di concordare al client e al server la dimensione</u></b> del <span style=color:yellow>Buffer di ricezione </span><b><u> in fase di apertura della connessione</u></b>.
+
+<b><u>Il campo window size nell'header è di 16 bit, permettendo una dimensione massima di</u></b> $2^{16}$.
+Tuttavia per avere una <b><u>dimensione maggiore, si utilizza la window scale option</u></b> (inclusa nel segmento SYN)
 
 
-
-
-
-
-Il campo window size nell'header è di 16 bit, permettendo una dimensione massima di $2^{16}$.
-Tuttavia per avere una dimensione maggiore, si utilizza la window scale option (inclusa nel segmento SYN)
-
-
-Formato
+Formato:
 
 | Campo       | Dimensione | Descrizione                                                                                                                                |
 | ----------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
