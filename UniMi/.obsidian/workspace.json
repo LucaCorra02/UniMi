@@ -21,14 +21,11 @@
             "id": "2e30710327877884",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
-                "viewState": {
-                  "x": -1316.8336214909039,
-                  "y": -1463.2526581745042,
-                  "zoom": -3.5840862802447426
-                }
+                "file": "Reti di calcolatori/Esami/Esercizi vari.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/Esercizi vari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/Esercizi vari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Esami/Esercizi vari.md"
               }
             }
           },
@@ -201,6 +198,7 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
+    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
     "Reti di calcolatori/Esami/DomandeRetiEx.pdf",
     "Reti di calcolatori/Esami/Esami indice.md",
@@ -213,7 +211,6 @@
     "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Esami/2019-01-29.md",
     "Reti di calcolatori/Esami/2018-02-27.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Pasted image 20240718214312.png",
     "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
