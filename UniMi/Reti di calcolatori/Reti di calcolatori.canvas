@@ -167,7 +167,6 @@
 		{"id":"076ae67961785301","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 1/Mezzi trasmissivi - Differenze.md","x":240,"y":0,"width":700,"height":645},
 		{"id":"44b5c7afac945e51","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello 1/Mezzi trasmissivi.md","x":1106,"y":-80,"width":630,"height":1222},
 		{"id":"e7dcc5b746ab8ff8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/UDP.md","x":-2563,"y":-999,"width":610,"height":599},
-		{"id":"9f73a8853fb0a8f9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Livello di Trasporto.md","x":-2683,"y":-190,"width":610,"height":184},
 		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-3160,"y":1300,"width":515,"height":305},
 		{"id":"2e35cde72468acf9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - 3 ACK duplicati.md","x":-3158,"y":1660,"width":510,"height":374},
 		{"id":"9a3aefff1aff6a2c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/NAT.md","x":-3663,"y":3760,"width":920,"height":1120},
@@ -189,7 +188,8 @@
 		{"id":"409fc0f46a0432d1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md","x":-1323,"y":6272,"width":780,"height":808},
 		{"id":"8a016eaa3637fb72","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/RED - Random Early Detection.md","x":4200,"y":7604,"width":720,"height":708},
 		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3340,"y":7710,"width":680,"height":200},
-		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2593,"y":7810,"width":655,"height":296}
+		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2593,"y":7810,"width":655,"height":296},
+		{"id":"9f73a8853fb0a8f9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Livello di Trasporto.md","x":-2680,"y":-281,"width":680,"height":380}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
