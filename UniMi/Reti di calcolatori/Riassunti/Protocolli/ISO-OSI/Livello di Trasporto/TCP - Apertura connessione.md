@@ -1,3 +1,14 @@
+ <span style=color:yellow>La procedura di apertura di una connessione in TCP è a 3-vie</span> 
+`Tree-way-handshake`: 
+- SYN 
+- ACK 
+- ACK 
+
+ <b><u>Ogni entità TCP generà usando come seed una parte del clock locale</u></b> un <span style=color:yellow>nuemro di sequenza iniziale pseudorandom</span>
+
+
+
+
 Sia la sorgente che la destinazione scelgono un `SEQ SequenceNumber` 
 SEQ non parte sempre da 0, per evitare che segmenti di una vecchia connessione ancora nella rete causino sovrapposizione
 (Oggi non viene piu usato un approccio incrementale ma viene usata una funzione crittografica)
