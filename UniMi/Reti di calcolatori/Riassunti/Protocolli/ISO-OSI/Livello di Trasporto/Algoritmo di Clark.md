@@ -6,11 +6,10 @@ Situazione: `produttore veloce e consumatore lento`. Il problema è analogo al [
 <b><u>Questa situazione causerebbe un messaggio di windows update ogni byte letto, provocando uno storm di windows update</u></b>.
 Siccome gli <span style=color:yellow> windows update message</span> <b><u>sono dei messaggi di controllo (solo header), vanno a generare del traffico inutile sulla rete </u></b>. 
 
+<span style=color:green>Soluzione</span>: algoritmo di Clark. 
+Prima di inviare uno <span style=color:yellow> windows update message</span>, <b><u>aspetto l'intercorrere del seguente tempo</u></b> : 
+     $Min(1/2 * BufferSize, MaximumSegmentSize)$
 
-
-
-Soluzione: algoritmo di Clark
-Si evita di annunciare la nuova disponibilita di window aspettando o di raggiungere il MSS o se ho almeno meta buffer vuoto
-
-1. $X = min(W_R, buffer/2)$
-2. $TempoNoWinUpdate = X*TempoConsumo$
+Prima di rispondere, il ricevitore aspetta il minimo tra: 
+- <b><u>Aver svuotato almeno 1/2 del buffer di ricezione</u></b> 
+- Oppure la <b><u>massima dimensione dei segmenti TCP</u></b>. 
