@@ -1,32 +1,31 @@
 <b><u>La scelta del dimensionamento dell RTO è un fattore critico delle performance</u></b>.
-<span style=color:red>Problema</span> = <b><u>TCP ha il problema di dimensionare RTO in quanto non sa stimare il reale RTT per ogni segmento inviato</u></b>. <b><u>Non posso campionare RTT a diversi istanti di tempo, in quanto è molto variabile</u></b> (dipende dallo stato della rete). 
+<span style=color:red>Problema</span> = <b><u>TCP ha il problema di dimensionare RTO in quanto non sa stimare il reale RTT per ogni segmento inviato</u></b>. <b><u>Non posso campionare RTT a diversi istanti di tempo, in quanto è molto variabile</u></b> (dipende dallo stato della rete). A livello 4 abbiamo più link che il segmento deve attraversare, a differenza del livello 2. 
 
+<span style=color:green>Soluzione</span> = <b><u>TCP per ogni segmento inviato risponde con un ACK relativo, lato trasmettitore posso ottenere una misura sistematica del RTT</u></b>. 
 
-
-
-
-La scelta dell RTO deve essere `dinamica`
-Quando si apre una connessione, non abbiamo informazioni sulla rete, quindi ci si basa sullo standard RFC 2988
+<b><u>il trasmettitore misura il RTT per ogni segmento inviato</u></b>. A questo punto le varie misure vengono utilizzate per comporre la distribuzione di ritardo, tenendo conto della storia. 
 `Come outliner consideriamo il caso in cui l'ACK si perda`
-
 Utilizziamo una distribuzione normale con media e deviazione standard
 Considerando lo scadere dell'RTO come un outliner: $\mu + k*\sigma$
 
 Fasi:
 
 ---
-- $T_0$ Momento in cui la connessione viene aperta: 
+- $T_0$ Momento in cui la <b><u>connessione viene aperta</u></b>: 
 
-Non ho informazioni sul `RTT Round Trip Time`: da quando mando il segmento a quando ricevo l'ACK 
-Imposto RTO a 3 secondi. 
+<b><u>Non ho informazioni sul</u></b> `RTT Round Trip Time`: da quando mando il segmento a quando ricevo l'ACK. 
+<b><u>Di default :</u></b> = `RT0 3 secondi`.
+
 Mantengo due variabili: 
 - $SRTT = NULL$ (`Smoothing RTT` stima $\mu$) 
-- $RTTVAR = NUL$L (`RTT Variance` stima $\sigma$) e poi $G <= 100ms$ (G è la granularita del clock)
+- $RTTVAR = NUL$L (`RTT Variance` stima $\sigma$) 
+- $G <= 100ms$ (G è la granularità del clock)
 
-SE al $T_0$ scade l'RTO, raddoppio l'RTO (fino a un massimo di 2 minuti) in quanto non ho informazioni
+SE al $T_0$ <b><u>scade l'RTO, raddoppio l'RTO</u></b> (fino a un massimo di 2 minuti) in quanto non ho informazioni
 
 ---
 - $T_1$ Momento in cui ricevo un segmento di ACK con un $RTT = R$
+- $R$ = Misura dell'RTT attuale.
 
 Imposto $SRTT = R$ e $RTTVAR = \frac{R}{2}$. $$RTO = R + max(G, k*RTTVAR)$$con $k = 4$ (suggerito)
 es 
