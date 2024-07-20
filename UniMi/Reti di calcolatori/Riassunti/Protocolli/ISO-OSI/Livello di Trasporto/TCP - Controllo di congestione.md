@@ -1,4 +1,5 @@
-La `congestione` è un fattore della rete determinato dal riempimento delle code nei router e causa della perdita di segmenti
+<span style=color:red>Problema</span> = <b><u>Siamo in mancanza di un informazione importante in TCP, ovvero lo stato della rete</u></b>
+Anche se il buffer di ricezione è vuoto e pronto a ricevere tutto il traffico potrebbe accadere che la rete sia `congestionata`, code dei router piene, causando <b><u>packet dropping</u></b>.
 
 TCP rileva la congestione come un errore di trasmissione
 - `thougthput`: utilizzo del canale nel tempo
