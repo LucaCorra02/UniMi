@@ -6,3 +6,7 @@ L'unico modo in cui <b><u>riavvio l'invio di segmenti è con l'ACK da destinazio
 Se perdo tale segmento, potrò inviarlo nuovamente allo scadere del Timer.
 
 <b><u>Alla ricezione, viene riconosciuto come messaggio Window Probe e viene inviato nuovamente l'ACK con</u></b> $WIN = N$ e $ACK = X + 2001$
+
+
+
+
