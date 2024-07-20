@@ -190,7 +190,7 @@
 		{"id":"c6ca30a996c73f21","x":-4508,"y":979,"width":548,"height":421,"type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md"},
 		{"id":"fd83414727cfe027","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo del flusso.md","x":-4740,"y":326,"width":660,"height":520},
 		{"id":"6c6afaa7f88b6c09","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Invio continuo.md","x":-7078,"y":-1120,"width":540,"height":314},
-		{"id":"baacc851b12d8191","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Cumulative ACK.md","x":-6500,"y":-1120,"width":480,"height":314}
+		{"id":"baacc851b12d8191","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Cumulative ACK.md","x":-6500,"y":-1367,"width":500,"height":561}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
