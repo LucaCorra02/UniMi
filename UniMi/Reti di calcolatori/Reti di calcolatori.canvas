@@ -172,8 +172,7 @@
 		{"id":"8f416a35a6b74a89","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/MSSO - Max Segment Size Option.md","x":-4553,"y":-1880,"width":420,"height":361},
 		{"id":"82a976d6893cd873","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Apertura connessione.md","x":-5960,"y":-1600,"width":640,"height":1320},
 		{"id":"a3d726e678dc9385","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/RTO.md","x":-5960,"y":-1980,"width":640,"height":280},
-		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-2497,"y":1300,"width":515,"height":305},
-		{"id":"2e35cde72468acf9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - 3 ACK duplicati.md","x":-2497,"y":1695,"width":510,"height":374},
+		{"id":"2e35cde72468acf9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - 3 ACK duplicati.md","x":-2497,"y":1660,"width":510,"height":409},
 		{"id":"dd406a70b823b69c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Persistent Timer.md","x":-5080,"y":979,"width":523,"height":566},
 		{"id":"223fbf714ecaec6c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Explicit Congestion Notification.md","x":-4108,"y":1635,"width":660,"height":434},
 		{"id":"bb0d562677db6dbf","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md","x":-3920,"y":979,"width":560,"height":566},
@@ -190,7 +189,8 @@
 		{"id":"9f73a8853fb0a8f9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Livello di Trasporto.md","x":-2840,"y":-688,"width":927,"height":777},
 		{"id":"f02badf7f3205969","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/QUIC.md","x":-1720,"y":323,"width":690,"height":634},
 		{"id":"b1f959e507bf3a3d","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md","x":-3300,"y":1173,"width":707,"height":864},
-		{"id":"80f692bd84c77741","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo di congestione.md","x":-2946,"y":320,"width":900,"height":760}
+		{"id":"80f692bd84c77741","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo di congestione.md","x":-2946,"y":320,"width":900,"height":760},
+		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-2496,"y":1140,"width":510,"height":465}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},

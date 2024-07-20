@@ -1,8 +1,13 @@
-<span style=color:cyan>Gestione degli errori nella fase di s</span>
+<span style=color:cyan>Gestione degli errori:</span>
 <b><u>Dobbiamo tener conto se l'errore è rilevato tramite il time out (più grave) o tramite fast retrasmit (meno grave)</u></b>. 
 
+Standard  `RFC 5681`. 
 
 SE RTO scade, NON ho ricevuto nessun ACK
-La `congestione è molto grave` in quanto lo scadere del RTO è considerato come un evento raro
+La <span style=color:red>congestione è molto grave</span> in quanto<b><u> lo scadere del RTO è considerato come un evento raro</u></b>.
 
-Quando scade l'RTO, si riparte con $W_C = 1$ quindi con uno Slow Start MA la SST viene diminuita in particolare alla meta della finestra in cui è scaduta l'RTO
+  - $WC = 1 * MSS$ -> <b><u>La finestra di congestione rincomincia da capo, riparto con la fase di slow_start</u></b>.
+  
+  - $SST = \dfrac{W_c{size}}{2}$ =  La SST viene diminuita in particolare alla <b><u>meta della finestra in cui è scaduta l'RTO</u></b>.
+
+![[Pasted image 20240720171205.png]]

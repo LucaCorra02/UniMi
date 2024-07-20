@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -2324.5184020608494,
-                  "y": 1567.1663680994222,
-                  "zoom": -0.6788623501267317
+                  "x": -2890.0700127038676,
+                  "y": 1130.1280533514985,
+                  "zoom": -1.540684918313857
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -214,6 +214,9 @@
   },
   "active": "aab01d892d2b4775",
   "lastOpenFiles": [
+    "Pasted image 20240720171205.png",
+    "Pasted image 20240720171159.png",
+    "Pasted image 20240720171116.png",
     "Pasted image 20240720165947.png",
     "Pasted image 20240720154341.png",
     "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
@@ -240,11 +243,8 @@
     "Pasted image 20240718124633.png",
     "Pasted image 20240718114221.png",
     "Pasted image 20240718113700.png",
-    "Pasted image 20240718113642.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
     "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
-    "Pasted image 20240717180604.png",
-    "Pasted image 20240717175603.png",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
