@@ -188,8 +188,8 @@
 		{"id":"a3dab6f442361da1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Window scale option.md","x":-4613,"y":-1100,"width":540,"height":634},
 		{"id":"2076335d8f8be51f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Formato.md","x":-4000,"y":-1820,"width":767,"height":1293},
 		{"id":"8f416a35a6b74a89","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/MSSO - Max Segment Size Option.md","x":-4553,"y":-1880,"width":420,"height":361},
-		{"id":"a3d726e678dc9385","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/RTO.md","x":-5960,"y":-1979,"width":640,"height":280},
-		{"id":"82a976d6893cd873","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Apertura connessione.md","x":-5960,"y":-1600,"width":640,"height":1320}
+		{"id":"82a976d6893cd873","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Apertura connessione.md","x":-5960,"y":-1600,"width":640,"height":1320},
+		{"id":"a3d726e678dc9385","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/RTO.md","x":-5960,"y":-1980,"width":640,"height":280}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
