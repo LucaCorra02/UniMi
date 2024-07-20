@@ -4,7 +4,7 @@ Situazione: `produttore lento e consumatore veloce`. Problema opposto rispetto a
 
 <b><u>Lato trasmettitore accumulo le informazioni che l'utente vuole spedire (essendo lento)</u></b>, esse saranno accumulato e spedite nel segmento successivo. 
 
-<b><u>Non ho un timer lato trasmettitore, misuro il tempo che intercorre tra la send e l'ack associato e lo uso come timer incorporato per la trasmissione del segmento successivo, si tratta di uno</u></b> <span style=color:yellow>schema di self-clocking</span>. Ogni tempo $RTT+200ms$ invio un segmento con più byte accumulati. 
+<b><u>Non ho un timer lato trasmettitore, misuro il tempo che intercorre tra la send e l'ack associato e lo uso come timer incorporato per la trasmissione del segmento successivo, si tratta di uno</u></b> <span style=color:yellow>schema di self-clocking</span>. Ogni tempo $RTT$ invio un segmento con più byte accumulati. 
 
 *ES*
 Lato sender :
