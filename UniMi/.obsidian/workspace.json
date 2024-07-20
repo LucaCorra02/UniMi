@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -6719.939553597323,
-                  "y": -1437.4432716626222,
-                  "zoom": -0.18342138379812556
+                  "x": -3348.6236810752503,
+                  "y": 720.560065382737,
+                  "zoom": -0.8633990654167294
                 }
               }
             }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -213,6 +213,7 @@
   },
   "active": "aab01d892d2b4775",
   "lastOpenFiles": [
+    "Pasted image 20240720154341.png",
     "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Esami/Esercizi vari.md",

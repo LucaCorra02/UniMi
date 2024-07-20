@@ -1,12 +1,18 @@
-Situazione: `produttore lento e consumatore veloce`
+Situazione: `produttore lento e consumatore veloce` :
+
 Lato destinazione è una variazione del delayed acknowledgement che aspetta SOLO un segmento che riceve l'ACK. Quando l'ACK arriva, tutti i caratteri nel buffer, vengono inviati in un unico segmento.
 
-Lato produttore questo invia subito il primo segmento prodotto per tastare il terreno e misurare l'RTT quindi, ogni RTT tempo invia un pacchetto con tutti i chunk man mano prodotti
+<b><u>Lato trasmettitore accumulo le informazioni che l'utente vuole spedire (essendo lento)</u></b>, esse saranno accumulato e spedite nel segmento successivo. 
 
-ES
-Lato sender che produce 1B di dati ogni 20 msec., e con link avente banda di 100 Kbps e tempo di propagazione di 100 msec. 
+<b><u>Non ho un timer lato trasmettitore, misuro il tempo che intercorre tra la send e l'ack associato e lo uso come timer incorporato per la trasmissione del segmento successivo, si tratta di uno</u></b> <span style=color:yellow>schema di self-clocking</span>. Ogni tempo $RTT$ invio un segmento con più byte accumulati. 
 
-Primo segmento 1B+20B = 21B
+*ES*
+Lato sender :
+- Produce 1Byte di dati ogni 20 msec. 
+- link avente banda di 100 Kbps 
+- $T_p$ = 100 msec. 
+
+Primo segmento 1Byte+20Byte = 21Byte
 $t_x = \frac{21*8}{100000} = 1.68*10^{-3}$
 $t_p= 100msec$
 ack arriva dopo $1.68+2* 100 = 201.68msec$
