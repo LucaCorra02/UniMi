@@ -37,7 +37,7 @@ $RTO = 10ms + 4*5ms = 30ms$, quindi da 3 secondi siamo passati a 30ms
 ---
 - $T_k$, con $k>2$, quando arriva un $RTT = R$, 
 
-Con $0<\beta<1$, imposto $$RTTVAR = (1-\beta)*RTTVAR + \beta*|SRTT-R|,$$
+- Con $0<\beta<1$, imposto $$RTTVAR = (1-\beta)*RTTVAR + \beta*|SRTT-R|,$$
 OSS piu $\beta$ è vicino a 0, piu tenderò ad aggiornare meno il mio valore
 - Piu $\beta$ è alto, piu sono sensibile agli sbalzi di R MA se è solo un rumore temporaneo rischio di cambiare troppo
 - Piu $\beta$ è basso, piu RTTVAR è smussato MA non cattura una variazione
