@@ -36,15 +36,21 @@ $RTO = 10ms + 4*5ms = 30ms$, quindi da 3 secondi siamo passati a 30ms
 
 ---
 - $T_k$, con $k>2$, quando arriva un $RTT = R$, 
+- $0<\beta<1$ = <b><u>Bilancia la reattività del sistema alle variazioni di RTT</u></b> e la stabilità delle misurazioni nel tempo.
+- $0<\alpha<1$ = <b><u>Server per bilanciare la storia e il valore attuale</u></b>, quanto un valore nuovo può spostare il valore storico di $SRTT$ : 
+   - Se $a=1$ -> <b><u>Peso di più la storia</u></b> 
+  - Se $a=0$ -> <b><u>Peso di più la misurazione di RTT attuale rispetto alla storia</u></b>.
 
-- Con $0<\beta<1$, imposto $$RTTVAR = (1-\beta)*RTTVAR + \beta*|SRTT-R|,$$
+<span style=color:yellow>Standard</span> $\alpha=\frac{1}{8}$ e $\beta=\frac{1}{4}$
+
+Con $0<\beta<1$, imposto $$RTTVAR = (1-\beta)*RTTVAR + \beta*|SRTT-R|,$$
 OSS piu $\beta$ è vicino a 0, piu tenderò ad aggiornare meno il mio valore
-- Piu $\beta$ è alto, piu sono sensibile agli sbalzi di R MA se è solo un rumore temporaneo rischio di cambiare troppo
-- Piu $\beta$ è basso, piu RTTVAR è smussato MA non cattura una variazione
+- Piu $\beta$ <b><u>è alto, piu sono sensibile agli sbalzi di R</u></b> MA se è solo un rumore temporaneo rischio di cambiare troppo
+- Piu $\beta$ <b><u>è basso, piu RTTVAR è smussato MA non cattura una variazione</u></b>
 
 Con $0<\alpha<1$, imposto
  $$SRTT = (1-\alpha)*SRTT + \alpha*R$$
-Standard $\alpha=\frac{1}{8}$ e $\beta=\frac{1}{4}$)
+
 Di conseguenza aggiornero l'RTO come 
 $$RTO = SRTT + max(G, k*RTTVAR)$$con $k = 4$
 SE a $T_k$ RTO scade, raddoppio e poi quando riceverò R faro di nuovo la stima
