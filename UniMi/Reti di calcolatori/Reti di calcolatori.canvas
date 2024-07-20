@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"64ca093d411ee28d","type":"group","x":-5123,"y":2400,"width":10880,"height":6080,"color":"6","label":"Livello di rete"},
 		{"id":"42be541db9932da2","type":"group","x":2320,"y":-6074,"width":7280,"height":8074,"color":"5","label":"2 Livello data link"},
-		{"id":"1f9c8159060f8607","type":"group","x":-8763,"y":-2160,"width":6893,"height":4400,"label":"Livello di trasporto"},
+		{"id":"1f9c8159060f8607","type":"group","x":-8763,"y":-2160,"width":6893,"height":4400,"color":"#40e63d","label":"Livello di trasporto"},
 		{"id":"77f5b7d0077fcae6","type":"group","x":-7840,"y":-6840,"width":6800,"height":4440,"label":"Livello applicazione"},
 		{"id":"ab3341d8b6257549","type":"group","x":-4803,"y":2480,"width":5120,"height":5082,"label":"Addressing"},
 		{"id":"99b89b2b7f3dd36e","type":"group","x":1277,"y":2480,"width":4400,"height":3531,"label":"Routing"},
