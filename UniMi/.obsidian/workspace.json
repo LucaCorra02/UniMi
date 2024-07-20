@@ -40,9 +40,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -4585.004741752167,
-                  "y": 567.5974848064927,
-                  "zoom": 0.399466527618934
+                  "x": -3812.0984550763187,
+                  "y": 1009.1730128051523,
+                  "zoom": -1.7112050185415586
                 }
               }
             }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md"
               }
             }
           },
