@@ -17,17 +17,19 @@ Fasi:
 <b><u>Di default :</u></b> = `RT0 3 secondi`.
 
 Mantengo due variabili: 
-- $SRTT = NULL$ (`Smoothing RTT` stima $\mu$, media ponderata dell'RTT) (Valore storico di RTO, $RTO_{hold}$) ?
+- $SRTT = NULL$ (`Smoothing RTT` stima $\mu$) media ponderata del RTT (Round Trip Time) corrente e delle misurazioni precedenti. 
 - $RTTVAR = NUL$L (`RTT Variance` stima $\sigma$,) 
-- $G <= 100ms$ (G è la granularità del clock)
+- $G <= 100ms$ (G è la granularità del timer) = ovvero l'unità minima di tempo con cui il sistema misura e gestisce il tempo
 
 SE al $T_0$ <b><u>scade l'RTO, raddoppio l'RTO</u></b> (fino a un massimo di 2 minuti) in quanto non ho informazioni
 
 ---
-- $T_1$ Momento in cui ricevo un segmento di ACK con un $RTT = R$
+I<b><u> calcoli qua sotto valgono solamente per il primo ACK ricevuto</u></b>. 
+
+- $T_1$ Momento in cui <b><u>ricevo un segmento di ACK</u></b> con un $RTT = R$
 - $R$ = Misura dell'RTT attuale.
 
-Imposto $SRTT = R$ e $RTTVAR = \frac{R}{2}$. $$RTO = R + max(G, k*RTTVAR)$$con $k = 4$ (suggerito)
+Imposto $SRTT = R$ e $RTTVAR = \frac{R}{2}$. $$RTO = SRTT + max(G, k*RTTVAR)$$con $k = 4$ (<b><u>suggerito</u></b>).
 es 
 $R = 10 ms$, 
 $RTO = 10ms + 4*5ms = 30ms$, quindi da 3 secondi siamo passati a 30ms

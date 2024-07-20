@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -8169.30310078664,
-                  "y": 148.30799395567587,
-                  "zoom": 0.03192238602846571
+                  "x": -8087.373402386801,
+                  "y": 527.759809121566,
+                  "zoom": -0.24344238773472265
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
