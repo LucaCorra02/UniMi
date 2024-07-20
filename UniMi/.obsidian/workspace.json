@@ -37,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -3348.6236810752503,
-                  "y": 720.560065382737,
-                  "zoom": -0.8633990654167294
+                  "x": 2781.3044492854738,
+                  "y": 7566.503884775189,
+                  "zoom": -1.5236877145940413
                 }
               }
             }
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "98d901f23bf6ce7e",
