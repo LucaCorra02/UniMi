@@ -17,8 +17,8 @@ Fasi:
 <b><u>Di default :</u></b> = `RT0 3 secondi`.
 
 Mantengo due variabili: 
-- $SRTT = NULL$ (`Smoothing RTT` stima $\mu$) 
-- $RTTVAR = NUL$L (`RTT Variance` stima $\sigma$) 
+- $SRTT = NULL$ (`Smoothing RTT` stima $\mu$, media ponderata dell'RTT) (Valore storico di RTO, $RTO_{hold}$) ?
+- $RTTVAR = NUL$L (`RTT Variance` stima $\sigma$,) 
 - $G <= 100ms$ (G è la granularità del clock)
 
 SE al $T_0$ <b><u>scade l'RTO, raddoppio l'RTO</u></b> (fino a un massimo di 2 minuti) in quanto non ho informazioni
