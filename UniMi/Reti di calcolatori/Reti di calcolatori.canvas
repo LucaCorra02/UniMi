@@ -165,7 +165,6 @@
 		{"id":"5f95eee3e3a847f8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/QoS - FIFO.md","x":3340,"y":7710,"width":680,"height":200},
 		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2593,"y":7810,"width":655,"height":296},
 		{"id":"e7dcc5b746ab8ff8","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/UDP.md","x":-2523,"y":-1499,"width":610,"height":599},
-		{"id":"2eaa4dc8b76ccf9f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Head Of Line Blocking Problem.md","x":-3160,"y":-1403,"width":560,"height":420},
 		{"id":"7df2b5a1ee7b6634","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP.md","x":-3723,"y":-300,"width":680,"height":406},
 		{"id":"a3dab6f442361da1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Window scale option.md","x":-4613,"y":-1100,"width":540,"height":634},
 		{"id":"2076335d8f8be51f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Formato.md","x":-4000,"y":-1820,"width":767,"height":1293},
@@ -190,7 +189,8 @@
 		{"id":"f02badf7f3205969","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/QUIC.md","x":-1720,"y":323,"width":690,"height":634},
 		{"id":"b1f959e507bf3a3d","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md","x":-3300,"y":1173,"width":707,"height":864},
 		{"id":"80f692bd84c77741","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo di congestione.md","x":-2946,"y":320,"width":900,"height":760},
-		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-2496,"y":1140,"width":510,"height":465}
+		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-2496,"y":1140,"width":510,"height":465},
+		{"id":"2eaa4dc8b76ccf9f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Head Of Line Blocking Problem.md","x":-3160,"y":-1383,"width":560,"height":420}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
