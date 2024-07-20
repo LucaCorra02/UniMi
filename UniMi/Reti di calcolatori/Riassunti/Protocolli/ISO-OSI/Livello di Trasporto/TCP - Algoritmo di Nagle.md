@@ -1,4 +1,4 @@
-Situazione: `produttore lento e consumatore veloce` :
+Situazione: `produttore lento e consumatore veloce`. Problema opposto rispetto al problema di [[Algoritmo di Clark]]:
 
 Lato destinazione è una variazione del delayed acknowledgement che aspetta SOLO un segmento che riceve l'ACK. Quando l'ACK arriva, tutti i caratteri nel buffer, vengono inviati in un unico segmento.
 
