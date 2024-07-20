@@ -1,4 +1,10 @@
-La scelta del dimensionamento dell RTO è un fattore critico delle performance
+<b><u>La scelta del dimensionamento dell RTO è un fattore critico delle performance</u></b>.
+<span style=color:red>Problema</span> = <b><u>TCP ha il problema di dimensionare RTO in quanto non sa stimare il reale RTT per ogni segmento inviato</u></b>. <b><u>Non posso campionare RTT a diversi istanti di tempo, in quanto è molto variabile</u></b> (dipende dallo stato della rete). 
+
+
+
+
+
 La scelta dell RTO deve essere `dinamica`
 Quando si apre una connessione, non abbiamo informazioni sulla rete, quindi ci si basa sullo standard RFC 2988
 `Come outliner consideriamo il caso in cui l'ACK si perda`

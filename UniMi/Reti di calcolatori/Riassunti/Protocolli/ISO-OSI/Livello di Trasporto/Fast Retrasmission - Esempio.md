@@ -1,4 +1,4 @@
-Assumiamo ACK immediato, che quando arriva alla sorgente questa aggiorna il proprio Vs con X+500
+Assumiamo ACK immediato, che quando arriva alla sorgente questa aggiorna il proprio Vs con X+500. 
 Mandando un secondo messaggio, questo viene perso MA ho trasmesso un terzo messaggio che è arrivato alla destinazione.
 Il SEQ è diverso da quello che si aspetta il ricevente, quindi lo conservo nel buffer di TCP SENZA passarlo al buffer dell'applicazione
 MA non posso rispondere con un $ACK = X+1000$, quindi rispondo con un $ACK = X+500$ perche è quello che mi aspetto
