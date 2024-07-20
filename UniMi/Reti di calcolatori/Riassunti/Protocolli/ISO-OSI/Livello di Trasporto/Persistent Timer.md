@@ -2,6 +2,9 @@
 il trasmettitore entrerà in stato di `wait`. 
 L'unico modo in cui <b><u>riavvio l'invio di segmenti è con l'ACK da destinazione a sorgente</u></b> con $WIN = N$, <span style=color:red>SE tale segmento viene perso il trasmettitore rimane in wait, si crea una situazione di deadlock</span>.
 
+<span style=color:green>Soluzione</span> = Introduco un <span style=color:yellow>Persist Timer</span>. quando viene settata la finestra $W_S$, parte <b><u>Il timer parte quando viaggia un segmento con windows size zero</u></b> e si interrompe quando il trasmettitore conferma di aver ricevuto un segmento contenete la nuova dimensione del buffer. 
+il messaggio viene rinviato k volte. 
+
 
 Per risolvere ciò, quando viene settata la finestra $W_S$, parte un `Persist Timer` che, SE prima del suo scadere, non viene ricevuto un segmento con $WIN = N$, allora TCP manda un `Window Probe`. 
 SE perdo tale segmento, potrò inviarlo nuovamente allo scadere del Timer.
