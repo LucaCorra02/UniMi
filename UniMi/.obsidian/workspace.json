@@ -40,9 +40,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -5639.7611688101215,
-                  "y": -1051.3083391440275,
-                  "zoom": 0.3817962806997086
+                  "x": -6421.032117235136,
+                  "y": -50.919372807443025,
+                  "zoom": -0.43760106045762515
                 }
               }
             }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Apertura connessione.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Apertura connessione.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Apertura connessione.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
