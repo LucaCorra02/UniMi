@@ -4,7 +4,7 @@ Introduciamo 2 variabili:
 - $W_S$ (`Finestra di invio`). Il flusso si ferma quando $W_S$ = 0 
 - $W_R$ (`Finestra di ricezione`) che <b><u>utilizzeremo nell'header del TCP in window size</u></b>
 
-$W_R$ <b><u>è aumentata quando la destinazione riceve dei dati privi di errore</u></b> mentre <b><u>viene diminuita quando AP destinatario legge dei byte dal buffer</u></b>.
+$W_R$ <b><u>è aumentata quando la destinazione riceve dei dati privi di errore</u></b> mentre <b><u>viene diminuita quando l'applicativo destinatario legge dei byte dal buffer</u></b>.
 
 [[TCP - Controllo del flusso Esempio]]
 
