@@ -1,10 +1,10 @@
 Situazione: `produttore lento e consumatore veloce`. Problema opposto rispetto al problema di [[Algoritmo di Clark]]:
 
-Lato destinazione è una variazione del delayed acknowledgement che aspetta SOLO un segmento che riceve l'ACK. Quando l'ACK arriva, tutti i caratteri nel buffer, vengono inviati in un unico segmento.
+<b><u>Lato destinazione è una variazione del delayed acknowledgement, aspetto che SOLO un segmento riceva il relativo ACK. Quando l'ACK arriva, tutti i caratteri nel buffer, vengono inviati in un unico segmento</u></b>.
 
 <b><u>Lato trasmettitore accumulo le informazioni che l'utente vuole spedire (essendo lento)</u></b>, esse saranno accumulato e spedite nel segmento successivo. 
 
-<b><u>Non ho un timer lato trasmettitore, misuro il tempo che intercorre tra la send e l'ack associato e lo uso come timer incorporato per la trasmissione del segmento successivo, si tratta di uno</u></b> <span style=color:yellow>schema di self-clocking</span>. Ogni tempo $RTT$ invio un segmento con più byte accumulati. 
+<b><u>Non ho un timer lato trasmettitore, misuro il tempo che intercorre tra la send e l'ack associato e lo uso come timer incorporato per la trasmissione del segmento successivo, si tratta di uno</u></b> <span style=color:yellow>schema di self-clocking</span>. Ogni tempo $RTT+200ms$ invio un segmento con più byte accumulati. 
 
 *ES*
 Lato sender :
