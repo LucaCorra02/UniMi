@@ -64,8 +64,6 @@
 		{"id":"3eae4452c0e1a712","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo dell'errore.md","x":-7663,"y":-310,"width":560,"height":460},
 		{"id":"616945b2d6ee0f6b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Invio.md","x":-6808,"y":-466,"width":670,"height":771},
 		{"id":"10585e838df94e32","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md","x":-8523,"y":-766,"width":740,"height":1832},
-		{"id":"d3e9fc0d771d93e1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md","x":-7078,"y":-1600,"width":540,"height":437},
-		{"id":"1b4bf0057ce342ad","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Algoritmo di Nagle.md","x":-7763,"y":-2040,"width":620,"height":714},
 		{"id":"aa42c6808f96d12d","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Interazione IPv4 - IPv6.md","x":-791,"y":3880,"width":600,"height":260},
 		{"id":"dd48ff6bb6df6212","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv6 - Extensions headers.md","x":-403,"y":4312,"width":600,"height":1017},
 		{"id":"625d0deae1df8b9b","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md","x":4197,"y":4620,"width":703,"height":680},
@@ -190,7 +188,9 @@
 		{"id":"c6ca30a996c73f21","x":-4508,"y":979,"width":548,"height":421,"type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md"},
 		{"id":"fd83414727cfe027","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo del flusso.md","x":-4740,"y":326,"width":660,"height":520},
 		{"id":"6c6afaa7f88b6c09","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Invio continuo.md","x":-7078,"y":-1120,"width":540,"height":314},
-		{"id":"baacc851b12d8191","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Cumulative ACK.md","x":-6500,"y":-1367,"width":500,"height":561}
+		{"id":"baacc851b12d8191","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Cumulative ACK.md","x":-6500,"y":-1367,"width":500,"height":561},
+		{"id":"1b4bf0057ce342ad","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Algoritmo di Nagle.md","x":-7860,"y":-1980,"width":620,"height":714},
+		{"id":"d3e9fc0d771d93e1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md","x":-7080,"y":-1980,"width":540,"height":714}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -293,8 +293,8 @@
 		{"id":"c4480aabf83157de","fromNode":"8e2b937f607d8db2","fromSide":"left","toNode":"616945b2d6ee0f6b","toSide":"right","label":"2"},
 		{"id":"cdd1cff002dd9e0d","fromNode":"616945b2d6ee0f6b","fromSide":"top","toNode":"baacc851b12d8191","toSide":"bottom","label":"1"},
 		{"id":"a32f17036defa150","fromNode":"616945b2d6ee0f6b","fromSide":"top","toNode":"6c6afaa7f88b6c09","toSide":"bottom","label":"2"},
-		{"id":"05ac25375597779c","fromNode":"6c6afaa7f88b6c09","fromSide":"top","toNode":"d3e9fc0d771d93e1","toSide":"bottom"},
-		{"id":"202c91b24c500e59","fromNode":"d3e9fc0d771d93e1","fromSide":"top","toNode":"1b4bf0057ce342ad","toSide":"right"},
+		{"id":"05ac25375597779c","fromNode":"6c6afaa7f88b6c09","fromSide":"top","toNode":"d3e9fc0d771d93e1","toSide":"bottom","label":"1"},
+		{"id":"202c91b24c500e59","fromNode":"d3e9fc0d771d93e1","fromSide":"left","toNode":"1b4bf0057ce342ad","toSide":"right","label":"1"},
 		{"id":"5d309c6a6ddb22a6","fromNode":"616945b2d6ee0f6b","fromSide":"left","toNode":"3eae4452c0e1a712","toSide":"right","label":"3"},
 		{"id":"b80798190520bc34","fromNode":"3eae4452c0e1a712","fromSide":"left","toNode":"10585e838df94e32","toSide":"right","label":"1"},
 		{"id":"9222920544a26d47","fromNode":"3eae4452c0e1a712","fromSide":"bottom","toNode":"021baf54cd5662ad","toSide":"top","label":"2"},
