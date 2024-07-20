@@ -21,14 +21,11 @@
             "id": "2e30710327877884",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
-                "viewState": {
-                  "x": 8095.636802988992,
-                  "y": 172.12930685474942,
-                  "zoom": -0.14261281122114564
-                }
+                "file": "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -40,9 +37,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -4546.44602443703,
-                  "y": 1332.1219850519662,
-                  "zoom": -0.14950496225938179
+                  "x": -4288.857659029522,
+                  "y": 1161.7871136708043,
+                  "zoom": -0.034671522124074296
                 }
               }
             }
@@ -98,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98d901f23bf6ce7e",
@@ -217,8 +213,9 @@
   },
   "active": "aab01d892d2b4775",
   "lastOpenFiles": [
-    "Reti di calcolatori/Esami/Esercizi vari.md",
+    "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/Esercizi vari.md",
     "Reti di calcolatori/Esami/DomandeRetiEx.pdf",
     "Ingegneria del software/Ingegneria del software (SWENG).canvas",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
@@ -254,7 +251,6 @@
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Untitled.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Bit Stuffing.md",
     "Reti di calcolatori/Riassunti/Rete introduzione/Connessione Affidabile Elementi.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Comunicazione digitale (L2).md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
