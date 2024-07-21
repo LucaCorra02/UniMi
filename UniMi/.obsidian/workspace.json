@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -6420.072471760645,
-                  "y": 1142.134274996296,
-                  "zoom": 0.17153085700439938
+                  "x": -2882.8980947446203,
+                  "y": 1834.6653675704915,
+                  "zoom": -0.413212774920588
                 }
               }
             }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md",
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md"
+                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md"
               }
             }
           },
@@ -225,10 +225,11 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
-    "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
-    "Pasted image 20240721165924.png",
+    "Reti di calcolatori/Esami/2018-02-27.md",
     "Reti di calcolatori/Esami/22-06-2021.md",
+    "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
+    "Pasted image 20240721165924.png",
     "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
     "Reti di calcolatori/Esami/2023-06-20.md",
@@ -248,7 +249,6 @@
     "Reti di calcolatori/Esami/2023-09-07.md",
     "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Esami/2019-01-29.md",
-    "Reti di calcolatori/Esami/2018-02-27.md",
     "Pasted image 20240718214312.png",
     "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
@@ -263,7 +263,6 @@
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
     "Reti di calcolatori/Reti di calcolatori - Riassunto.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Untitled.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Bit Stuffing.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
