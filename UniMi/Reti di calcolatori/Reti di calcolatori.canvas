@@ -88,7 +88,7 @@
 		{"id":"0e7c80876fe775bc","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Protocollo Ethernet.md","x":5201,"y":-85,"width":840,"height":451},
 		{"id":"5c0f3db7cf6c91ee","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md","x":-6843,"y":1060,"width":660,"height":280},
 		{"id":"f323c516f30ad234","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Chiusura connessione.md","x":-5973,"y":461,"width":670,"height":439},
-		{"id":"5491930c16eba43e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura Half-Close.md","x":-5973,"y":1020,"width":670,"height":560},
+		{"id":"5491930c16eba43e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura Half-Close.md","x":-5973,"y":979,"width":670,"height":601},
 		{"id":"bb0d562677db6dbf","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md","x":-3920,"y":979,"width":560,"height":566},
 		{"id":"c6ca30a996c73f21","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md","x":-4520,"y":979,"width":548,"height":421},
 		{"id":"dd406a70b823b69c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Persistent Timer.md","x":-5080,"y":979,"width":523,"height":566},

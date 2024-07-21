@@ -1,9 +1,9 @@
 Feature
 - Spazio di indirizzamento aumentato da 32 a 128 bits
-- `Header semplificato` permette ai router di processare e instradare i pacchetti piu velocemente
+- `Header semplificato` <b><u>permette ai router di processare e instradare i pacchetti piu velocemente</u></b>
 - migliorata la sicurezza
 
-`Header minimo di 40 bytes`
+<span style=color:cyan>Header minimo di 40 bytes</span>
 
 | Campo                      | Dimensione | Descrizione                                                                                                                                                                                                           |
 | -------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
