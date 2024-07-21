@@ -25,7 +25,7 @@ SE al $T_0$ <b><u>scade l'RTO, raddoppio l'RTO</u></b> (fino a un massimo di 2 m
 I<b><u> calcoli qua sotto valgono solamente per il primo ACK ricevuto</u></b>. 
 
 - $T_1$ Momento in cui <b><u>ricevo un segmento di ACK</u></b> con un $RTT = R$
-- $R$ = Misura dell'RTT attuale.
+- $R$ = <b><u>Misura dell'RTT attuale</u></b>.
 
 Imposto $SRTT = R$ e $RTTVAR = \frac{R}{2}$. $$RTO = SRTT + max(G, k*RTTVAR)$$con $k = 4$ (<b><u>suggerito</u></b>).
 es 
