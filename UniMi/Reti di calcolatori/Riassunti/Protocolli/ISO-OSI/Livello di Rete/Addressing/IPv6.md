@@ -3,7 +3,7 @@ Feature
 - `Header semplificato` permette ai router di processare e instradare i pacchetti piu velocemente
 - migliorata la sicurezza
 
-`Header di 40 bytes`
+`Header minimo di 40 bytes`
 
 | Campo                      | Dimensione | Descrizione                                                                                                                                                                                                           |
 | -------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
