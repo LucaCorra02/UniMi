@@ -43,13 +43,13 @@ $RTO = 10ms + 4*5ms = 30ms$, quindi da 3 secondi siamo passati a 30ms
 
 <span style=color:yellow>Standard</span> $\alpha=\frac{1}{8}$ e $\beta=\frac{1}{4}$
 
-Con $0<\beta<1$, imposto $$RTTVAR = (1-\beta)*RTTVAR_{old} + \beta*|SRTT-R|,$$
+Con $0<\beta<1$, imposto $$RTTVAR = (1-\beta)*RTTVAR_{old} + \beta*|SRTT_{old}-R|,$$
 OSS piu $\beta$ è vicino a 0, piu tenderò ad aggiornare meno il mio valore
 - Piu $\beta$ <b><u>è alto, piu sono sensibile agli sbalzi di R</u></b> MA se è solo un rumore temporaneo rischio di cambiare troppo
 - Piu $\beta$ <b><u>è basso, piu RTTVAR è smussato MA non cattura una variazione</u></b>
 
 Con $0<\alpha<1$, imposto
- $$SRTT = (1-\alpha)*SRTT + \alpha*R$$
+ $$SRTT = (1-\alpha)*SRTT_{old} + \alpha*R$$
 
 Di conseguenza aggiornero l'RTO come 
 $$RTO = SRTT + max(G, k*RTTVAR)$$con $k = 4$
@@ -79,6 +79,11 @@ $SRTT_{new} = (1-0,9)*22+0,9*30$ = $29,2sec$
 
 Calcolo $RTTVAR_{new}$ :
 $RTTVAR_{new} = (1-b)*RTTVAR_{old}+b*|SRTT_{old} - RTO_{sample}|$
+$RTTVAR_{new} = (1-0,9)*11s+0,9*|22 - 30|$ = $8,3 sec$
+
+Calcolo $RTO_{new}$:
+$RTO_{new} = SRTT + max(G,4*RTTVAR)$
+$RTO_{new} = 29,2 + ,max(1ms, 4*8,3s)$ =$62,4$ 
 
 
 
