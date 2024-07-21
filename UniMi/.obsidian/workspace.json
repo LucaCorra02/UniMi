@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -2882.8980947446203,
-                  "y": 1834.6653675704915,
-                  "zoom": -0.413212774920588
+                  "x": -5499.766231118924,
+                  "y": 1311.6162692315554,
+                  "zoom": 0.27158078459090845
                 }
               }
             }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Esami/22-06-2021.md",
+                "file": "Reti di calcolatori/Esami/2018-02-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Dimensionamento della finestra di congestione.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -228,9 +228,9 @@
     "Reti di calcolatori/Esami/2018-02-27.md",
     "Reti di calcolatori/Esami/22-06-2021.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
     "Pasted image 20240721165924.png",
-    "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
     "Reti di calcolatori/Esami/2023-06-20.md",
     "Reti di calcolatori/Esami/2023-02-21.md",
