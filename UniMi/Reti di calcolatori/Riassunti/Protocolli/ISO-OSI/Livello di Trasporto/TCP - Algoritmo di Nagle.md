@@ -16,7 +16,7 @@ Primo segmento 1Byte+20Byte = 21Byte
 $t_x = \frac{21*8}{100000} = 1.68*10^{-3}$
 $t_p= 100msec$
 ack arriva dopo $1.68+2* 100 = 201.68msec$
-In questo tempo sono stati prodotti $201.68/20 = 10$ B
+In questo tempo sono stati prodotti $[201.68/20] = 10$ B -> <b><u>Prendo la parte intera inferiore</u></b>
 
 Secondo segmento: 10B+20B = 30B
 $t_x = \frac {30*8}{100000} = 2.4*10^{-3}$

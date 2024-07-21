@@ -5,5 +5,5 @@ Questo sistema funziona finche ho qualcosa da trasmettere, difatti non verrà ma
 <b><U>Per ogni trasmissione, un RTO inizia per il nuovo segmento </u></b>
 Per ottimizzazione è essenziale un'accurata [[Calibrazione RTO|calibrazione dell'RTO]]
 
-<b><u>Quando la ritrasmissione avviene prima dello scadere dell'RTO, in quanto ho ricevuto 3 ACK duplicati, si parla di</u></b> `Fast Retrasmission`
+<b><u>Quando la ritrasmissione avviene prima dello scadere dell'RTO, in quanto ho ricevuto 3 ACK duplicati fuori sequenza, si parla di</u></b> `Fast Retrasmission`
 [[Fast Retrasmission - Esempio]]
