@@ -8,7 +8,7 @@
 Utilizziamo una distribuzione normale con media e deviazione standard
 Considerando lo scadere dell'RTO come un outliner: $\mu + k*\sigma$
 
-Fasi:
+Fasi: https://chatgpt.com/share/8974add4-f592-45c1-b17e-094fef5319ec
 
 ---
 - $T_0$ Momento in cui la <b><u>connessione viene aperta</u></b>: 
