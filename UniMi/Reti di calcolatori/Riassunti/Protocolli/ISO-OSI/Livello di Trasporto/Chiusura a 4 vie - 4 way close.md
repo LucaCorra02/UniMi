@@ -1,4 +1,7 @@
-Situazione: il <span style=color:cyan>client ha ricevuto tutti gli ACK e il server non ha niente in sospeso da inviare</span>
+Situazione: il <span style=color:cyan>client ha ricevuto tutti gli ACK e il server non ha niente in sospeso da inviare</span>. 
+
+ `close()` = Chiude entrambe le direzioni della connessione, e quindi impedisce di usare con quel socket sia primitive di input sia di output.
+
 
 1. <b><u>L'applicazione sorgente chiama la primitiva</u></b> `close()`. Viene mandato il segmento al server con : 
    - flag $FIN=1$ 

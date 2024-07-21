@@ -1,4 +1,6 @@
-Situazione: <span style=color:cyan>il client ha finito di inviare dati MA server deve ancora inviare dati al client</span>
+Situazione: <span style=color:cyan>il client ha finito di inviare dati MA server deve ancora inviare dati al client</span>. 
+
+`shoutdown()` = la shutdown da’ la possibilita’ di effettuare chiusure asimmetriche di una connessione, specificando quale direzione deve essere interrotta.
 
 1. Client usa la primitiva `shoutdown()` <b><u>per notificare che si è finito di inviare dati</u></b>. TCP infatti con tale primitiva lascia il path EST in ricezione, mandando il segmento $FIN$ e entrando in `FIN_WAIT1`.
 2. Anche in questo caso AP del server riceve EOF MA il server non ha finito di inviare, cosi continua con le proprie `send(NByte)` mandandoli insieme a $ACK = 1$, $ACK = X+1$, $SEQ = Y$, $NByte$. Lato server, avra ora X, EST e lato client avra X, EST. Il canale Server-Client è ancora attivo, riuscendo quindi a mandare l'ACK al server per il segmento ricevuto
