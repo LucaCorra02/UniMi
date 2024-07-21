@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -8043.596993540009,
-                  "y": 890.9653514697526,
-                  "zoom": 0.036559933972657964
+                  "x": -3279.993847920992,
+                  "y": -71.23408189794948,
+                  "zoom": -0.5024181955556083
                 }
               }
             }
@@ -225,8 +225,10 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
-    "Reti di calcolatori/Esami/22-06-2021.md",
+    "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Pasted image 20240721165924.png",
+    "Reti di calcolatori/Esami/22-06-2021.md",
     "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
     "Reti di calcolatori/Esami/2023-06-20.md",
@@ -253,7 +255,6 @@
     "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
     "Pasted image 20240718161117.png",
     "Pasted image 20240718130300.png",
-    "Pasted image 20240718124633.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
     "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",

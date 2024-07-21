@@ -17,7 +17,7 @@ Considerando lo scadere dell'RTO come un outliner: $\mu + k*\sigma$
 Mantengo due variabili: 
 - $SRTT = NULL$ (`Smoothing RTT` stima $\mu$) media ponderata del RTT (Round Trip Time) corrente e delle misurazioni precedenti. 
 - $RTTVAR = NUL$L (`RTT Variance` stima $\sigma$,) 
-- $G <= 100ms$ (G è la granularità del timer) = ovvero l'unità minima di tempo con cui il sistema misura e gestisce il tempo
+- $G <= 100ms$ (G è la granularità del timer![[Pasted image 20240721165924.png]]) = ovvero l'unità minima di tempo con cui il sistema misura e gestisce il tempo
 
 SE al $T_0$ <b><u>scade l'RTO, raddoppio l'RTO</u></b> (fino a un massimo di 2 minuti) in quanto non ho informazioni
 
