@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -2400.6539581728516,
-                  "y": 1610.2205851347019,
-                  "zoom": -0.7334249006153643
+                  "x": -4085.1671864426457,
+                  "y": 1183.5064335924937,
+                  "zoom": -0.3990320745618948
                 }
               }
             }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/22-06-2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/22-06-2021.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Esami/22-06-2021.md"
               }
             }
           },
@@ -223,10 +223,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e30710327877884",
+  "active": "aab01d892d2b4775",
   "lastOpenFiles": [
-    "Reti di calcolatori/Esami/22-06-2021.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/22-06-2021.md",
     "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Riassunti/Protocolli/Keep Alive Timer.md",
     "Reti di calcolatori/Esami/2023-06-20.md",
