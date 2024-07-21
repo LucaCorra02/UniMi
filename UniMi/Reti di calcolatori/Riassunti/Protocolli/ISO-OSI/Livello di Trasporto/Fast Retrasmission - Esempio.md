@@ -1,3 +1,9 @@
+**Fast Retransmit** è un meccanismo che si attiva quando il mittente riceve tre duplicati dello stesso acknowledgment (ACK). In TCP, un ACK duplicato indica che un pacchetto è stato ricevuto, ma altri pacchetti precedenti potrebbero essere stati persi. Se il mittente riceve tre duplicati dello stesso ACK, presume che il pacchetto successivo nell'ordine sia stato perso e lo ritrasmette immediatamente senza aspettare il timeout.
+
+- **Vantaggi:** Riduce il tempo di attesa per il timeout per la ritrasmissione, migliorando l'efficienza della rete.
+    
+- **Limitazioni:** Non funziona bene in caso di perdite multiple di pacchetti, poiché non fornisce informazioni dettagliate su quali pacchetti sono stati persi.
+
 Assumiamo ACK immediato. 
 
 - Destinatario risponde con ACK alla sorgente, questa aggiorna il proprio Vs con `X+500`. 
