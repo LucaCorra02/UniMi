@@ -107,7 +107,7 @@ Livello 3:
 				![[MSSO - Max Segment Size Option]]
 				![[Window scale option]]
 				![[Time Stamp option]]
-				![[SACK permitted option]]
+				![[SACK Selective ACK]]
 			![[TCP - Fasi]]
 				![[TCP - Apertura connessione]]
 					![[RTO]]

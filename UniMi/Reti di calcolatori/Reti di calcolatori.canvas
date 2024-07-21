@@ -125,7 +125,7 @@
 		{"id":"223fbf714ecaec6c","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Explicit Congestion Notification.md","x":-4108,"y":1635,"width":660,"height":434},
 		{"id":"c452e582c345bee9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Time Stamp option.md","x":-5183,"y":-1840,"width":503,"height":600},
 		{"id":"a3dab6f442361da1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Window scale option.md","x":-4583,"y":-1100,"width":540,"height":634},
-		{"id":"32bd7769e8811f4e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/SACK permitted option.md","x":-5180,"y":-1140,"width":500,"height":330},
+		{"id":"32bd7769e8811f4e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/SACK Selective ACK.md","x":-5180,"y":-1140,"width":500,"height":330},
 		{"id":"8f416a35a6b74a89","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/MSSO - Max Segment Size Option.md","x":-4553,"y":-1860,"width":413,"height":320},
 		{"id":"2eaa4dc8b76ccf9f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Head Of Line Blocking Problem.md","x":-3160,"y":-1383,"width":560,"height":420},
 		{"id":"9f73a8853fb0a8f9","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Livello di Trasporto.md","x":-2840,"y":-688,"width":927,"height":777},
