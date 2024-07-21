@@ -10,8 +10,6 @@
 		{"id":"75f0d745c7baada0","type":"group","x":2820,"y":-3880,"width":6625,"height":2054,"label":"Logical Link Layer"},
 		{"id":"4b1c682a1834cca0","type":"group","x":-8683,"y":-2100,"width":3400,"height":3723,"label":"TCP - Fasi"},
 		{"id":"fc898248480d8e83","type":"group","x":4400,"y":-1410,"width":4440,"height":2640,"label":"LAN e VLAN"},
-		{"id":"4dae2bccdc2b44b4","type":"group","x":2240,"y":-8680,"width":3886,"height":2360,"color":"2","label":"2 Dispotivi di rete"},
-		{"id":"4d4454858d7938b1","type":"group","x":960,"y":6272,"width":4145,"height":2088,"label":"QoS"},
 		{"id":"8b9b1c7b1bf79ec6","type":"group","x":-7760,"y":-6760,"width":3200,"height":2631,"label":"HTTP"},
 		{"id":"d904378e8e75bbf5","type":"group","x":2820,"y":-5760,"width":5040,"height":1657,"label":"Comunicazione digitale"},
 		{"id":"c0c4c602d48bcc8d","type":"group","x":-240,"y":-2465,"width":2217,"height":3695,"color":"3","label":"Protocolli"},
@@ -24,6 +22,8 @@
 		{"id":"43e7044a621577a0","type":"group","x":-4480,"y":-6360,"width":1940,"height":1963,"label":"DNS"},
 		{"id":"213436e17a65f919","type":"group","x":-8563,"y":-786,"width":1580,"height":2306,"label":"TCP - Controllo dell'errore"},
 		{"id":"140509c921bbaa6b","type":"group","x":-5203,"y":-1880,"width":1990,"height":1440,"label":"TCP - Formato"},
+		{"id":"4dae2bccdc2b44b4","type":"group","x":2240,"y":-8680,"width":3886,"height":2360,"color":"2","label":"2 Dispotivi di rete"},
+		{"id":"4d4454858d7938b1","type":"group","x":960,"y":6272,"width":4145,"height":2088,"label":"QoS"},
 		{"id":"dd48ff6bb6df6212","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/IPv6 - Extensions headers.md","x":-403,"y":4312,"width":600,"height":1017},
 		{"id":"fdd9a17cffc78c5f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Spanning tree broadcast.md","x":5000,"y":2640,"width":640,"height":687},
 		{"id":"8fe2d1e3b0479c71","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/OSPF.md","x":4200,"y":2880,"width":675,"height":1160},
@@ -190,7 +190,8 @@
 		{"id":"ee4529c6717bc72d","type":"file","file":"Reti di calcolatori/Riassunti/Dispositivi di rete/Bus seriale.md","x":5059,"y":-8256,"width":680,"height":513},
 		{"id":"297078f1f514a0f7","type":"file","file":"Reti di calcolatori/Riassunti/Dispositivi di rete/Dispositivi di rete.md","x":3565,"y":-7920,"width":340,"height":60},
 		{"id":"94abdf9606f36b14","type":"file","file":"Reti di calcolatori/Riassunti/Dispositivi di rete/Hub.md","x":5059,"y":-8640,"width":680,"height":344},
-		{"id":"a530ea0540bd1760","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Architettura delle rete - Ottimizzazioni.md","x":1327,"y":3980,"width":760,"height":580}
+		{"id":"a530ea0540bd1760","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Architettura delle rete - Ottimizzazioni.md","x":1327,"y":3980,"width":760,"height":580},
+		{"id":"4e169fed05eed6d7","x":-992,"y":2520,"width":801,"height":301,"type":"text","text":"- <b><u>IPV4 / IPV6  Dual Protocol</u></b> = Sono presenti `host con IPv4 e altri con IPv6`. Il `server ha sia un protocollo IPv4 e IPv6`  in modo che riesca a leggere il campo version dei vari pacchetti e passare i pacchetti al corretto IP. \n- <b><u>IPV4 / Ipv6 Tunneling</u></b> = Il tunneling è una tecnica che incapsula i pacchetti IPv6 all'interno di pacchetti IPv4, permettendo così il transito del traffico IPv6 su una rete IPv4 e viceversa. Consente a due host dello stesso protocollo di comunicare all'interno di una rete con topologia differente. \n- <b><u>Ipv4 /Ipv6 Translation</u></b> = Alla ricezione di un pacchetto IPv6/IPv4, questo viene `convertito in un pacchetto IPv4/IPv6 grazie a una NAT` con un `PT Protocol Translator`.  Consente a due host con protocolli differenti uno ipv4 e l'altro ipv6 di comunicare. \n"}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
@@ -360,6 +361,9 @@
 		{"id":"f7b67b3574011353","fromNode":"836d245f8bfe292c","fromSide":"right","toNode":"c8bdc98ae2d6b1cb","toSide":"left","label":"1"},
 		{"id":"eab6a928f81a406e","fromNode":"b62ee3c62cca984e","fromSide":"right","toNode":"716b7fe04d5d1d88","toSide":"top","label":"3"},
 		{"id":"c541c6e53c1b4a99","fromNode":"c8bdc98ae2d6b1cb","fromSide":"bottom","toNode":"34829e9a4de01263","toSide":"top","label":"1"},
-		{"id":"b7a253f67612113e","fromNode":"fd83414727cfe027","fromSide":"bottom","toNode":"bb0d562677db6dbf","toSide":"top","label":"3"}
+		{"id":"b7a253f67612113e","fromNode":"fd83414727cfe027","fromSide":"bottom","toNode":"bb0d562677db6dbf","toSide":"top","label":"3"},
+		{"id":"3be232f74e7caa29","fromNode":"0b46d5dc582b1b5a","fromSide":"top","toNode":"4e169fed05eed6d7","toSide":"bottom"},
+		{"id":"a6ec38615d61d15f","fromNode":"7b4a14043ae2b89d","fromSide":"top","toNode":"4e169fed05eed6d7","toSide":"bottom"},
+		{"id":"5bdb158471d4c34f","fromNode":"da2539c761320970","fromSide":"top","toNode":"4e169fed05eed6d7","toSide":"bottom"}
 	]
 }
