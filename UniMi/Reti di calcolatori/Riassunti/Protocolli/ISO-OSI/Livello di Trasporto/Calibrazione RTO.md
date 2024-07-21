@@ -63,7 +63,18 @@ Quando l'RTO scade, viene raddoppiato l'RTO E viene ritrasmesso il segmento. <b>
     $RTO_{new} = y * RTO_{old}$. Con $Gamma=2$
 non considero RTT di nessuno dei due segmenti, non aggiornando quindi ne la media ne la varianza.
 
-*Esempio*
+*Esempio :*
+*Sia data una connessione TCP con i valori di RTO ed RTT rispettivamente di 20sec e 22sec se il prossimo segmento S1 viene validato da un ack dopo 30 secondi calcolare i nuovi valori di RTO ed RTT assumendo i parametri alfa e beta uguali a 0.9*
+
+Dati : 
+- $\alpha=0,9$
+- $\beta = 0,9$
+- $SRTT_{old} =22 s$
+- $RTTVAR_{old}$ = 
+- $RTO_{sample} = 30s$
+
+
+
 
 
 
