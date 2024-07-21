@@ -39,7 +39,6 @@
 		{"id":"e3191c929595d25f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/Email - Invio e ricezione.md","x":-2460,"y":-5320,"width":568,"height":900},
 		{"id":"56692669dc36b779","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/HTTP.md","x":-5260,"y":-5091,"width":680,"height":811},
 		{"id":"3c95581fad3b0400","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello Applicazione/HTTP 2 - Multiple Parallel Stream.md","x":-6920,"y":-4840,"width":698,"height":691},
-		{"id":"5c0f3db7cf6c91ee","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md","x":-6843,"y":1060,"width":660,"height":280},
 		{"id":"f323c516f30ad234","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Chiusura connessione.md","x":-5973,"y":461,"width":670,"height":439},
 		{"id":"32bd7769e8811f4e","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/SACK permitted option.md","x":-5183,"y":-1230,"width":500,"height":330},
 		{"id":"b42a6a444cb4f957","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Option.md","x":-4583,"y":-1459,"width":480,"height":266},
@@ -183,14 +182,15 @@
 		{"id":"b2f65d8c1b1d1327","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/WC - RTO expires.md","x":-2496,"y":1140,"width":510,"height":465},
 		{"id":"2eaa4dc8b76ccf9f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Head Of Line Blocking Problem.md","x":-3160,"y":-1383,"width":560,"height":420},
 		{"id":"10585e838df94e32","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md","x":-8523,"y":-760,"width":750,"height":2240},
-		{"id":"021baf54cd5662ad","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Fast Retrasmission - Esempio.md","x":-7685,"y":273,"width":604,"height":647},
+		{"id":"021baf54cd5662ad","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Fast Retrasmission - Esempio.md","x":-7685,"y":273,"width":625,"height":647},
 		{"id":"3eae4452c0e1a712","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo dell'errore.md","x":-7663,"y":-310,"width":560,"height":460},
 		{"id":"6c6afaa7f88b6c09","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Invio continuo.md","x":-7078,"y":-1120,"width":540,"height":314},
 		{"id":"906b235a38d0a84f","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 4 vie - 4 way close.md","x":-6843,"y":382,"width":660,"height":597},
 		{"id":"616945b2d6ee0f6b","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Invio.md","x":-6808,"y":-466,"width":670,"height":771},
 		{"id":"baacc851b12d8191","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Cumulative ACK.md","x":-6500,"y":-1367,"width":500,"height":561},
 		{"id":"1b4bf0057ce342ad","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Algoritmo di Nagle.md","x":-7860,"y":-2070,"width":620,"height":950},
-		{"id":"d3e9fc0d771d93e1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md","x":-7080,"y":-1980,"width":540,"height":714}
+		{"id":"d3e9fc0d771d93e1","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Delayed Acknowledgments.md","x":-7080,"y":-1980,"width":540,"height":714},
+		{"id":"5c0f3db7cf6c91ee","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md","x":-6843,"y":1060,"width":660,"height":280}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
