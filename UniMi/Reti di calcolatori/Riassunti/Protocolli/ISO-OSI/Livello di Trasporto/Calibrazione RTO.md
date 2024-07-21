@@ -53,10 +53,17 @@ Con $0<\alpha<1$, imposto
 
 Di conseguenza aggiornero l'RTO come 
 $$RTO = SRTT + max(G, k*RTTVAR)$$con $k = 4$
-SE a $T_k$ RTO scade, raddoppio e poi quando riceverò R faro di nuovo la stima
+SE a $T_k$ <b><u>RTO scade, raddoppio e poi quando riceverò R faro di nuovo la stima</u></b>
 
 ---
-Problemi:
-Quando l'RTO scade, viene raddoppiato l'RTO E viene ritrasmesso il segmento. MA se l'ACK del segmento precedente arriva molto dopo, ho un ambiguità perche non si capisce a quale trasmissione del segmento appartiene. 
+<span style=color:red>Problemi</span>:
+Quando l'RTO scade, viene raddoppiato l'RTO E viene ritrasmesso il segmento. <b><u>MA se l'ACK del segmento precedente arriva molto dopo, ho un ambiguità perche non si capisce a quale trasmissione del segmento appartiene</u></b>.
 
-L'algoritmo di `Karn` dice che ogni volta che raddoppio RTO non considero RTT di nessuno dei due segmenti, non aggiornando quindi ne la media ne la varianza.
+<span style=color:yellow>Policy Karn, adottata dal TCP</span> =  <b><u>A seguito dello scadere del timer di ritrasmissione</u></b>: 
+    $RTO_{new} = y * RTO_{old}$. Con $Gamma=2$
+non considero RTT di nessuno dei due segmenti, non aggiornando quindi ne la media ne la varianza.
+
+*Esempio*
+
+
+
