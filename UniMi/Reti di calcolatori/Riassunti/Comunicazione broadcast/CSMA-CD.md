@@ -2,8 +2,9 @@ Protocollo `CSMA-CD Carrier Sense Multiple Access - Collision Detection `
 Standardizzato come `IEEE 802.3`: [[CSMA-CD - Formato]]
 
 CSMA-CD  può adottare due schemi : 
-- `1-persistent` <b><u>cioè appena trova libero il canale, trasmette</u></b> (Standard)
-- `0-persistent` invece <b><u>appena trova libero il canale aspetta un tempo casuale</u></b>
+- `1-persistent` = <b><u>Si controlla continuamente se il canale è libero, appena è libero si trasmette. Se non è libero continuo a fare CS in modo persistente</u></b>. 
+
+- `0-persistent` = è detto non persistente perché <b><u>si controlla una prima volta se il canale è libero, se non lo è si attende un intervallo casuale</u></b> (strettamente maggiore del tempo di trasmissione di una trama) <b><u>prima di ricontrollare il canale</u></b>.
 
 Quando una stazione vuole trasmettere, prima di farlo fa <span style=color:yellow>Carrier Sense</span>, <b><u>cioè legge dal canale ciò che passa, rilevando se il canale sia in idle o meno</u></b>.
 Il punto forte di questo protocollo è che <span style=color:green>il controllo è distribuito, non è centralizzato</span>. 
