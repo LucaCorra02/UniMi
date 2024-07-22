@@ -52,9 +52,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "88746e73520ac763",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "viewState": {
+                  "x": 2517.345645807416,
+                  "y": 3463.884103150322,
+                  "zoom": -1.010849560883763
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Esami/2023-07-25.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Esami/2023-07-25.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Esami/2023-07-25.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -220,8 +235,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e30710327877884",
+  "active": "88746e73520ac763",
   "lastOpenFiles": [
+    "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Esami/2019-01-29.md",
     "Reti di calcolatori/Esami/2018-02-27.md",
@@ -248,7 +264,6 @@
     "Reti di calcolatori/Esami/Esami indice.md",
     "Reti di calcolatori/Esami/2023-09-26.md",
     "Reti di calcolatori/Esami/2023-09-07.md",
-    "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
     "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
