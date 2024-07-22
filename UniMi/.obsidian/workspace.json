@@ -57,14 +57,11 @@
             "id": "88746e73520ac763",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
-                "viewState": {
-                  "x": -2316.469809422311,
-                  "y": 1739.3353793143535,
-                  "zoom": 0.14939289769815783
-                }
+                "file": "Reti di calcolatori/Esami/2023-07-25.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -135,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo del flusso Esempio.md",
+                "file": "Reti di calcolatori/Esami/2023-07-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo del flusso Esempio.md",
+                "file": "Reti di calcolatori/Esami/2023-07-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/TCP - Controllo del flusso Esempio.md"
+                "file": "Reti di calcolatori/Esami/2023-07-25.md"
               }
             }
           },
@@ -237,8 +234,8 @@
   },
   "active": "88746e73520ac763",
   "lastOpenFiles": [
-    "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Esami/2019-01-29.md",
     "Reti di calcolatori/Esami/2018-02-27.md",
     "Pasted image 20240722104156.png",
