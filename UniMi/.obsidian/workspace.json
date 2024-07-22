@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -6225.131944416323,
-                  "y": 1502.5330324062227,
-                  "zoom": -0.2736521035929627
+                  "x": -5672.851142639778,
+                  "y": 1224.055596571674,
+                  "zoom": -0.40138554001848964
                 }
               }
             }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md",
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Chiusura a 3 vie - 3 way close.md"
+                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
               }
             }
           },
@@ -225,6 +225,8 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
+    "Pasted image 20240722104104.png",
+    "Pasted image 20240722103945.png",
     "Reti di calcolatori/Esami/2018-02-27.md",
     "Reti di calcolatori/Esami/22-06-2021.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
@@ -254,7 +256,6 @@
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
     "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
     "Pasted image 20240718161117.png",
-    "Pasted image 20240718130300.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
     "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
