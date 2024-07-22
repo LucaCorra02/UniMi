@@ -192,7 +192,7 @@
 		{"id":"716b7fe04d5d1d88","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Differentiated services.md","x":2593,"y":7810,"width":655,"height":296},
 		{"id":"dfae84bff04febb4","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/Congestione.md","x":990,"y":7520,"width":720,"height":730},
 		{"id":"bdcc7de13b44fb39","type":"file","file":"Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/Problema frammentazione.md","x":-2423,"y":5990,"width":825,"height":452},
-		{"id":"85ba8c9261df931c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 10Mbps - Ragionamento.md","x":7760,"y":-677,"width":765,"height":1080}
+		{"id":"85ba8c9261df931c","type":"file","file":"Reti di calcolatori/Riassunti/Comunicazione broadcast/Standard rete a 10Mbps - Ragionamento.md","x":7840,"y":-560,"width":725,"height":1002}
 	],
 	"edges":[
 		{"id":"74048ade0b63d09f","fromNode":"1875cdd354f1d938","fromSide":"top","toNode":"2f8a5a425dbb61db","toSide":"bottom","label":"1"},
