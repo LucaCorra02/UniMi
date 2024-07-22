@@ -21,14 +21,11 @@
             "id": "2e30710327877884",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
-                "viewState": {
-                  "x": -910.5757483868447,
-                  "y": 6732.175795060571,
-                  "zoom": -0.029672442645395074
-                }
+                "file": "Reti di calcolatori/Esami/2023-07-25.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -123,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md",
+                "file": "Reti di calcolatori/Esami/2023-07-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md",
+                "file": "Reti di calcolatori/Esami/2023-07-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Addressing/DHCP.md"
+                "file": "Reti di calcolatori/Esami/2023-07-25.md"
               }
             }
           },
@@ -225,8 +222,8 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
-    "Reti di calcolatori/Esami/2019-01-29.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/2019-01-29.md",
     "Reti di calcolatori/Esami/2018-02-27.md",
     "Pasted image 20240722104156.png",
     "Pasted image 20240722104104.png",
