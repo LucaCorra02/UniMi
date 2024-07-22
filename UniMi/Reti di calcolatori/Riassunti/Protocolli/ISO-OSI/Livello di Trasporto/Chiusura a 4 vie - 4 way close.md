@@ -16,4 +16,4 @@ Situazione: il <span style=color:cyan>client ha ricevuto tutti gli ACK e il serv
    entrando in uno stato di `LAST_ACK`
 5. <b><u>Quando il client riceve il segmento entra in</u></b> `TIMED_WAIT` in un loop e manda un segmento $ACK = 1$, $ACK = Y$
 2. <b><u>Il server ricevendo l'ACK, chiude la connessione</u></b> 
-3. <b><u>Lato client dopo</u></b> $2MSL$ (`Max Segment LifeTime`) la <b><u>socket viene chiusa</u></b>
+3. <b><u>Lato client dopo</u></b> $2MSL$ (`Max Segment LifeTime`) la <b><u>socket viene chiusa</u></b>.  Sta aspettando eventuali pacchetti in ritardo (massimo ritardo 4 minuti. )
