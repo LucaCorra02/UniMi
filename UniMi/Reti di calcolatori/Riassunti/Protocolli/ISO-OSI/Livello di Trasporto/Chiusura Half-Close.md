@@ -12,3 +12,6 @@ Situazione: <span style=color:cyan>il client ha finito di inviare dati MA server
 1. Quando avrà terminato l invio dei dati, <b><u>l'Applicazione lato server userà a sua volta la primitiva</u></b> `shutdown()`, e il TCP manderà un segmento di $FIN = 1$, $SEQ =  Y + N$.
 2. In risposta, il client manderà $ACK=1$, $ACK=Y+N+1$. Entra cosi in una fase di `TIMED_WAIT` in cui allo scadere del timer di $2MSL$, chiude la connessione
 3. Il server, alla ricezione dell'ACK, chiude la connessione
+
+![[Pasted image 20240722104156.png]]
+

@@ -25,9 +25,9 @@
               "state": {
                 "file": "Reti di calcolatori/Reti di calcolatori.canvas",
                 "viewState": {
-                  "x": -5672.851142639778,
-                  "y": 1224.055596571674,
-                  "zoom": -0.40138554001848964
+                  "x": -5547.6104632681,
+                  "y": 1197.6247672891413,
+                  "zoom": -0.17940974445548966
                 }
               }
             }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/2018-02-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
+                "file": "Reti di calcolatori/Esami/2018-02-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas"
+                "file": "Reti di calcolatori/Esami/2018-02-27.md"
               }
             }
           },
@@ -223,13 +223,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e30710327877884",
+  "active": "aab01d892d2b4775",
   "lastOpenFiles": [
+    "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/2018-02-27.md",
+    "Pasted image 20240722104156.png",
     "Pasted image 20240722104104.png",
     "Pasted image 20240722103945.png",
-    "Reti di calcolatori/Esami/2018-02-27.md",
     "Reti di calcolatori/Esami/22-06-2021.md",
-    "Reti di calcolatori/Reti di calcolatori.canvas",
     "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Calibrazione RTO.md",
     "Pasted image 20240721165924.png",
@@ -251,11 +252,9 @@
     "Reti di calcolatori/Esami/2023-09-07.md",
     "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Esami/2019-01-29.md",
-    "Pasted image 20240718214312.png",
     "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
     "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
-    "Pasted image 20240718161117.png",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
     "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
