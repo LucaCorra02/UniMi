@@ -21,14 +21,11 @@
             "id": "2e30710327877884",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Reti di calcolatori/Reti di calcolatori.canvas",
-                "viewState": {
-                  "x": -4415.401135881154,
-                  "y": 1304.4621984975179,
-                  "zoom": -0.0474577743127778
-                }
+                "file": "Reti di calcolatori/Esami/2023-09-26.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -119,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98d901f23bf6ce7e",
@@ -136,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md",
+                "file": "Reti di calcolatori/Esami/2023-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md",
+                "file": "Reti di calcolatori/Esami/2023-09-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Trasporto/Algoritmo di Clark.md"
+                "file": "Reti di calcolatori/Esami/2023-09-26.md"
               }
             }
           },
@@ -238,10 +234,11 @@
   },
   "active": "2e30710327877884",
   "lastOpenFiles": [
-    "Reti di calcolatori/Esami/2019-01-29.md",
-    "Reti di calcolatori/Esami/2022-06-21.md",
+    "Reti di calcolatori/Esami/2023-09-07.md",
     "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
+    "Reti di calcolatori/Esami/2019-01-29.md",
+    "Reti di calcolatori/Esami/2022-06-21.md",
     "Reti di calcolatori/Esami/2018-02-27.md",
     "Pasted image 20240722104156.png",
     "Pasted image 20240722104104.png",
@@ -264,7 +261,6 @@
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
     "Reti di calcolatori/Esami/Esami indice.md",
     "Reti di calcolatori/Esami/2023-09-26.md",
-    "Reti di calcolatori/Esami/2023-09-07.md",
     "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
     "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
