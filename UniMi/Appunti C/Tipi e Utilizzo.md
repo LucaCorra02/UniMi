@@ -11,4 +11,7 @@ Questa tipologia <b><u>viene convertita prima delle operazioni aritmetiche a</u>
 - <span style=color:yellow>double</span> = per floating-point calcolation
 - <span style=color:yellow>double complex</span> = per calcoli complessi. 
 
+tipi semantici : 
+![[Pasted image 20241007185556.png]]
 
+<span style=color:red>N.B</span> = 
