@@ -15,10 +15,15 @@ tipi semantici :
 ![[Pasted image 20241007185556.png]]
 
 Abbiamo diversi modi per specificare dei litterali numerici : 
-- Deciamale = utilizzato per esprimere costanti negative
+- Decimale = utilizzato per esprimere costanti negative, <b><u>hanno come tipo signed (il più piccolo che può contenere la costante</u></b>)
 - Ottale.
 - Esadecimale. 
 
+<span style=color:red>N.B</span> = <b><u>Un errore comune è quello di provare ad assegnare una costante esadecimale o ottale a un tipo signed, con l'aspettativa che il valore di tale costante rappresenti un numero negativo </u></b>
 
 <span style=color:red>N.B</span> = <b><u>i letterali numeri non sono mai negativi</u></b>. Se li dichiariamo come -34 o -1.53, il - è interpretato come operazione di complemento. I litterali devono avere un tipo. <b><u>Una costante con un valore positivo, può essere tipo signed. </u></b>
 
+Le costanti di tipo integer, possono essere forzate ad essere unsignedf oppure un tipo con dimensione minima minore. Si appendono alla dichiarazione le seguenti keyword : 
+- <span style=color:cyan>U</span> = <b><u>Unsigned</u></b>
+- <span style=color:cyan>L</span> = <b><u>signed Long</u></b>
+- <span style=color:cyan>LL</span> = <b><u>signed long long</u></b>
