@@ -6,3 +6,4 @@ in c esistono dei tipi chiamati <b><u>narrow type</u></b>. In questa categoria t
 
 Questa tipologia <b><u>viene convertita prima delle operazioni aritmetiche a</u></b> <span style=color:yellow>signed int </span>. 
 
+
