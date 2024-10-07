@@ -5,5 +5,10 @@ in c esistono dei tipi chiamati <b><u>narrow type</u></b>. In questa categoria t
 - Corrispettive varianti signed. 
 
 Questa tipologia <b><u>viene convertita prima delle operazioni aritmetiche a</u></b> <span style=color:yellow>signed int </span>. 
+- <span style=color:yellow>Size_t</span> = <b><u>Per sizes, cardinalità o numeri ordinali</u></b>. I tipi unsigned sono molto più comodi e efficenti rispetto ai tipi unsigned. il compilatore può predisporre ottimizzazioni in quanto <b><u>le operazioni su questo tipo non causano overflow, operazione di modulo ben definita</u></b>. 
+- <span style=color:yellow>unsigned</span> = <b><u>Utilizzare per piccole quantità che non possono essere negative</u></b>
+- <span style=color:yellow>signed</span> = <b><u>piccole quantità con segno</u></b>
+- <span style=color:yellow>double</span> = per floating-point calcolation
+- <span style=color:yellow>double complex</span> = per calcoli complessi. 
 
 
