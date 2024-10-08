@@ -56,4 +56,17 @@ Permette di definire costanti per :
 # define M_PI 3.1455858
 ```
 
-Se vogliamo andare a definire delle macro per tipi non basici, come le stringhe dobbiamo utilizzare i <span stule=color>
+Se vogliamo andare a definire delle macro per tipi non basici, come le stringhe dobbiamo utilizzare i <span style=color:yellow>compound litterals</span> : 
+```c 
+# define CORVID_NAME /* */ \  -> il commento indica che ci vuole uno spazio.
+( char const * const [ corvid_num ]){ \
+	[ chough ] = " chough ", \
+	[ raven ] = " raven ", \
+	[ magpie ] = " magpie ", \
+	[jay ] = "jay ", \
+}
+
+for ( unsigned i = 0; i < corvid_num ; ++i)
+	printf (" Corvid  %u is  the  %s\n", i, CORVID_NAME [i]);
+
+```
