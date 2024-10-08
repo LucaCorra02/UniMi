@@ -27,3 +27,15 @@ Le costanti di tipo integer, possono essere forzate ad essere unsignedf oppure u
 - <span style=color:cyan>U</span> = <b><u>Unsigned</u></b>
 - <span style=color:cyan>L</span> = <b><u>signed Long</u></b>
 - <span style=color:cyan>LL</span> = <b><u>signed long long</u></b>
+
+<h3 style=color:cyan>Numeri con virgola</h3>
+I numeri con la virgola in realtà sono un approssimazione rappresentato dal litterale, questo in quanto i bit della parte frazionaria possono essere troncati o arrotondati. 
+<b><u>Il valore effettivo di una costante float potrebbe essere diverso dal valore rappresentato dal litterale</u></b>, ad esempio *float a = 0.2. il suo valore reale è 0.200000000111*.
+
+Possiamo accostare alcuen keyword a delle costanti di litterali con virgola : 
+- <span style=color:cyan>f o F</span> = <b><u>Denota un float</u></b>
+- <span style=color:cyan>l o L</span> = <b><u>Denota un long dobule</u></b>
+- <b><u>Se non specificato un litterale con virgola è di tipo</u></b> <span style=color:cyan>double</span> 
+
+<span style=color:green>Costanti complesse</span> : 
+- 
