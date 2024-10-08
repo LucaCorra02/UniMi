@@ -54,4 +54,8 @@ Possiamo accostare alcuen keyword a delle costanti di litterali con virgola :
 
 ![[Pasted image 20241008122226.png]]
 
+![[Pasted image 20241008122547.png]]
+
 <span style=color:red>Regola generale</span> := <b><u>Se il tipo di uno dei due operandi è contenuto nel tipo dell'altro operando, il risultato dell'operazione avrà il tipo più grande tra i due</u></b>.
+<b><u>In generale è meglio evitare operazioni tra operandi con segno differente e usare tipi unsigned ovunque si può</u></b>. 
+
