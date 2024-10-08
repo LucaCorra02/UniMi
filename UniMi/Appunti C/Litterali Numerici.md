@@ -45,9 +45,13 @@ Possiamo accostare alcuen keyword a delle costanti di litterali con virgola :
   $0.5+(0.5*I)$ = Risultato di tipo *double complex*
   $0.5f + 0.5f*I$ = Risultato di tipo *float complex*
 
-<h3 style=color:cyan>Conversioni</h3> 
+<h3 style=color:cyan>Conversioni implicite</h3> 
 <b><u>I tipi degli operandi influenza il risultato di un operazione aritmetica, ad esempio</u></b> :
 - *-1* = è di tipo signed int
 - *-1U* = <b><u>è di tipo unsigned int, ma non corrisponde a -1 ma al valore massimo nel dominio dei signed int</u></b> (modulo)
 
 ![[Pasted image 20241008121135.png]]
+
+![[Pasted image 20241008122226.png]]
+
+<span style=color:red>Regola generale</span> := <b><u>Se il tipo di uno dei due operandi è contenuto nel tipo dell'altro operando, il risultato dell'operazione avrà il tipo più grande tra i due</u></b>.
