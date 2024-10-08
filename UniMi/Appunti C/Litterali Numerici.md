@@ -37,5 +37,17 @@ Possiamo accostare alcuen keyword a delle costanti di litterali con virgola :
 - <span style=color:cyan>l o L</span> = <b><u>Denota un long dobule</u></b>
 - <b><u>Se non specificato un litterale con virgola è di tipo</u></b> <span style=color:cyan>double</span> 
 
-<span style=color:green>Costanti complesse</span> : 
-- 
+<span style=color:green>Costanti complesse</span> (includere l'header *complex.h*): 
+- CMPLX = Compara due valori floating-point
+- CMPLXF = Variante float
+- CMPLXL = Per long double 
+- <span style=color:cyan>I</span>  = <b><u>rappresenta una costante di tipo</u></b> *float complex*, tale che $I*I = -1$ 
+  $0.5+(0.5*I)$ = Risultato di tipo *double complex*
+  $0.5f + 0.5f*I$ = Risultato di tipo *float complex*
+
+<h3 style=color:cyan>Conversioni</h3> 
+<b><u>I tipi degli operandi influenza il risultato di un operazione aritmetica, ad esempio</u></b> :
+- *-1* = è di tipo signed int
+- *-1U* = <b><u>è di tipo unsigned int, ma non corrisponde a -1 ma al valore massimo nel dominio dei signed int</u></b> (modulo)
+
+![[Pasted image 20241008121135.png]]
