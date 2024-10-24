@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti C/Named costant.md",
+                "file": "Appunti C/Esempi.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti C/Named costant.md",
+                "file": "Appunti C/Esempi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti C/Named costant.md",
+                "file": "Appunti C/Esempi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti C/Named costant.md"
+                "file": "Appunti C/Esempi.md"
               }
             }
           },
@@ -198,9 +198,10 @@
   },
   "active": "aab01d892d2b4775",
   "lastOpenFiles": [
+    "Appunti C/Named costant.md",
+    "Appunti C/Esempi.md",
     "Appunti C/Litterali Numerici.md",
     "Appunti C/img/Pasted image 20241007185556.png",
-    "Appunti C/Named costant.md",
     "Appunti C/img",
     "Reti di calcolatori/Esami/2023-07-25.md",
     "Reti di calcolatori/Reti di calcolatori.canvas",
