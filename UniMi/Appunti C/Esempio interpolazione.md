@@ -42,10 +42,15 @@ Calcolo i vari $R_j(X)$ da 0 a 4.
 - con $v+w=4$:
   - $R_4​(X)=A_2​(X)B_2​(X)$ = $2X^{10}+7X^9+6X^8$
 
-Prendo i punti per l'interpolazione su un estensione $G$ (nel mio caso C) estensione di $F$ (R). Suppongo di prendere i seguenti punti per l'interpolazione := ${1,i,−1,−i}
+Prendo i punti per l'interpolazione su un estensione $G$ (nel mio caso C) estensione di $F$ (R). Suppongo di prendere i seguenti punti per l'interpolazione := $x_0​=1,x_1​=2,x_2​=3,x_3​=4,x_4​=5$
 
-$P_0(X) = R_0​(X)+R_1​(X)+R_2​(X)+R_3​(X)+R_4​(X)$
-$P_1(X)=R_0​(X)+iR_1​(X)−R_2​(X)−iR_3​(X)+R_4​(X)$
+ottengo il sistema : 
+$P_0​(X)​=R0​(X)+R1​(X)+R2​(X)+R3​(X)+R4​(X)$
+$P_1(X)=R_0​(X)+2R_1​(X)+4R_2​(X)+8R_3​(X)+16R_4​(X)$
+$P_2(X)=R_0​(X)+3R_1​(X)+9R_2​(X)+27R_3​(X)+81R_4​(X)$
+$P_3(X)=R_0​(X)+4R_1​(X)+16R_2​(X)+64R_3​(X)+256R_4​(X)$
+$P_4(X)=R_0​(X)+5R_1​(X)+25R_2​(X)+125R_3​(X)+625R_4​(X)$
+​
 
 
 
