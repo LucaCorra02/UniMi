@@ -40,9 +40,10 @@ Calcolo i vari $R_j(X)$ da 0 a 4.
   - $R_3​(X)=A_1​(X)B_2​(X)+A_2​(X)B_1​(X)$ = $10X^8+30X^7+22X^6$
 
 - con $v+w=4$:
-  - $R4​(X)=A2​(X)B2​(X)$
-Dove:
+  - $R_4​(X)=A_2​(X)B_2​(X)$ = $2X^{10}+7X^9+6X^8$
 
-Rj(X)=∑v+w=jAv(X)Bw(X)R_j(X) = \sum_{v+w=j} A_v(X) B_w(X)Rj​(X)=v+w=j∑​Av​(X)Bw​(X)
+Prendo i punti su un estensione G del campo F (Sono in R e lavoro in C ma per semplicità)
+
+x0=1,x1=2,x2=3,x3=4,x4=5x_0 = 1, \quad x_1 = 2, \quad x_2 = 3, \quad x_3 = 4, \quad x_4 = 5x0​=1,x1​=2,x2​=3,x3​=4,x4​=5
 
 
