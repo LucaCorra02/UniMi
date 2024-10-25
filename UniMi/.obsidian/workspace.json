@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti C/Esempi.md",
+                "file": "Appunti C/Esempio interpolazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti C/Esempi.md",
+                "file": "Appunti C/Esempio interpolazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti C/Esempi.md",
+                "file": "Appunti C/Esempio interpolazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti C/Esempi.md"
+                "file": "Appunti C/Esempio interpolazione.md"
               }
             }
           },
@@ -199,8 +199,9 @@
   "active": "aab01d892d2b4775",
   "lastOpenFiles": [
     "Appunti C/Esempi.md",
-    "Appunti C/Named costant.md",
+    "Appunti C/Esempio interpolazione.md",
     "Appunti C/Litterali Numerici.md",
+    "Appunti C/Named costant.md",
     "Appunti C/img/Pasted image 20241007185556.png",
     "Appunti C/img",
     "Reti di calcolatori/Esami/2023-07-25.md",
@@ -238,7 +239,6 @@
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Tempi della trasmissione.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
