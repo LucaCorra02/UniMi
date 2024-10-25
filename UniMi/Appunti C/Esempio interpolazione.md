@@ -23,9 +23,24 @@ Passo all'anello $F[X,Y]$, costruisco i polinomi $\tilde{A}(X,Y)$ e $\tilde{B}(X
 
 - $\tilde{B}(X,Y) = (6X + 7) + Y(5X^2 + 4X^3) + Y^2(3X^4 + 2X^5)$
 
-$A~(X,Y)⋅B~(X,Y)=\sum_{j=0}^{2i-2} Y^i*R_j(X)$
+$\tilde{A}(X,Y)*\tilde{B}(X,Y)=\sum_{j=0}^{2i-2} Y^i*R_j(X)$
+$R_j(X)=\sum_{v+w=j,0<=v,w<=i-1} A_v(X)*B_w(X)$
 
+Calcolo i vari $R_j(X)$ da 0 a 4.
+- con $v+w=0$ : 
+  - $R_0​(X)=A_0​(X)B_0​(X)=(5X+6)(6X+7)=30X^2+65X+42$
 
+- con $v+w=1$: 
+  - $R_1​(X)=A_0​(X)B_1(X)+A_1​(X)B_0​(X)$ = $41X^4+73X^3+30x^2$
+
+- con $v+w=2$: 
+  - $R_2​(X)=A_0​(X)B_2​(X)+A_1​(X)B_1​(X)+A_2​(X)B_0​(X)$ = $16x^7+39x^6+42X^5+20X^4$
+
+- con $v+w=3$ : 
+  - $R_3​(X)=A_1​(X)B_2​(X)+A_2​(X)B_1​(X)$ = $10X^8+30X^7+22X^6$
+
+- con $v+w=4$:
+  - $R4​(X)=A2​(X)B2​(X)$
 Dove:
 
 Rj(X)=∑v+w=jAv(X)Bw(X)R_j(X) = \sum_{v+w=j} A_v(X) B_w(X)Rj​(X)=v+w=j∑​Av​(X)Bw​(X)
