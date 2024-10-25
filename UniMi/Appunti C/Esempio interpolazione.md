@@ -42,8 +42,10 @@ Calcolo i vari $R_j(X)$ da 0 a 4.
 - con $v+w=4$:
   - $R_4​(X)=A_2​(X)B_2​(X)$ = $2X^{10}+7X^9+6X^8$
 
-Prendo i punti su un estensione G del campo F (Sono in R e lavoro in C ma per semplicità)
+Prendo i punti per l'interpolazione su un estensione $G$ (nel mio caso C) estensione di $F$ (R). Suppongo di prendere i seguenti punti per l'interpolazione := ${1,i,−1,−i}
 
-x0=1,x1=2,x2=3,x3=4,x4=5x_0 = 1, \quad x_1 = 2, \quad x_2 = 3, \quad x_3 = 4, \quad x_4 = 5x0​=1,x1​=2,x2​=3,x3​=4,x4​=5
+$P_0(X) = R_0​(X)+R_1​(X)+R_2​(X)+R_3​(X)+R_4​(X)$
+$P_1(X)=R_0​(X)+iR_1​(X)−R_2​(X)−iR_3​(X)+R_4​(X)$
+
 
 
