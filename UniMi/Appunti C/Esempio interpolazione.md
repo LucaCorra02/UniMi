@@ -18,8 +18,16 @@ Suddivido i due polinomi :
   - $B_2(X) = 2x+3$
   $B(X) = (6x+7)+x^2(4x+5)+x^4(2x+3)$
 
-Passo all'anello $F[X,Y]$, costruisco i polinomi 
+Passo all'anello $F[X,Y]$, costruisco i polinomi $\tilde{A}(X,Y)$ e $\tilde{B}(X,Y)$.
+- $\tilde{A}(X,Y) = (5X+6)+Y(4x^2+3X^3)+Y^2(2X^4+X^5)$
+
+- $\tilde{B}(X,Y) = (6X + 7) + Y(5X^2 + 4X^3) + Y^2(3X^4 + 2X^5)$
+
+$A~(X,Y)⋅B~(X,Y)=\sum_{j=0}^{2i-2} Y^i*R_j(X)$
 
 
+Dove:
+
+Rj(X)=∑v+w=jAv(X)Bw(X)R_j(X) = \sum_{v+w=j} A_v(X) B_w(X)Rj​(X)=v+w=j∑​Av​(X)Bw​(X)
 
 
