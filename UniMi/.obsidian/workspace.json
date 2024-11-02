@@ -20,33 +20,21 @@
             }
           },
           {
-            "id": "aab01d892d2b4775",
+            "id": "0152d6a22b5c7d10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti C/Esempio interpolazione.md",
+                "file": "Statistica/1 Statistica Descrittiva.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Esempio interpolazione"
-            }
-          },
-          {
-            "id": "293a853821795dd6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "1 Statistica Descrittiva"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti C/Esempio interpolazione.md",
+                "file": "Statistica/1 Statistica Descrittiva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Esempio interpolazione"
+              "title": "Backlinks for 1 Statistica Descrittiva"
             }
           },
           {
@@ -137,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti C/Esempio interpolazione.md",
+                "file": "Statistica/1 Statistica Descrittiva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Esempio interpolazione"
+              "title": "Outgoing links from 1 Statistica Descrittiva"
             }
           },
           {
@@ -164,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti C/Esempio interpolazione.md"
+                "file": "Statistica/1 Statistica Descrittiva.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Esempio interpolazione"
+              "title": "Outline of 1 Statistica Descrittiva"
             }
           },
           {
@@ -234,10 +222,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "293a853821795dd6",
+  "active": "0152d6a22b5c7d10",
   "lastOpenFiles": [
-    "Appunti C/Esempi.md",
+    "Statistica/1 Statistica Descrittiva.md",
+    "Statistica",
     "Appunti C/Esempio interpolazione.md",
+    "Appunti C/Esempi.md",
     "Appunti C/Litterali Numerici.md",
     "Appunti C/Named costant.md",
     "Appunti C/img/Pasted image 20241007185556.png",
@@ -276,7 +266,6 @@
     "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
     "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
     "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Utilizzo del Canale.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
@@ -284,7 +273,6 @@
     "Ricerca operativa/Slide/11 - Simplesso rivisto.pdf",
     "Ricerca operativa/Slide/10c - PNL vincolata.pdf",
     "Ricerca operativa/Slide/10b - PNL monodimensionale.pdf",
-    "Ricerca operativa/Slide/09 - Modelli discreti.pdf",
     "Materiale tesi/Esempi.canvas",
     "Materiale tesi/Dataset Patients.canvas",
     "Sistemi biometrici/Sistemi biometrici.canvas",
