@@ -2,4 +2,11 @@
 Alcune definizioni di concetti preliminari : 
 - <span style=color:yellow>Popolazione</span> = è l'insieme di individui da cui si vorrebbero acquisire i dati. <b><u>Spesso per questioni di praticità non è possibile effettuare la raccolta dati su tutta la popolazione. Si utilizza un campione</u></b>.
 
-- <span style=color:yellow>Campione</span> = Sotto-insieme rappresentativo della popolazione. Un buon campione deve essere casuale (evitando il sotto-campionamento di sotto-insiemi della popolazione) 
+- <span style=color:yellow>Campione</span> = <b><u>Sotto-insieme rappresentativo della popolazione</u></b>. Un buon campione <span style=color:green>deve essere casuale</span> (<span style=color:red>evitando il sotto-campionamento</span> di sotto-insiemi della popolazione), <b><u>la scelta id un individuo non deve influenzare la scelta dei successivi</u></b>.  
+  Per fare il modo che il campione sia casuale si usano due tecniche :  
+	 - <span style=color:cyan>Campionamento casuale</span> = <b><u>Ogni individuo deve avere le stesse probabilità di essere estratto</u></b>, così da ottenere un campione rappresentativo di tutta la popolazione.
+	 
+	 - <span style=color:cyan>Campionamento stratificato</span> = Da utilizzare quando la popolazione è divisa in sotto-insiemi non omogenei. 
+	  <b><u>In base alla frequenza relativa di ogni sotto-insieme si sceglie un certo numero di elementi di esso da inserire nel campione</u></b>. Gli elementi del campione si pesano in base alla frequenza relativa. 
+
+	
