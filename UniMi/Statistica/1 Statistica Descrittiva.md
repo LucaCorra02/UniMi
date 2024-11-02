@@ -33,4 +33,4 @@ Notazione :
 <span style=color:yellow>Media campionaria</span> = indicata con $\bar{x}$ è la media aritmetica degli elementi del campione -> il rapporto tra la somma dei valori presenti nel campione e la taglia del campione.
  Media campionaria = $\boxed{\bar{x}=\frac{1}{n}\sum_{i}xi}$ 
 
-Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>. 
+Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>. $\bigvee i, y_i = ax_i+b = \bar{y}=a\bar{x}+b$  
