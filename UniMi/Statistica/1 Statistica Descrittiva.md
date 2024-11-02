@@ -25,4 +25,12 @@ Le categoria di dati si dividono in due grandi categorie :
   - <b><u>Ordinali</u></b> = <b><u>Possibile stabilire una relazione d'ordine tra i valori osservabili</u></b>; è possibile distinguere tra due dati diversi quale sia il più piccolo e quale sia il più grande. 
 
 <h3 style=color:cyan>1.3 Indici di centralità</h3>
+<b><u>Gli indici di centralità danno delle informazioni sulla grandezza dei dati nel campione</u></b> e descrivono attorno a quale valore si forma la rosa dei valori. 
+Notazione : 
+- Per tutti gli indici si utilizza $n$ per <b><u>indicare la taglia del campione</u></b> (dimensione).
+- Il campione stesso viene indicato con {$x_1,....,x_n$}
+<h4 style=color:blue>1.3.1 Media campionaria</h4>
+<span style=color:yellow>Media campionaria</span> = indicata con $\bar{x}$ è la media aritmetica degli elementi del campione -> il rapporto tra la somma dei valori presenti nel campione e la taglia del campione.
 
+ $\boxed{\bar{x}=\frac{1}{n}}$
+ 
