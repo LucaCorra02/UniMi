@@ -13,3 +13,11 @@ Un altro concetto base è quello di <span style=color:yellow>Freqeunza</span> :
 - <b><u>Frequenza assoluta</u></b> $f_j$  = Numero di volte che un certo dato compare nel campione. 
 - <b><u>Frequenza relativa</u></b> $f_j'$ = Frazione di volte che un dato compare nel campione. Si calcola come il rapporto tra la frequenza assoluta di un dato e la grandezza del campione (<b><u>è sempre compresa tra 0 e 1</u></b>) : $f_j'= \dfrac{f_j}{n}$ 
 
+<h3 style=color:cyan>1.2 Tipi di dati</h3>
+Le categoria di dati si dividono in due grandi categorie : 
+- <span style=color:yellow>Dati quantitativi</span> = <b><u>il risultato di una misurazione è una quantità numerica</u></b>. Ulteriore distinzione : 
+   - <b><u>Dati Discreti</u></b> = <b><u>Si lavora su singoli valori</u></b> (solitamente interi) *numero di figli*
+   - <b><u>Dati Continui</u></b> = <b><u>Si lavora con un range di intervalli</u></b>, ci saranno infiniti valori tra un numero interno e un altro *peso o altezza, probabilità*
+   
+- <span style=color:yellow>Dati quantitativi</span> = <b><u>il risultato di una misurazione è un etichetta</u></b>. U
+
