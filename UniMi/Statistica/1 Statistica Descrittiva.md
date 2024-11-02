@@ -10,5 +10,6 @@ Alcune definizioni di concetti preliminari :
 	  <b><u>In base alla frequenza relativa di ogni sotto-insieme si sceglie un certo numero di elementi di esso da inserire nel campione</u></b>. Gli elementi del campione si pesano in base alla frequenza relativa. 
 
 Un altro concetto base è quello di <span style=color:yellow>Freqeunza</span> : 
-- <b><u>frequenza assoluta</u></b> $f_j$  = Num
-- $f_j'$ = 
+- <b><u>Frequenza assoluta</u></b> $f_j$  = Numero di volte che un certo dato compare nel campione. 
+- <b><u>Frequenza relativa</u></b> $f_j'$ = Frazione di volte che un dato compare nel campione. Si calcola come il rapporto tra la frequenza assoluta di un dato e la grandezza del campione (<b><u>è sempre compresa tra 0 e 1</u></b>) : $f_j'= \dfrac{f_j}{n}$ 
+
