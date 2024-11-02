@@ -9,4 +9,6 @@ Alcune definizioni di concetti preliminari :
 	 - <span style=color:cyan>Campionamento stratificato</span> = Da utilizzare quando la popolazione è divisa in sotto-insiemi non omogenei. 
 	  <b><u>In base alla frequenza relativa di ogni sotto-insieme si sceglie un certo numero di elementi di esso da inserire nel campione</u></b>. Gli elementi del campione si pesano in base alla frequenza relativa. 
 
-	
+Un altro concetto base è quello di <span style=color:yellow>Freqeunza</span> : 
+- <b><u>frequenza assoluta</u></b> $f_j$  = Num
+- $f_j'$ = 
