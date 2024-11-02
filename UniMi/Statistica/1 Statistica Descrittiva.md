@@ -33,4 +33,9 @@ Notazione :
 <span style=color:yellow>Media campionaria</span> = indicata con $\bar{x}$ è la media aritmetica degli elementi del campione -> il rapporto tra la somma dei valori presenti nel campione e la taglia del campione.
  Media campionaria = $\boxed{\bar{x}=\frac{1}{n}\sum_{i}xi}$ 
 
-Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>. $\bigvee i, y_i = ax_i+b = \bar{y}=a\bar{x}+b$  
+Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>:
+    $\boxed{\forall i,  y_i = ax_i+b = \bar{y}=a\bar{x}+b}$  : 
+- Supponiamo che $\bar{x}$ sia la media campionaria di un campione $X={x_1,..,x_n}$. Supponiamo ora di costuire un campione $Y={y_1,....,y_n}$. Suppongo che gli elementi di $Y$ differiscano dagli elementi $X$ di una traslazione $(+b)$ : 
+      $\bar{y} = \bar{x}+b$
+
+
