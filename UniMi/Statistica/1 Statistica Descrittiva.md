@@ -31,6 +31,6 @@ Notazione :
 - Il campione stesso viene indicato con {$x_1,....,x_n$}
 <h4 style=color:blue>1.3.1 Media campionaria</h4>
 <span style=color:yellow>Media campionaria</span> = indicata con $\bar{x}$ è la media aritmetica degli elementi del campione -> il rapporto tra la somma dei valori presenti nel campione e la taglia del campione.
+ Media campionaria = $\boxed{\bar{x}=\frac{1}{n}\sum_{i}xi}$ 
 
- $\boxed{\bar{x}=\frac{1}{n}}$
- 
+Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>. 
