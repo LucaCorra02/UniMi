@@ -19,5 +19,10 @@ Le categoria di dati si dividono in due grandi categorie :
    - <b><u>Dati Discreti</u></b> = <b><u>Si lavora su singoli valori</u></b> (solitamente interi) *numero di figli*
    - <b><u>Dati Continui</u></b> = <b><u>Si lavora con un range di intervalli</u></b>, ci saranno infiniti valori tra un numero interno e un altro *peso o altezza, probabilità*
    
-- <span style=color:yellow>Dati quantitativi</span> = <b><u>il risultato di una misurazione è un etichetta</u></b>. U
+- <span style=color:yellow>Dati quantitativi</span> = <b><u>il risultato di una misurazione è un etichetta</u></b>. Ulteriore distinzione 
+  - <b><u>Binari</u></b> = <b><u>L'osservazione può avere solamente due esiti possibili, tra di loro non confrontabili</u></b>. 
+  - <b><u>Nominali</u></b> = <b><u>Possibile stabilire una relazione di equivalenza tra i valori osservabili</u></b>.  
+  - <b><u>Ordinali</u></b> = <b><u>Possibile stabilire una relazione d'ordine tra i valori osservabili</u></b>; è possibile distinguere tra due dati diversi quale sia il più piccolo e quale sia il più grande. 
+
+<h3 style=color:cyan>1.3 Indici di centralità</h3>
 
