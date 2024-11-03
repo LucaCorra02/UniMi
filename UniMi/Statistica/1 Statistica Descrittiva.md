@@ -35,7 +35,15 @@ Notazione :
 
 Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>:
     $\boxed{\forall i,  y_i = ax_i+b = \bar{y}=a\bar{x}+b}$  : 
-- Supponiamo che $\bar{x}$ sia la media campionaria di un campione $X={x_1,..,x_n}$. Supponiamo ora di costuire un campione $Y={y_1,....,y_n}$. Suppongo che gli elementi di $Y$ differiscano dagli elementi $X$ di una traslazione $(+b)$ : 
+- Supponiamo che $\bar{x}$ sia la media campionaria di un campione $X={x_1,..,x_n}$. Supponiamo ora di costuire un campione $Y={y_1,....,y_n}$, dove gli elementi di $Y$ differiscano dagli elementi $X$ di una traslazione $(+b)$ : 
       $\bar{y} = \bar{x}+b$
+      
+- Se invece definiamo gli elementi di $Y$ come una scalatura $(*a)$ degli elementi di $X$, possiamo osservare che : 
+     $\bar{y}=a*\bar{x}$ 
 
+Il principale <span style=color:red>difetto</span> della media campionaria è che <span style=color:red> non è uno stimatore robusto rispetto agli outlier</span>. <span style=color:yellow>Outlier</span> = <b><u>valori molto più grandi o molto più piccoli della media</u></b>, che possono falsare notevolmente le conclusioni. 
 
+<span style=color:yellow>Scarti</span> = <b><u>Differenza tra ciascun valore dei dati del campione e la media campionaria. </b></u> La somma degli scarti è sempre 0. 
+
+Altre formule per la media campionaria : 
+- <b><u>Tabella delle frequenze assolute</u></b> = Si tratta di una tabella che contiene per ogni elemento $x$ il corrispettivo valore della frequ $f_i$
