@@ -51,6 +51,6 @@ Altre formule per la media campionaria :
   Per calcolare la media si sommano i prodotti tra il valore dell'elemento del campione $x_i$ moltiplicato per la relativa frequenza $f_i$, diviso per la somma delle frequenze assolute. 
   
   Siano ($x_i,f_j$) le entrate della tabella e $k$ il numero di elementi : 
-	    $\huge{\boxed{\bar{x}=\dfrac{\sum_{j=1}^{k}x_j*f_j}{\sum_{j=1}^{k}f_j}}}$ 
+	    $\large{\boxed{\bar{x}=\dfrac{\sum_{j=1}^{k}x_j*f_j}{\sum_{j=1}^{k}f_j}}}$ 
 
 - 
