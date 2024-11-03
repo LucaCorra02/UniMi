@@ -31,10 +31,11 @@ Notazione :
 - Il campione stesso viene indicato con {$x_1,....,x_n$}
 <h4 style=color:blue>1.3.1 Media campionaria</h4>
 <span style=color:yellow>Media campionaria</span> = indicata con $\bar{x}$ è la media aritmetica degli elementi del campione -> il rapporto tra la somma dei valori presenti nel campione e la taglia del campione.
- Media campionaria = $\boxed{\bar{x}=\frac{1}{n}\sum_{i}xi}$ 
+ Media campionaria :
+                                $\large{\boxed{\bar{x}=\frac{1}{n}\sum_{i}xi}}$ 
 
 Si tratta di un <b><u>operatore lineare</u></b>, ovvero si <span style=color:green>comporta bene con le operazioni di traslazione e scalatura</span>:
-    $\boxed{\forall i,  y_i = ax_i+b = \bar{y}=a\bar{x}+b}$  : 
+                $\large{\boxed{\forall i,  y_i = ax_i+b = \bar{y}=a\bar{x}+b}}$  : 
 - Supponiamo che $\bar{x}$ sia la media campionaria di un campione $X={x_1,..,x_n}$. Supponiamo ora di costuire un campione $Y={y_1,....,y_n}$, dove gli elementi di $Y$ differiscano dagli elementi $X$ di una traslazione $(+b)$ : 
       $\bar{y} = \bar{x}+b$
       
@@ -46,4 +47,10 @@ Il principale <span style=color:red>difetto</span> della media campionaria è ch
 <span style=color:yellow>Scarti</span> = <b><u>Differenza tra ciascun valore dei dati del campione e la media campionaria. </b></u> La somma degli scarti è sempre 0. 
 
 Altre formule per la media campionaria : 
-- <b><u>Tabella delle frequenze assolute</u></b> = Si tratta di una tabella che contiene per ogni elemento $x$ il corrispettivo valore della frequ $f_i$
+- <b><u>Tabella delle frequenze assolute</u></b> = Si tratta di una tabella che contiene per ogni elemento $x$ del il corrispettivo valore della frequenza assoluta $f_i$ calcolata sul campione stesso.
+  Per calcolare la media si sommano i prodotti tra il valore dell'elemento del campione $x_i$ moltiplicato per la relativa frequenza $f_i$, diviso per la somma delle frequenze assolute. 
+  
+  Siano ($x_i,f_j$) le entrate della tabella e $k$ il numero di elementi : 
+	    $\huge{\boxed{\bar{x}=\dfrac{\sum_{j=1}^{k}x_j*f_j}{\sum_{j=1}^{k}f_j}}}$ 
+
+- 
