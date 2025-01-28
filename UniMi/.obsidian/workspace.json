@@ -25,16 +25,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistica/1 Statistica Descrittiva.md",
+                "file": "Reti di calcolatori/Appunti.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Statistica Descrittiva"
+              "title": "Appunti"
+            }
+          },
+          {
+            "id": "fac6ac7257888c92",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,8 +234,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0152d6a22b5c7d10",
+  "active": "fac6ac7257888c92",
   "lastOpenFiles": [
+    "Reti di calcolatori/Laboratorio/Seminari/Glossario_FAlberti.pdf",
+    "Reti di calcolatori/Laboratorio/Packet Tracer/Packet Tracer - CheatSheet.md",
+    "Reti di calcolatori/Laboratorio/Packet Tracer/Riassunto Packet Tracer.md",
+    "Reti di calcolatori/Appunti lab.md",
+    "Reti di calcolatori/Appunti.md",
+    "Reti di calcolatori/Laboratorio/Packet Tracer/Packet Tracer.md",
     "Statistica/1 Statistica Descrittiva.md",
     "Statistica",
     "Appunti C/Esempio interpolazione.md",
@@ -259,13 +277,7 @@
     "Reti di calcolatori/Esami/DomandeRetiEx.pdf",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Livello di Rete/Routing/Call Admision.md",
     "Reti di calcolatori/Esami/Esami indice.md",
-    "Reti di calcolatori/Appunti.md",
     "Reti di calcolatori/Riassunti/Protocolli/ISO-OSI/Algoritmi di Scheduling.md",
-    "Reti di calcolatori/Riassunti/Protocolli/Congestione.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Count To Infinity Esempio.md",
-    "Reti di calcolatori/Riassunti/Protocolli/Esempio OSPF.md",
-    "Reti di calcolatori/Riassunti/Comunicazione broadcast/BEB -Binary Exponential Backoff.md",
-    "Reti di calcolatori/Riassunti/Comunicazione digitale/Trasmissione in banda base/Topologia di Rete.md",
     "Ricerca operativa/Ricerca operativa.canvas",
     "Ricerca operativa/Riassunti/PLI",
     "Ricerca operativa/Riassunti/PL a piu obiettivi",
